@@ -1,6 +1,7 @@
 name: dsouza_recipes
 dependencies:
   cork_site: ^1.0.5
+  markdown: ^2.1.8
   build: any
 dev_dependencies:
   build_runner: any

@@ -19,7 +19,8 @@ html, body {
 	font-size: 			18px;
 }
 strong {
-	font-weight: 		700;
+	color: 				rgb(170,170,170);
+	font-style:			italic;
 }
 em {
 	font-style: 		italic;
@@ -95,7 +96,7 @@ ol li {
 }
 #toc li {
 	margin-bottom:					1em;
-	
+
 	-webkit-column-break-inside:	avoid;				/* avoid splitting a single item into cols */
 	page-break-inside:				avoid;
 	break-inside:					avoid-column;
@@ -131,7 +132,7 @@ a:active, a:hover {
     white-space: 		-moz-pre-wrap; 	/* mozilla, since 1999 */
     white-space: 		-pre-wrap; 		/* opera 4-6 */
     white-space: 		-o-pre-wrap; 	/* opera 7 */
-    word-wrap: 			break-word; 	/* ie 5.5+ */ 
+    word-wrap: 			break-word; 	/* ie 5.5+ */
 }
 
 /* specific sections/objects */
@@ -221,7 +222,7 @@ hr {
 	h2 {
 		font-size:		1.15em;
 	}
-	
+
 	#toc ul, #help ul {
 		column-count: 		2;
 		-webkit-column-gap:	4em;
