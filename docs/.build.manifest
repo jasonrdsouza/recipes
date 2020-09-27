@@ -71,6 +71,7 @@ packages/pedantic/analysis_options.1.7.0.yaml
 packages/pedantic/analysis_options.1.8.0.yaml
 packages/pedantic/analysis_options.1.9.0.yaml
 packages/pedantic/analysis_options.yaml
+recipes.dart.js
 smoothie.html
 smoothie.htmlcontent
 smoothie.json
