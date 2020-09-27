@@ -2,10 +2,7 @@
 title: "Recipe Book"
 template: index.mustache
 recipes:
-  - aloo-matar
-  - bourbon-infinity-bottle
+  - boulevardier
   - martini
-  - negroni
   - old-fashioned
-  - smoothie
 ---

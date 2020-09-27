@@ -19,15 +19,11 @@
 	<div id="wrapper" class="index">
 		<section id="toc">
 			<h1 id="mainTitle">{{title}}</h1>
-			<p id="navigation">
-        <a href="#">A</a>
-        <a href="#">B</a>
-        <a href="#">C</a>
-      </p>
+			<p id="navigation"></p>
 
       <ul>
         {{#recipes}}
-        <li><a href="{{.}}.html">{{.}}</a></li>
+        <li id="{{.}}" class="recipe"><a href="{{.}}.html">{{.}}</a></li>
         {{/recipes}}
       </ul>
 		</section>
