@@ -2,7 +2,9 @@
 title: "Recipe Book"
 template: index.mustache
 recipes:
-  - boulevardier
+  - almond-flour-brownies
+  - flaneur
   - martini
   - old-fashioned
+  - smoothie
 ---
