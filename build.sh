@@ -8,7 +8,12 @@ echo "Generating new site"
 pub run build_runner build --release --output web:docs
 cp CNAME docs/CNAME
 touch docs/.nojekyll
+
+echo "Removing build cruft"
 rm -rf docs/packages
+rm docs/.build.manifest
+rm -rf docs/.dart_tool
+rm docs/.packages
 
 echo "Finished generating site into docs/"
 echo "Push to Github to deploy"
