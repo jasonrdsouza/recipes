@@ -1,16 +1,21 @@
 ---
 title: "Smoothie"
 template: recipe.mustache
-time: "5 minutes"
-makes: "2 servings"
+time: "3 minutes"
+makes: "1 serving"
 ingredients:
-  - list out ingredients
-  - and amounts here
+  - 1 cup frozen fruit (mixed berry)
+  - 1 banana
+  - 1 dollop peanut butter
+  - 1 scoop protein powder (chocolate flavored)
+  - 1 tablespoon flax seed
+  - 1 tablespoon wheat germ
+  - 1 tablespoon chia seeds
+  - 1 cup whole milk
 steps:
-  - list of steps
-  - for the recipe
+  - Blend everything together
+  - Modulate milk amount to reach desired consistency
 notes:
-  - relevant notes about the recipe
-basedon:
-  - links to inspiration/ original recipe
+  - Great for post-workout
+  - My protein powder of choice is [Optimum Nutrition Gold Standard 100% Whey](https://www.optimumnutrition.com/en-us/product/gold-standard-100-whey)
 ---
