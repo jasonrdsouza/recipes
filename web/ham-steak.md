@@ -1,0 +1,21 @@
+---
+title: "Ham Steak"
+template: recipe.mustache
+time: "20 minutes"
+makes: "2-4 servings (depending on the size of the cut)"
+ingredients:
+  - 1 ham steak
+  - 0.25 cup maple syrup
+  - 1 tablespoon apple cider vinegar
+  - 1 tablespoon Dijon mustard
+steps:
+  - mix together maple syrup, vinegar, and mustard in a small bowl
+  - brush one side of ham steak with mixture, and place glazed side down in skillet **(over medium heat)**
+  - brush top of ham steak while in pan
+  - cook over medium heat, turning frequently until cooked through and glaze has thickened
+notes:
+  - This glaze is super simple, but works really well with the ham
+  - Pairs well with roasted vegetables **(I particularly like it with brussels sprouts)**
+basedon:
+  - "[Food.com Maple Glazed Ham Steak](http://www.food.com/113483)"
+---
