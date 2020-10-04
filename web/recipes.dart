@@ -4,14 +4,29 @@ import 'package:markdown/markdown.dart';
 void main() {
   print('Recipe loaded!');
 
-  fetchElements('ingredient').forEach((e) => renderElementContentsAsHtml(e));
-  fetchElements('step').forEach((e) => renderElementContentsAsHtml(e));
-  fetchElements('note').forEach((e) => renderElementContentsAsHtml(e));
-  fetchElements('based').forEach((e) => renderElementContentsAsHtml(e));
+  fetchElementsById('ingredient').forEach((e) => renderElementContentsAsHtml(e));
+  fetchElementsById('step').forEach((e) => renderElementContentsAsHtml(e));
+  fetchElementsById('note').forEach((e) => renderElementContentsAsHtml(e));
+  fetchElementsById('based').forEach((e) => renderElementContentsAsHtml(e));
+
+  fetchElementsById('step').forEach((element) {
+    element.onClick.listen((event) {
+      if (element.classes.contains('highlight')) {
+        element.classes.remove('highlight');
+      } else {
+        unhighlightall();
+        element.classes.add('highlight');
+      }
+    });
+  });
 }
 
-List<HtmlElement> fetchElements(String id) {
+List<HtmlElement> fetchElementsById(String id) {
   return querySelectorAll('#${id}');
+}
+
+void unhighlightall() {
+  querySelectorAll('.highlight').forEach((element) => element.classes.remove('highlight'));
 }
 
 class PermissiveUriPolicy implements UriPolicy {
