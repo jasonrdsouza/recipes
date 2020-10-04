@@ -2,7 +2,6 @@ import 'dart:html';
 
 void main() {
   print('Recipe book loaded!');
-  print(alphabeticalIndexes(enumerateRecipes()));
   populateTableOfContents(alphabeticalIndexes(enumerateRecipes()));
 }
 
@@ -32,6 +31,5 @@ void populateTableOfContents(Map<String, String> recipeIndex) {
     a.text = e;
     return a;
   });
-  print(tocElements);
   tableOfContents.children.addAll(tocElements);
 }
