@@ -4,7 +4,7 @@ template: recipe.mustache
 time: "A lifetime"
 makes: "Infinite servings"
 ingredients:
-  - 1.5oz Old Forester (100 proof)
+  - 1.5oz Old Forester Signature (100 proof)
   - 1.5oz Willett Pot Still Reserve
   - 1.5oz Elijah Craig Small Batch
   - 1.5oz Bulleit Bourbon
@@ -28,4 +28,7 @@ notes:
   - "**2020-09-21** After quite some time away from bourbon, I have recently started drinking it as my nightcap, and as such have gone through a few new bottles. With the addition of the Woodford Reserve Double Oaked, the infinity bottle (750ml) is full. The Woodford comes through when I taste it, with some of the spice and heat of the Old Ezra, but it's getting pretty hard to tease out the constituent bourbons."
 basedon:
   - Lifelong bourbon exploration
+  - "[WineEnthusiast Whiskey Blending Guide](https://www.winemag.com/2018/06/25/whiskey-blending-guide/)"
+  - "[Bourbon Family Tree](/assets/bourbon-family-tree.jpg)"
+  - "[Whiskey Tasting Notes](/assets/whiskey-tasting-notes.jpg)"
 ---
