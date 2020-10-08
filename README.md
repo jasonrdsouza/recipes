@@ -10,6 +10,7 @@ pub run build_runner serve
 
 Build site:
 ```
+./build.sh
 ```
 
 Create new recipe:
