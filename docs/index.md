@@ -3,6 +3,7 @@ title: "Recipe Book"
 template: index.mustache
 recipes:
   - almond-flour-brownies
+  - bo-ssam
   - bourbon-infinity-bottle
   - flaneur
   - ham-steak
