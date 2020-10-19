@@ -9,7 +9,9 @@
     "breakfast-sandwich",
     "flaneur",
     "ham-steak",
+    "katsu-sando",
     "martini",
+    "miso-salmon",
     "old-fashioned",
     "smoothie"
   ]

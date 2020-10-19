@@ -1,0 +1,38 @@
+---
+title: "Katsu Sando"
+template: recipe.mustache
+time: "45 minutes"
+makes: "4 servings"
+ingredients:
+  - 0.5 cup mayonnaise
+  - 0.25 cup chopped bread-and-butter pickles
+  - 0.25 cup hot sauce **(Cholula)**
+  - 1 teaspoon kosher salt
+  - 0.5 cup all-purpose flour
+  - 3 tablespoons cayenne pepper
+  - 2 teaspoons garlic powder
+  - 1 large egg
+  - 2 cups panko **(Japanese breadcrumbs)**
+  - 4 skinless, boneless chicken thighs
+  - 0.25 cup **(or more)** frying oil
+  - 8 slices milk bread
+  - Shredded iceberg lettuce **(for serving)**
+steps:
+  - For spicy mayo sauce, combine mayonnaise, pickles, and 2 Tbsp. hot sauce in a small bowl. Season with salt
+  - For chicken batter, combine flour, cayenne, garlic powder, and 1 tsp. salt in a medium bowl
+  - Whisk egg and remaining ¼ cup hot sauce in another medium bowl.
+  - Place panko on a large plate
+  - Pound chicken thighs so they are uniform thickness **(around 0.5 inch thick)**
+  - Working one at a time, dip chicken into flour dredge, turning to coat. Shake off any excess. Dip into egg mixture until coated, shaking off excess. Dredge in panko, turning to coat. Transfer to a large plate or a small rimmed baking sheet
+  - Heat oil in a large skillet over medium-high until shimmering. Cook chicken **(modulating heat as necessary to avoid burning the crust)** until golden and very crisp on both sides. **(about 3 minutes per side)**
+  - Transfer to a wire rack to cool
+  - Spread spicy mayo on one side of each slice of bread. Top with chicken and shredded lettuce, then close up sandwiches, cut lengthwise, and serve.
+notes:
+  - The spicy mayo sauce tends to go faster than expected in my experience, so its good to make extra. It also goes well on burgers and other types of sandwiches, so it unlikely to go to waste.
+  - Depending on how large your milk bread is compared to your chicken thighs, I've found that using 1.5 fried thighs per sandwich is a better ratio
+  - Breading and frying the chicken is labor intensive, but can be done in large volume, and frozen. The chicken reheats quite well either via refrying, or baking.
+  - This sandwich works so well because it's an American twist on a classic Japanese style sandwich. The "big mac"-esque sauce and Nashville hot style chicken pair perfectly with the sweet and soft milk bread **(we get ours from [Tous les Jours](https://www.tljus.com/))**, and crisp lettuce. The combination of flavors is an improvement over more traditional katsu sandwiches in my opinion.
+basedon:
+  - Japanese Katsu Sandwich
+  - "[Chris Morocco's Spicy Chicken Katsu Sandwich](https://www.bonappetit.com/recipe/spicy-chicken-katsu-sandwiches?verso=true)"
+---
