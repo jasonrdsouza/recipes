@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:html/dom.dart';
 
 abstract class RecipeParser {
@@ -44,80 +46,58 @@ class RecipeSchemaParser implements RecipeParser {
   // Instead of scraping the HTML, we can just search for and use this structured data if it exists instead
   final Uri recipeSource;
   final Document dom;
+  Map<String, dynamic> recipeSchema;
 
   RecipeSchemaParser(this.recipeSource, this.dom) {
-    extractRecipeSchema();
+    this.recipeSchema = extractRecipeSchema();
   }
 
-  String extractRecipeSchema() {
+  Map<String, dynamic> extractRecipeSchema() {
     var recipeSchema = dom
         .getElementsByTagName('script')
         .firstWhere((element) => element.attributes['type'] == 'application/ld+json')
         .text;
-    print(recipeSchema);
-    return recipeSchema;
+    return jsonDecode(recipeSchema);
   }
 
   @override
   List<String> parsedIngredients() {
-    // TODO: implement parsedIngredients
-    throw UnimplementedError();
+    return (recipeSchema['recipeIngredient'] as List).cast<String>(); // List<String>;
   }
 
   @override
   String parsedName() {
-    // TODO: implement parsedName
-    throw UnimplementedError();
+    return recipeSchema['name'] as String;
   }
 
   @override
   String parsedServings() {
-    // TODO: implement parsedServings
-    throw UnimplementedError();
+    return recipeSchema['recipeYield'] as String;
   }
 
   @override
   List<String> parsedSteps() {
-    // TODO: implement parsedSteps
-    throw UnimplementedError();
+    var instructions = (recipeSchema['recipeInstructions'] as List).cast<Map<String, dynamic>>();
+    return instructions.map((i) => i['text']).cast<String>().toList();
   }
 
   @override
   String parsedTime() {
-    // TODO: implement parsedTime
-    throw UnimplementedError();
+    return recipeSchema['prepTime'] as String;
   }
 
   @override
   Uri source() {
-    // TODO: implement source
-    throw UnimplementedError();
+    return recipeSource;
   }
 }
 
-class BonAppetitParser implements RecipeParser {
-  final Uri recipeSource;
-  final Document dom;
-  BonAppetitParser(this.recipeSource, this.dom);
-
-  @override
-  List<String> parsedIngredients() {
-    var ingredientElement = dom.getElementsByClassName('recipe__ingredient-list').first;
-    var ingredientNodes = ingredientElement.children[2].children;
-    return ingredientNodes.map((i) => i.text).toList();
-  }
+class BonAppetitParser extends RecipeSchemaParser {
+  BonAppetitParser(Uri recipeSource, Document dom) : super(recipeSource, dom);
 
   @override
   String parsedServings() {
-    var ingredientsElement = dom.getElementsByClassName('recipe__ingredient-list').first;
-    return ingredientsElement.children[1].text.split(' ')[1];
-  }
-
-  @override
-  List<String> parsedSteps() {
-    var stepsElement = dom.getElementsByClassName('recipe__instruction-list').first;
-    var stepsNodes = stepsElement.children[1].children;
-    return stepsNodes.map((s) => s.text).toList();
+    return '?';
   }
 
   @override
@@ -127,12 +107,6 @@ class BonAppetitParser implements RecipeParser {
 
   @override
   String parsedName() {
-    var recipeTitle = dom.getElementsByTagName('h1').first.text;
-    return 'Bon Appetit - ${recipeTitle}';
-  }
-
-  @override
-  Uri source() {
-    return recipeSource;
+    return 'Bon Appetit - ${super.parsedName()}';
   }
 }
