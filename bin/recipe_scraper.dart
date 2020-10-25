@@ -26,7 +26,8 @@ class RecipeScraper {
     var dom = await fetchContents(recipeUri);
     switch (recipeUri.origin) {
       case BON_APPETIT:
-        return BonAppetitParser(recipeUri, dom);
+        //return BonAppetitParser(recipeUri, dom);
+        return RecipeSchemaParser(recipeUri, dom);
       default:
         return BlankRecipeParser("");
     }

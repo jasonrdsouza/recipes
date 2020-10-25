@@ -39,6 +39,62 @@ class BlankRecipeParser implements RecipeParser {
   }
 }
 
+class RecipeSchemaParser implements RecipeParser {
+  // apparently a lot of recipe sites use the recipe schema definition: https://schema.org/Recipe
+  // Instead of scraping the HTML, we can just search for and use this structured data if it exists instead
+  final Uri recipeSource;
+  final Document dom;
+
+  RecipeSchemaParser(this.recipeSource, this.dom) {
+    extractRecipeSchema();
+  }
+
+  String extractRecipeSchema() {
+    var recipeSchema = dom
+        .getElementsByTagName('script')
+        .firstWhere((element) => element.attributes['type'] == 'application/ld+json')
+        .text;
+    print(recipeSchema);
+    return recipeSchema;
+  }
+
+  @override
+  List<String> parsedIngredients() {
+    // TODO: implement parsedIngredients
+    throw UnimplementedError();
+  }
+
+  @override
+  String parsedName() {
+    // TODO: implement parsedName
+    throw UnimplementedError();
+  }
+
+  @override
+  String parsedServings() {
+    // TODO: implement parsedServings
+    throw UnimplementedError();
+  }
+
+  @override
+  List<String> parsedSteps() {
+    // TODO: implement parsedSteps
+    throw UnimplementedError();
+  }
+
+  @override
+  String parsedTime() {
+    // TODO: implement parsedTime
+    throw UnimplementedError();
+  }
+
+  @override
+  Uri source() {
+    // TODO: implement source
+    throw UnimplementedError();
+  }
+}
+
 class BonAppetitParser implements RecipeParser {
   final Uri recipeSource;
   final Document dom;
@@ -59,7 +115,9 @@ class BonAppetitParser implements RecipeParser {
 
   @override
   List<String> parsedSteps() {
-    return ['still', 'need to', 'implement'];
+    var stepsElement = dom.getElementsByClassName('recipe__instruction-list').first;
+    var stepsNodes = stepsElement.children[1].children;
+    return stepsNodes.map((s) => s.text).toList();
   }
 
   @override
@@ -69,7 +127,8 @@ class BonAppetitParser implements RecipeParser {
 
   @override
   String parsedName() {
-    return 'todo';
+    var recipeTitle = dom.getElementsByTagName('h1').first.text;
+    return 'Bon Appetit - ${recipeTitle}';
   }
 
   @override

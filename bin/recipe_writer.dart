@@ -43,7 +43,7 @@ class RecipeWriter {
     var ingredientsPartial = parsedRecipe.parsedIngredients().join('\n  - ');
     var stepsPartial = parsedRecipe.parsedSteps().join('\n  - ');
     var sourcePartial =
-        parsedRecipe.source() == null ? '' : '\n  - "[${parsedRecipe.source()}](${parsedRecipe.source()})"';
+        parsedRecipe.source() == null ? '' : '\n  - "[${parsedRecipe.parsedName()}](${parsedRecipe.source()})"';
     return '''
 ---
 title: "${recipeName}"
