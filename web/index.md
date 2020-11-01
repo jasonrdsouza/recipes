@@ -7,6 +7,7 @@
     "bo-ssam",
     "bourbon-infinity-bottle",
     "breakfast-sandwich",
+    "chimichurri",
     "flaneur",
     "ham-steak",
     "katsu-sando",

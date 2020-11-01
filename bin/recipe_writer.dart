@@ -32,10 +32,10 @@ class RecipeWriter {
     JsonEncoder encoder = new JsonEncoder.withIndent('  ');
     String prettyPrintedIndexData = encoder.convert(indexData);
     var indexFileContents = '''
-  ---
-  ${prettyPrintedIndexData}
-  ---
-  ''';
+---
+${prettyPrintedIndexData}
+---
+''';
     await File(RECIPE_INDEX_PATH).writeAsString(indexFileContents, mode: FileMode.writeOnly);
   }
 
