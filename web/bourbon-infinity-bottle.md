@@ -21,6 +21,7 @@ ingredients:
   - 3oz Old Forester 1920 Prohibition Style
   - 3oz Eagle Rare 10yr
   - 3oz Old Forester 1910 Old Fine
+  - 3oz Balcones Baby Blue Corn Whiskey
 steps:
   - Every time you buy a new bourbon, add a small amount to your infinity bottle
   - After adding to the infinity bottle, wait at least 12 hours before sampling the result **(to allow the flavors to marry)**
