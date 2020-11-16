@@ -14,7 +14,9 @@
     "martini",
     "miso-salmon",
     "old-fashioned",
-    "smoothie"
+    "smokey-old-fashioned",
+    "smoothie",
+    "under-the-volcano"
   ]
 }
 ---
