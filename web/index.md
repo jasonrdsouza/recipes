@@ -8,6 +8,7 @@
     "bourbon-infinity-bottle",
     "breakfast-sandwich",
     "chimichurri",
+    "daiquiri",
     "flaneur",
     "ham-steak",
     "katsu-sando",
