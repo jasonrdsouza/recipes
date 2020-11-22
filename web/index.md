@@ -17,6 +17,7 @@
     "old-fashioned",
     "smokey-old-fashioned",
     "smoothie",
+    "tequila-old-fashioned",
     "under-the-volcano"
   ]
 }
