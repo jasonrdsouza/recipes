@@ -15,7 +15,10 @@ notes:
   - Bartending lore has it that the true test of a bartenders' skill is the daiquiri **(making it the scrambled eggs of bartending)**. It's certainly true that there are many overly sweet, frozen. or otherwise dreadful variations, but just like scrambled eggs, if you combine quality ingredients with proper technique, the result is really something remarkable.
   - Given the limited ingredients, it's crucial that you're using a good rum with a flavor profile you enjoy, and freshly squeezed lime juice
   - Two of my favorite rums to use in daiquiris are Bully Boy White Rum and Plantation Pineapple Rum. The Bully Boy White Rum **(not to be confused with Bully Boy's other options)** has a delicious caramel-like character which rounds out well in the cocktail, and the Plantation Pineapple Rum performs similarly, but with a pineapple backbone instead.
+  - Cruzan Black Strap Rum has a nice molasses-y flavor that also goes nicely in a daiquiri.
   - For an interesting twist, try substituting Rhum Agricole for regular rum. I particularly like Rhum J.M white rum, which has a much more funky vegetal, and caribbean fruit undertone than regular rum.
+  - The main takeaway is that a daiquiri is the perfect cocktail to bring out and accentuate the flavors of a given rum, so using Rum with a flavor profile you already enjoy is key.
+  - If your daiquiri feels a little "thin", try adding a small pinch of salt. It will help bring out the flavors, and I find that it helps add a little body to the cocktail.
 basedon:
   - Ashley's **(Juniper)** Daiquiri
   - "[Stirred Blog's Perfect Daiquiri](https://stirredblog.com/2017/02/25/the-perfect-daiquiri/)"
