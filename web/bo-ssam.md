@@ -30,6 +30,7 @@ notes:
   - This is basically a korean twist on American BBQ... The shredded pork butt with bits of caramelized fat is like a delicious korean inspired pulled pork, with ssam sauce serving as as the BBQ sauce, Kimchi as the collard greens, and sushi rice as the mac and cheese.
   - Adding the sugar at the end and broiling it does a good enough job of simulating a bark, but makes the crust overly seasoned, such that it must be mixed in with the meat to be enjoyed.
   - The original recipe calls for far too little ginger scallion sauce, so this version of the recipe doubles the quantity.
+  - This recipe makes great leftovers. I like to make extra rice, and then cut up the meat and make rice bowls with the extras. Probably you'll want to make *even more* sauce if you plan to do this.
 basedon:
   - "[Momofukus Bo Ssam](https://cooking.nytimes.com/recipes/12197-momofukus-bo-ssam)"
 ---
