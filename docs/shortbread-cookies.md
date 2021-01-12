@@ -1,0 +1,32 @@
+---
+title: "Shortbread Cookies"
+template: recipe.mustache
+time: "90 minutes"
+makes: "32 cookies"
+ingredients:
+  - 0.25 cup **(around 70 grams)** unsalted butter
+  - 0.25 cup **(around 70 grams)** rendered fat
+  - 0.5 cup sugar
+  - 0.5 teaspoon kosher salt
+  - 1 large egg
+  - 2 cups all-purpose flour
+steps:
+  - Lightly grease the bottom and sides of a baking dish and line it foil or parchment paper
+  - Beat the butter, rendered fat, sugar, and salt until pale and fluffy **(around 2 minutes)**
+  - Add the egg and continue beating until combined
+  - Add the flour and beat until dough comes together
+  - Scrape dough into prepared pan and spread into an even **(0.5 inch thick)** layer
+  - Use a sharp, thin knife to lightly score the surface into 3x1-inch rectangles **(do not cut all the way through)**
+  - Use a skewer to poke 2 holes into each rectangle
+  - Refrigerate until dough is chilled solid **(around 1 hour)**
+  - Preheat oven to 325 degrees fahrenheit
+  - Once preheated, transfer the pan to the oven and bake, rotating once halfway through, until the dough is set and just barely browned at the edges **(16-18 minutes)**
+  - While the shortbread is still hot, use a thin knife to neatly slice into rectangles. Let cool completely in the pan before removing and serving.
+notes:
+  - This recipe works especially well with duck fat, but seems amenable to any fats. I've so far only tried it with duck, but mean to strain and reserve other fats in the future and experiment with substituting them in.
+  - The cookies go great with coffee or tea.
+  - Duck fat doesn’t behave exactly like butter. It’s nearly liquid at room temperature and, like lard or shortening, contains no extra water, which minimizes gluten development when it’s added to pastry doughs. Using equal amounts butter and other fat seems to minimize any potential negative effects while allowing the alternate fats flavors to come through.
+  - The original Saveur recipe calls for 140 grams of each fat, which seems like far too much and doesn't align with the "0.25 cup" amount they give.
+basedon:
+  - "[D'Artagnan's Ariane Daguin's Duckfat Shortbread Cookies](https://www.saveur.com/duck-fat-shortbread-cookies-recipe/)"
+---
