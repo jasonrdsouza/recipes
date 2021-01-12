@@ -5,7 +5,7 @@ time: "A lifetime"
 makes: "Infinite servings"
 ingredients:
   - 1.5oz Old Forester Signature (100 proof)
-  - 1.5oz Willett Pot Still Reserve
+  - 3oz Willett Pot Still Reserve
   - 1.5oz Elijah Craig Small Batch
   - 1.5oz Bulleit Bourbon
   - 1.5oz Angels Envy
@@ -24,6 +24,7 @@ ingredients:
   - 3oz Balcones Baby Blue Corn Whiskey
   - 3oz Michters Unblended American Whiskey
   - 3oz Balcones Texas Pot Still Bourbon
+  - 3oz Four Roses Single Barrel
 steps:
   - Every time you buy a new bourbon, add a small amount to your infinity bottle
   - After adding to the infinity bottle, wait at least 12 hours before sampling the result **(to allow the flavors to marry)**
