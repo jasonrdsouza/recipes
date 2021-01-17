@@ -4,6 +4,7 @@
   "template": "index.mustache",
   "recipes": [
     "almond-flour-brownies",
+    "bebinca-de-batata",
     "bo-ssam",
     "bourbon-infinity-bottle",
     "breakfast-sandwich",
@@ -14,6 +15,7 @@
     "katsu-sando",
     "martini",
     "miso-salmon",
+    "narcos-negroni",
     "old-fashioned",
     "shortbread-cookies",
     "smokey-old-fashioned",
