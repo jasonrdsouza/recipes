@@ -13,14 +13,16 @@ steps:
   - For the sage simple syrup. Bring the water to a boil in a small saucepan. Add 1 cup of the sugar slowly, stirring until it's all completely dissolved. Add 6 to 8 lightly torn sage leaves. Simmer on low for 2 minutes and let cool with the sage leaves in the syrup **(up to one hour)**. Remove leaves and store in a sealed jar, refrigerated.
   - For the candied sage. Dip 8 fresh sage leaves in the sage simple syrup. Lightly dust both sides with sugar and place on wax-paper lined cookie sheet. Broil for 1 to 2 minutes, being careful not to let them burn. Carefully remove the leaves with tongs and let cool.
   - For the cocktail. Smudge a fresh sage leaves around the rim and insides of your rocks glass making sure to smash the leaves. Discard smashed leaves.
-  - In a mixing glass, combine 2 oz tequila, 2 dashes orange bitters, and 0.5 oz sage simple syrup.
+  - In a mixing glass, combine 2oz tequila, 2 dashes orange bitters, and 0.5 oz sage simple syrup.
   - Stir and strain into a serving glass with single large ice cube.
   - Place candied sage across the glass rim and flame and express an orange peel onto the cocktail surface.
 notes:
   - Make way more candied sage than you think you need, because you'll want a few leaves per drink.
   - This cocktail works with any tequila, but better with aged tequilas.
+  - For an interesting variation (or if you're out of candied sage), instead of using the full 2oz of tequila, substitute 0.5oz of mezcal **(so 2oz tequila becomes 1.5oz tequila + 0.5oz mezcal)**. Depending on the mezcal, it should bring a funky, herbal, smoky character to the drink. These proportions are typically found in a similar cocktail called an Oaxacan Old Fashioned.
 basedon:
   - "[Food52 Background](https://food52.com/blog/18085-a-desert-inspired-tequila-cocktail-for-all-the-sage-lovers-out-there)"
   - "[Food52 Recipe](https://food52.com/recipes/63493-santa-fe-sage)"
   - "[Stirred Blog Candied Sage Old Fashioned](https://stirredblog.com/2017/12/10/candied-sage-tequila-old-fashioned/)"
+  - "[Stirred Blog Oaxaca Old Fashioned](https://stirredblog.com/2016/10/13/oaxaca-old-fashioned/)"
 ---
