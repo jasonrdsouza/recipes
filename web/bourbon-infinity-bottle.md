@@ -26,6 +26,7 @@ ingredients:
   - 3oz Balcones Texas Pot Still Bourbon
   - 3oz Four Roses Single Barrel
   - 3oz Wild Turkey 101
+  - 3oz Woodford Reserve Wheat
 steps:
   - Every time you buy a new bourbon, add a small amount to your infinity bottle
   - After adding to the infinity bottle, wait at least 12 hours before sampling the result **(to allow the flavors to marry)**
