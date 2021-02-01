@@ -13,6 +13,7 @@
     "flaneur",
     "ham-steak",
     "katsu-sando",
+    "lunch-goulash",
     "martini",
     "miso-salmon",
     "narcos-negroni",
