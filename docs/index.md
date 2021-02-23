@@ -18,6 +18,7 @@
     "miso-salmon",
     "narcos-negroni",
     "old-fashioned",
+    "sausage-and-peppers",
     "shortbread-cookies",
     "smokey-old-fashioned",
     "smoothie",
