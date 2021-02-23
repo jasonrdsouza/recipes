@@ -22,6 +22,7 @@
     "shortbread-cookies",
     "smokey-old-fashioned",
     "smoothie",
+    "stir-fry",
     "tequila-old-fashioned",
     "under-the-volcano"
   ]
