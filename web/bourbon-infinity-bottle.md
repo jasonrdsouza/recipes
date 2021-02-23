@@ -28,6 +28,10 @@ ingredients:
   - 3oz Wild Turkey 101
   - 3oz Woodford Reserve Wheat
   - 3oz Old Forester 1897 Bottled in Bond
+  - 3oz Larceny Single Barrel Select
+  - 3oz Redemption Wheated Bourbon
+  - 3oz Oregon Spirit Straight American Bourbon Whiskey
+  - 3oz Breckenridge Reserve Blend
 steps:
   - Every time you buy a new bourbon, add a small amount to your infinity bottle
   - After adding to the infinity bottle, wait at least 12 hours before sampling the result **(to allow the flavors to marry)**
