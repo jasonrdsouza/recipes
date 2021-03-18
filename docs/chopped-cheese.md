@@ -16,7 +16,7 @@ ingredients:
   - Italian style hot crushed peppers **(aka hots)**
   - Aluminum foil
 steps:
-  - Dice and saute onions with olive oil until browned
+  - Dice and saute onions with olive oil until golden
   - Add ground beef and brown
   - While beef cooks, slice and toast hoagie rolls
   - Stir in hatch chiles, chicken bouillon, and freshly cracked black pepper to beef
