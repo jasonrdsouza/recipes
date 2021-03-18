@@ -9,6 +9,8 @@
     "bourbon-infinity-bottle",
     "breakfast-sandwich",
     "chimichurri",
+    "chopped-cheese",
+    "coleslaw",
     "daiquiri",
     "flaneur",
     "ham-steak",
