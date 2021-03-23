@@ -41,7 +41,7 @@ notes:
   - Depending on how much fat accumulates on top of the sauce, it may be necessary to remove some prior to serving.
   - Salute, cin cin
 basedon:
-  - "[Grandmas Sunday Sauce Recipe](/assets/grandmas-sunday-sauce.png)"
+  - "[Grandmas Sunday Sauce Recipe](/assets/grandmas-sunday-sauce.jpg)"
   - "[Serious Eats Red Sauce](https://www.seriouseats.com/2014/09/the-food-lab-use-the-oven-to-make-the-best-darned-italian-american-red-sauce-ever-recipe.html)"
   - "[Pasquale's Sunday Sauce](https://www.youtube.com/watch?v=Ta2l0S6CfBk)"
 ---
