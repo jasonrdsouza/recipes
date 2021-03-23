@@ -24,6 +24,7 @@
     "shortbread-cookies",
     "smokey-old-fashioned",
     "smoothie",
+    "sunday-sauce",
     "tequila-old-fashioned",
     "under-the-volcano"
   ]

@@ -33,6 +33,7 @@ ingredients:
   - 3oz Oregon Spirit Straight American Bourbon Whiskey
   - 3oz Breckenridge Reserve Blend
   - 3oz Rowan's Creek 100.1 proof Bourbon
+  - 3oz Noah's Mill Small Batch
 steps:
   - Every time you buy a new bourbon, add a small amount to your infinity bottle
   - After adding to the infinity bottle, wait at least 12 hours before sampling the result **(to allow the flavors to marry)**
