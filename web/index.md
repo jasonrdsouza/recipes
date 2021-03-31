@@ -16,6 +16,7 @@
     "ham-steak",
     "katsu-sando",
     "lunch-goulash",
+    "margarita",
     "martini",
     "miso-salmon",
     "narcos-negroni",
