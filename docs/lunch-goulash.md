@@ -32,6 +32,7 @@ notes:
   - The meat is optional, and can be replaced with tofu or additional lentils/ beans for a vegetarian option.
   - Ground meat works best from an ease of cooking perspective, and I've had the most success with ground beef, ground venison, and stew meat.
   - The "assorted spices" will vary based on the underlying ingredient selection, but proper salting is essential.
+  - For some goulash variations, I substitute canned pumpkin and/or coconut milk. This works especially well for Moroccan or Thai variations respectively.
   - The type of lentil/ beans you use is mostly personal preference... some tend to hold their shape/ texture better than others, contributing to the viscosity of the resulting product in different ways.
   - The tuber ingredient can be substituted for other hearty vegetables like cabbage, mushroom, etc.
   - Rinsing the beans and lentils is important regardless of whether they are dried or canned. In both cases, not rinsing leads to dust and other grime making its way into the dish.
