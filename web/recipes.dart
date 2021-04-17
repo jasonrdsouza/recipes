@@ -39,6 +39,10 @@ class PermissiveUriPolicy implements UriPolicy {
 final NodeValidatorBuilder _validator = NodeValidatorBuilder.common()..allowNavigation(PermissiveUriPolicy());
 
 void renderElementContentsAsHtml(HtmlElement element) {
-  var renderedMarkdown = markdownToHtml(element.text);
-  element.setInnerHtml(renderedMarkdown.substring(3, renderedMarkdown.length - 5), validator: _validator);
+  var elementText = element.text;
+
+  if (elementText != null) {
+    var renderedMarkdown = markdownToHtml(elementText);
+    element.setInnerHtml(renderedMarkdown.substring(3, renderedMarkdown.length - 5), validator: _validator);
+  }
 }

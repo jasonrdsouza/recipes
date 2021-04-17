@@ -4,8 +4,6 @@ import 'recipe_parsers.dart';
 import 'recipe_writer.dart';
 import 'recipe_scraper.dart';
 
-ArgResults argResults;
-
 void main(List<String> arguments) async {
   exitCode = 0; // presume success
   final parser = ArgParser()
@@ -14,7 +12,7 @@ void main(List<String> arguments) async {
     ..addOption('scrape', abbr: 's', defaultsTo: "", help: 'Link to scrape recipe from')
     ..addFlag('dry-run', negatable: false, help: 'Do a dry run of recipe creation (useful to test out scrapers)');
 
-  argResults = parser.parse(arguments);
+  ArgResults argResults = parser.parse(arguments);
   var recipeName = argResults['name'].toString();
   var scrapeSource = argResults['scrape'].toString();
   var isDraft = argResults['draft'] as bool;

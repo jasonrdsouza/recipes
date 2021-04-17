@@ -8,7 +8,7 @@ void main() {
 // Fetches all of the recipes on the index page
 List<String> enumerateRecipes() {
   var recipeElements = document.querySelectorAll('.recipe');
-  return recipeElements.map((element) => element.text).toList();
+  return recipeElements.map((element) => element.text).whereType<String>().toList();
 }
 
 // Converts a list of recipes into a map with the key corresponding to a unique letter,
@@ -31,5 +31,5 @@ void populateTableOfContents(Map<String, String> recipeIndex) {
     a.text = e;
     return a;
   });
-  tableOfContents.children.addAll(tocElements);
+  tableOfContents?.children.addAll(tocElements);
 }

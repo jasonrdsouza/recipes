@@ -37,7 +37,7 @@ class BlankRecipeParser implements RecipeParser {
   }
 
   Uri source() {
-    return null;
+    return Uri.base;
   }
 }
 
@@ -46,7 +46,7 @@ class RecipeSchemaParser implements RecipeParser {
   // Instead of scraping the HTML, we can just search for and use this structured data if it exists instead
   final Uri recipeSource;
   final Document dom;
-  Map<String, dynamic> recipeSchema;
+  late Map<String, dynamic> recipeSchema;
 
   RecipeSchemaParser(this.recipeSource, this.dom) {
     this.recipeSchema = extractRecipeSchema();
