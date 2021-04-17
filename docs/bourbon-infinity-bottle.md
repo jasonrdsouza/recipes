@@ -34,6 +34,8 @@ ingredients:
   - 3oz Breckenridge Reserve Blend
   - 3oz Rowan's Creek 100.1 proof Bourbon
   - 3oz Noah's Mill Small Batch
+  - 3oz Bakers Bourbon 7yr
+  - 3oz Balcones Texas Rye 100 proof
 steps:
   - Every time you buy a new bourbon, add a small amount to your infinity bottle
   - After adding to the infinity bottle, wait at least 12 hours before sampling the result **(to allow the flavors to marry)**
@@ -45,7 +47,8 @@ notes:
   - "**2020-09-21** After quite some time away from bourbon, I have recently started drinking it as my nightcap, and as such have gone through a few new bottles. With the addition of the Woodford Reserve Double Oaked, the infinity bottle (750ml) is full. The Woodford comes through when I taste it, with some of the spice and heat of the Old Ezra, but it's getting pretty hard to tease out the constituent bourbons."
   - "**2020-10-07** The Old Forester 1920 is coming through as the dominant note, but in a subdued sort of way that makes it more palatable than drinking it straight (likely because the overall mixture is lower proof than the 1920 by itself. Not sure if it's because that's what I recently added (although I did wait well over the recommended 12 hours before sampling it), and I didn't mix things around well enough, or just because that's what I've been drinking lately, and so my palate is acclimated to the flavor profile. Either way, the infinity bottle flavors continue to impress."
   - "**2020-11-22** With the addition of the Balcones Baby Blue and Michters American whiskey, this infinity bottle is technically no longer a bourbon (an eagle eye may notice Jack Daniels earlier on, but while they don't call it a bourbon, Jack meets all the requirements). I decided to branch out to these two whiskeys because I felt the bottle needed a little rounding out, and have really been enjoying the subtle complexity of both Balcones and Michters. Additionally, both are made in the 'bourbon style', with the Balcones being 100% blue corn, and the Michters American whiskey being the Michters bourbon mash bill, just aged in used oak instead of new, so overall the bourbon spirit remains."
-  - "**2020-02-22** With the addition of a few wheated bourbons, the infinity bottle flavors have rounded out and gotten noticeably richer. The bottle was close to full, so I've been drinking it down and comparing it to the recent (lesser known, craft) bourbons I've been buying, and I find it to consistently beat them on flavor, mouthfeel, and finish."
+  - "**2021-02-22** With the addition of a few wheated bourbons, the infinity bottle flavors have rounded out and gotten noticeably richer. The bottle was close to full, so I've been drinking it down and comparing it to the recent (lesser known, craft) bourbons I've been buying, and I find it to consistently beat them on flavor, mouthfeel, and finish."
+  - "**2021-04-16** I just added Balcones Texas Rye, which in typical Balcones style has a very unique flavor profile. They use a variety of less common ryes, which leads to a subtle spicy chocolate flavor to round out the more traditional rye spice notes, with a classic Balcones finish. Of course, this isn't technically a bourbon, but given that I've previously added a few straight corn whiskeys, I figured adding some straight rye would balance things out nicely. More importantly, I'm really enjoying the flavor profile of this one, so interested to see how it affects the overall infinity bottle taste."
 basedon:
   - Lifelong bourbon exploration
   - "[WineEnthusiast Whiskey Blending Guide](https://www.winemag.com/2018/06/25/whiskey-blending-guide/)"
