@@ -13,6 +13,7 @@
     "coleslaw",
     "daiquiri",
     "flaneur",
+    "frozen-sweet-potato",
     "ham-steak",
     "katsu-sando",
     "lunch-goulash",
