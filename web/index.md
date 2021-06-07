@@ -8,6 +8,7 @@
     "bo-ssam",
     "bourbon-infinity-bottle",
     "breakfast-sandwich",
+    "caviar-and-chips",
     "chimichurri",
     "chopped-cheese",
     "coleslaw",
