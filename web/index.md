@@ -17,6 +17,7 @@
     "ham-steak",
     "katsu-sando",
     "lunch-goulash",
+    "mai-tai",
     "margarita",
     "martini",
     "miso-salmon",
