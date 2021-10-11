@@ -45,7 +45,7 @@ ingredients:
   - 1oz Hillrock Solera Bourbon
   - 2oz High West Bourye Blended Straight Whiskey
   - 3oz Old Forester 1870
-  - 3oz Woodford Reserve Straight Bourbon Whiskey
+  - 3oz Woodford Reserve Bourbon
 steps:
   - Every time you buy a new bourbon, add a small amount to your infinity bottle
   - After adding to the infinity bottle, wait at least 12 hours before sampling the result **(to allow the flavors to marry)**

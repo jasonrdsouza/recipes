@@ -3,6 +3,7 @@ import 'dart:html';
 void main() {
   print('Recipe book loaded!');
   populateTableOfContents(alphabeticalIndexes(enumerateRecipes()));
+  humanizeRecipeNames();
 }
 
 // Fetches all of the recipes on the index page
@@ -32,4 +33,18 @@ void populateTableOfContents(Map<String, String> recipeIndex) {
     return a;
   });
   tableOfContents?.children.addAll(tocElements);
+}
+
+String humanize(String recipeName) {
+  return recipeName.replaceAll("-", " ").replaceAll(" and ", " & ");
+}
+
+void humanizeRecipeNames() {
+  var recipeElements = document.querySelectorAll('.recipe');
+  recipeElements.forEach((element) {
+    var currentText = element.firstChild!.text;
+    if (currentText != null) {
+      element.firstChild!.text = humanize(currentText);
+    }
+  });
 }
