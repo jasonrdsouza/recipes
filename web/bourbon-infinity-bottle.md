@@ -40,6 +40,12 @@ ingredients:
   - 3oz Buffalo Trace Kentucky Straight Bourbon
   - 3oz Wild Turkey Longbranch
   - 3oz Bib & Tucker 6yr Bourbon
+  - 3oz High West Rendezvous Rye*
+  - 3oz Old Forester 100 proof Rye
+  - 1oz Hillrock Solera Bourbon
+  - 2oz High West Bourye Blended Straight Whiskey
+  - 3oz Old Forester 1870
+  - 3oz Woodford Reserve Straight Bourbon Whiskey
 steps:
   - Every time you buy a new bourbon, add a small amount to your infinity bottle
   - After adding to the infinity bottle, wait at least 12 hours before sampling the result **(to allow the flavors to marry)**
