@@ -1,5 +1,5 @@
 ---
-title: "Caviar and Chips"
+title: "Caviar & Chips"
 template: recipe.mustache
 time: "5 minutes"
 makes: "2-4 servings"

@@ -1,5 +1,5 @@
 ---
-title: "Sausage and Peppers"
+title: "Sausage & Peppers"
 template: recipe.mustache
 time: "20 minutes"
 makes: "Varying servings"
