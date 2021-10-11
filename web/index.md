@@ -30,6 +30,7 @@
     "smokey-old-fashioned",
     "smoothie",
     "sourdough",
+    "steak-tartare",
     "sunday-sauce",
     "tequila-old-fashioned",
     "under-the-volcano"
