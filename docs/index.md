@@ -4,6 +4,7 @@
   "template": "index.mustache",
   "recipes": [
     "almond-flour-brownies",
+    "arugula-and-parmesan-salad",
     "bebinca-de-batata",
     "bo-ssam",
     "bourbon-infinity-bottle",
@@ -25,6 +26,7 @@
     "miso-salmon",
     "narcos-negroni",
     "old-fashioned",
+    "pumpkin-sausage-soup",
     "sausage-and-peppers",
     "shortbread-cookies",
     "smokey-old-fashioned",
