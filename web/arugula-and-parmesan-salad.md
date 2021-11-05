@@ -1,0 +1,23 @@
+---
+title: "Arugula and Parmesan Salad"
+template: recipe.mustache
+time: "5 minutes"
+makes: "1 servings"
+ingredients:
+  - Arugula
+  - Parmigiano-Reggiano
+  - Extra Virgin Olive Oil
+  - Balsamic Vinegar
+  - Salt/ Pepper
+steps:
+  - Put an appropriate amount of arugula in a bowl
+  - Shave strips of the parmesan over the arugula using a vegetable peeler
+  - Add a glug of olive oil and balsamic vinegar
+  - Season with salt and pepper to taste
+  - Mix and serve
+notes:
+  - Super quick and easy salad that works well as an accompaniment to a variety of main courses.
+  - The vinegar can easily be substituted for a different acid, such as lemon juice, or an alternate vinegar
+basedon:
+  - "[Food Network Arugula Salad](https://www.foodnetwork.com/recipes/tyler-florence/arugula-salad-with-olive-oil-lemon-and-parmesan-cheese-recipe-1943201)"
+---
