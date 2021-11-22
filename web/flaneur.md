@@ -13,8 +13,9 @@ steps:
   - Strain into rocks glass
   - Garnish with citrus twist if desired
 notes:
-  - This is a variation **(which I invented)** on the classic Boulevardier recipe, which calls for campari and sweet vermouth. I find the Aperol **(campari's sweeter cousin)** and Cynar **(a vegetal, artichoke flavored vermouth cousin)** pair better with the spicy herbal mintyness of the Bulliet Rye. Your mileage may vary depending on the whiskey you use.
+  - This is a variation on the classic Boulevardier recipe **(which I independently invented, but later found out is basically a "Cynara")**, which calls for campari and sweet vermouth. I find the Aperol **(campari's sweeter cousin)** and Cynar **(a vegetal, artichoke flavored vermouth cousin)** pair better with the spicy herbal mintyness of the Bulliet Rye. Your mileage may vary depending on the whiskey you use.
   - The Boulevardier more generally is itself a variation on the even more classic Negroni cocktail, which uses Gin as the base spirit instead of whiskey.
 basedon:
   - Personal negroni experimentation
+  - "[Cynara recipe from the Amaro book by Brad Thomas Parsons](https://btparsons.com/amaro/)"
 ---
