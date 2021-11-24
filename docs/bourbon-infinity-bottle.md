@@ -48,6 +48,10 @@ ingredients:
   - 3oz Woodford Reserve Bourbon
   - 3oz Russell's Reserve 10yr
   - 3oz Jack Daniel's Single Barrel Select
+  - 3oz Old Bardstown Estate Bourbon
+  - 3oz Jim Beam Old Tub Unfiltered
+  - 3oz Bowman Brothers Small Batch
+  - 3oz Old Forester Statesman
 steps:
   - Every time you buy a new bourbon, add a small amount to your infinity bottle
   - After adding to the infinity bottle, swirl to mix, and then wait at least 12 hours before sampling the result **(to allow the flavors to marry)**
