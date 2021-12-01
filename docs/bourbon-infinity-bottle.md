@@ -20,7 +20,7 @@ ingredients:
   - 3oz Woodford Reserve Double Oaked*
   - 3oz Old Forester 1920 Prohibition Style*
   - 3oz Eagle Rare 10yr*
-  - 3oz Old Forester 1910 Old Fine
+  - 3oz Old Forester 1910 Old Fine*
   - 3oz Balcones Baby Blue Corn Whiskey
   - 3oz Michters Unblended American Whiskey
   - 3oz Balcones Texas Pot Still Bourbon*
@@ -50,7 +50,7 @@ ingredients:
   - 3oz Jack Daniel's Single Barrel Select
   - 3oz Old Bardstown Estate Bourbon
   - 3oz Jim Beam Old Tub Unfiltered
-  - 3oz Bowman Brothers Small Batch
+  - 3oz Bowman Brothers Small Batch*
   - 3oz Old Forester Statesman
 steps:
   - Every time you buy a new bourbon, add a small amount to your infinity bottle
