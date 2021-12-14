@@ -52,6 +52,8 @@ ingredients:
   - 3oz Jim Beam Old Tub Unfiltered
   - 3oz Bowman Brothers Small Batch*
   - 3oz Old Forester Statesman
+  - 3oz Basil Hayden's Kentucky Straight Bourbon Whiskey
+  - 3oz Isaac Bowman Port Barrel Finished Virginia Straight Bourbon Whiskey
 steps:
   - Every time you buy a new bourbon, add a small amount to your infinity bottle
   - After adding to the infinity bottle, swirl to mix, and then wait at least 12 hours before sampling the result **(to allow the flavors to marry)**
