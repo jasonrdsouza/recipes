@@ -21,12 +21,13 @@ ingredients:
   - 2 cups Smoked Cheese
 steps:
   - Brown the sausage in the pot you're going to make the soup in, and then set it aside
-  - Cook the onions and mushrooms
+  - Cook the onions and mushrooms with the herbs **(oregano, basil, etc)** and spices **(tumeric, cinnamon, ginger, nutmeg)**, stirring and cooking until the liquid has been released
   - Add the garlic and soften/ brown
-  - Add the herbs **(oregano, basil, etc)** and spices **(tumeric, cinnamon, ginger, nutmeg)**, and mix
-  - Add the pumpkin and chicken stock, and stir until nicely combined
+  - Add the pumpkin and cook for a few minutes
+  - Add the chicken stock, and stir until nicely combined
   - Mix the cornstarch with water, and add to thicken to desired consistency
-  - Once thickened, add the cream and shredded cheese
+  - Cook for ~20 minutes
+  - Add the cream and shredded cheese
   - Simmer until everything is nicely integrated, salt and pepper to taste, then serve
 notes:
   - This works well as a "single pot" meal, allowing flavors to build in the pot

@@ -23,4 +23,5 @@ notes:
   - This recipe is super easy and quick to make, and works well as a side for meat based dishes like burgers, bbq, etc.
 basedon:
   - "[https://www.allrecipes.com/recipe/240784/easy-coleslaw-dressing/](https://www.allrecipes.com/recipe/240784/easy-coleslaw-dressing/)"
+  - "[Coleslaw \"lengthening\" technique](https://notebook.drmaciver.com/posts/2019-09-12-12:01.html)"
 ---
