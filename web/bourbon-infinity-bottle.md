@@ -50,13 +50,13 @@ ingredients:
   - 3oz Jack Daniel's Single Barrel Select
   - 3oz Old Bardstown Estate Bourbon
   - 3oz Jim Beam Old Tub Unfiltered
+  - 3oz Basil Hayden's Bourbon
+  - 3oz Journeyman Featherbone Bourbon
   - 3oz Bowman Brothers Small Batch*
   - 3oz Old Forester Statesman
-  - 3oz Basil Hayden's Bourbon
   - 3oz Isaac Bowman Port Barrel Finished Bourbon
   - 3oz Jefferson's Reserve*
   - 3oz Iron Smoke Bottled in Bond
-  - 3oz Journeyman Featherbone Bourbon
   - 3oz Basil Hayden's Toast
   - 3oz Hudson Whiskey Bright Lights Bourbon
 steps:
@@ -74,6 +74,9 @@ notes:
   - "**2021-04-16** I just added Balcones Texas Rye, which in typical Balcones style has a very unique flavor profile. They use a variety of less common ryes, which leads to a subtle spicy chocolate flavor to round out the more traditional rye spice notes, with a classic Balcones finish. Of course, this isn't technically a bourbon, but given that I've previously added a few straight corn whiskeys, I figured adding some straight rye would balance things out nicely. More importantly, I'm really enjoying the flavor profile of this one, so interested to see how it affects the overall infinity bottle taste."
   - "**2021-05-19** Currently, the predominant flavors I'm getting are a mixture of the Makers Mark Cask Strength and the Balcones Texas Rye, which pair great together! There's a residual depth of flavor that I'm attributing to the long tail of other bourbons, and a faint woody smoke note presumably from the Longbranch. I'm tempted to try blending some of the remaining Makers and Balcones Rye together instead of drinking them on their own because of how much I'm enjoying their complimentary flavors."
   - "**2021-11-21** Having just yesterday added the Russell's Reserve, I taste that most strongly initially, but the flavor profile quickly mellows out and expands. Most of the recently added bourbons had relatively characteristic flavor profiles, but the richness of the High West Bourye and Rendezvous, and almost cognac-like quality of the Hillrock Solera seem to come through. There's also still an undertone of the Balcones Texas Rye chocolate, but much mellower than before."
+  - "**2021-12-26** I've added quite a few bourbons since last tasting the bottle, but even with all of the additions, the same core flavor backbone I remember from before seems to come through. These latest bottles include mostly standard flavor profile bourbons, like the Old Tub, Basil Hayden, and Featherbone. I was hoping that the Jack single barrel would be interesting, but ended up finding it not worth the additional cost. The Old Bardstown had a similar flavor profile to Rowan's Creek (which I quite like), but not as good. Overall the bottle tastes mostly the same, if a little subdued by these lower proof and relatively unremarkable additions."
+  - "**2021-12-28** After a few recommendations from friends, I picked up some Bowman offerings. Both the Bowman Brothers small batch and Isaac Bowman port finished were delicious, and I'm interested in trying more Bowman products. I like most Old Forester bottles, and the Statesman was no exception, with a sweeter more fruity taste. I don't think it's quite as good as their 1920 or 1897, but still a solid bourbon. Finally, I decided to try Jefferson's reserve, which was surprisingly full flavored for the price... I'll definitely be checking out their other offerings."
+  - "**2022-01-03** The Iron Smoke Bottled in Bond reminds me of Hudson Baby bourbon. I picked up Tuthilltown's Bright Lights bourbon, which seems like their closest replacement for the discontinued Hudson Baby, but it's nothing alike, tasting much more run-of-the-mill. I presume that's because of its more traditional mashbill, but am disappointed overall. Finally, even though I didn't think the Basil Hayden was anything remarkable, I learned that their Toast offering has an interesting flavor profile due to the addition of brown rice to the mashbill. It does have a mellow creamyness, but not enough spice or flavor to keep me interested. It seems to be mostly lost in the infinity bottle."
 basedon:
   - Lifelong bourbon exploration
   - "[WineEnthusiast Whiskey Blending Guide](https://www.winemag.com/2018/06/25/whiskey-blending-guide/)"
