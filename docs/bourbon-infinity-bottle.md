@@ -4,7 +4,7 @@ template: recipe.mustache
 time: "A lifetime"
 makes: "Infinite servings"
 ingredients:
-  - 1.5oz Old Forester Signature (100 proof)
+  - 3oz Old Forester Signature 100 proof*
   - 3oz Willett Pot Still Reserve
   - 1.5oz Elijah Craig Small Batch
   - 1.5oz Bulleit Bourbon
@@ -59,6 +59,12 @@ ingredients:
   - 3oz Iron Smoke Bottled in Bond
   - 3oz Basil Hayden's Toast
   - 3oz Hudson Whiskey Bright Lights Bourbon
+  - 3oz Knob Creek Rye
+  - 3oz Jeffersons Reserve Pritchard Hill Cabernet Cask Finish
+  - 3oz Willett Family Estate Rye 4yr*
+  - 1oz Balcones Texas Single Malt*
+  - 3oz David Nicholson Reserve Bourbon
+  - 2oz Knob Creek 12yr*
 steps:
   - Every time you buy a new bourbon, add a small amount to your infinity bottle
   - After adding to the infinity bottle, swirl to mix, and then wait at least 12 hours before sampling the result **(to allow the flavors to marry)**
@@ -77,6 +83,7 @@ notes:
   - "**2021-12-26** I've added quite a few bourbons since last tasting the bottle, but even with all of the additions, the same core flavor backbone I remember from before seems to come through. These latest bottles include mostly standard flavor profile bourbons, like the Old Tub, Basil Hayden, and Featherbone. I was hoping that the Jack single barrel would be interesting, but ended up finding it not worth the additional cost. The Old Bardstown had a similar flavor profile to Rowan's Creek (which I quite like), but not as good. Overall the bottle tastes mostly the same, if a little subdued by these lower proof and relatively unremarkable additions."
   - "**2021-12-28** After a few recommendations from friends, I picked up some Bowman offerings. Both the Bowman Brothers small batch and Isaac Bowman port finished were delicious, and I'm interested in trying more Bowman products. I like most Old Forester bottles, and the Statesman was no exception, with a sweeter more fruity taste. I don't think it's quite as good as their 1920 or 1897, but still a solid bourbon. Finally, I decided to try Jefferson's reserve, which was surprisingly full flavored for the price... I'll definitely be checking out their other offerings."
   - "**2022-01-03** The Iron Smoke Bottled in Bond reminds me of Hudson Baby bourbon. I picked up Tuthilltown's Bright Lights bourbon, which seems like their closest replacement for the discontinued Hudson Baby, but it's nothing alike, tasting much more run-of-the-mill. I presume that's because of its more traditional mashbill, but am disappointed overall. Finally, even though I didn't think the Basil Hayden was anything remarkable, I learned that their Toast offering has an interesting flavor profile due to the addition of brown rice to the mashbill. It does have a mellow creamyness, but not enough spice or flavor to keep me interested. It seems to be mostly lost in the infinity bottle."
+  - "**2022-02-16** My last few additions have included stalwarts like the Willett Family Estate Rye, and Knob Creek 12. The Willett Rye especially adds a nice spicyness, like a more refined version of Rowan's Creek. I decided to add a bit of the Balcones Single Malt because I really enjoyed its richness, and figured it would complement the existing flavors in the bottle. I think I'll start standardizing on 2oz going forward instead of 3, since the bottle is getting pretty full."
 basedon:
   - Lifelong bourbon exploration
   - "[WineEnthusiast Whiskey Blending Guide](https://www.winemag.com/2018/06/25/whiskey-blending-guide/)"

@@ -5,7 +5,7 @@ rm -rf docs
 mkdir docs
 
 echo "Generating new site"
-pub run build_runner build --release --output web:docs
+dart run build_runner build --release --output web:docs
 cp CNAME docs/CNAME
 touch docs/.nojekyll
 
