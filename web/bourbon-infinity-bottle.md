@@ -65,6 +65,16 @@ ingredients:
   - 1oz Balcones Texas Single Malt*
   - 3oz David Nicholson Reserve Bourbon
   - 2oz Knob Creek 12yr*
+  - 2oz Henry McKenna Single Barrel 10yr
+  - 2oz High West Single Barrel (Moscatel finish)
+  - 2oz High West Single Barrel (Brandy finish)
+  - 2oz Bulleit Single Barrel
+  - 2oz High West A Midwinder Night's Dram (Act 9, Scene 1)*
+  - 2oz Koval Single Barrel Bourbon
+  - 2oz Four Roses Small Batch Select
+  - 2oz Kings County Straight Bourbon
+  - 2oz Templeton Rye Single Barrel
+  - 2oz Old Grand-Dad 114
 steps:
   - Every time you buy a new bourbon, add a small amount to your infinity bottle
   - After adding to the infinity bottle, swirl to mix, and then wait at least 12 hours before sampling the result **(to allow the flavors to marry)**
@@ -84,6 +94,7 @@ notes:
   - "**2021-12-28** After a few recommendations from friends, I picked up some Bowman offerings. Both the Bowman Brothers small batch and Isaac Bowman port finished were delicious, and I'm interested in trying more Bowman products. I like most Old Forester bottles, and the Statesman was no exception, with a sweeter more fruity taste. I don't think it's quite as good as their 1920 or 1897, but still a solid bourbon. Finally, I decided to try Jefferson's reserve, which was surprisingly full flavored for the price... I'll definitely be checking out their other offerings."
   - "**2022-01-03** The Iron Smoke Bottled in Bond reminds me of Hudson Baby bourbon. I picked up Tuthilltown's Bright Lights bourbon, which seems like their closest replacement for the discontinued Hudson Baby, but it's nothing alike, tasting much more run-of-the-mill. I presume that's because of its more traditional mashbill, but am disappointed overall. Finally, even though I didn't think the Basil Hayden was anything remarkable, I learned that their Toast offering has an interesting flavor profile due to the addition of brown rice to the mashbill. It does have a mellow creamyness, but not enough spice or flavor to keep me interested. It seems to be mostly lost in the infinity bottle."
   - "**2022-02-16** My last few additions have included stalwarts like the Willett Family Estate Rye, and Knob Creek 12. The Willett Rye especially adds a nice spicyness, like a more refined version of Rowan's Creek. I decided to add a bit of the Balcones Single Malt because I really enjoyed its richness, and figured it would complement the existing flavors in the bottle. I think I'll start standardizing on 2oz going forward instead of 3, since the bottle is getting pretty full."
+  - "**2022-06-17** I was able to get my hands on a few limited edition bottlings from High West, including their Midwinter Night's Dram, which was fantastically layered and complex. I remember liking Koval, but the bottle I got this time was pretty bad. The Four Roses small batch was tasty as expected, but not worth the extra cost over their regular small batch and single barrel offerings in my opinion. Kings County reminded me a bit of the discontinued Hudson Baby Bourbon. Finally, the Old Grand-Dad was surprisingly drinkable for its low cost and high proof, and probably one of the best dollar value bottles I've had at ~$26."
 basedon:
   - Lifelong bourbon exploration
   - "[WineEnthusiast Whiskey Blending Guide](https://www.winemag.com/2018/06/25/whiskey-blending-guide/)"
