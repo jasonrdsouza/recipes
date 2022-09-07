@@ -75,6 +75,11 @@ ingredients:
   - 2oz Kings County Straight Bourbon
   - 2oz Templeton Rye Single Barrel
   - 2oz Old Grand-Dad 114
+  - 2oz Stellum Bourbon
+  - 2oz Balcones Tres Hombres Texas Whiskey
+  - 2oz Tincup American Whiskey
+  - 2oz George Dickel Sour Mash 9yr
+  - 2oz Knob Creek Single Barrel Select (Wegmans "best of 9")
 steps:
   - Every time you buy a new bourbon, add a small amount to your infinity bottle
   - After adding to the infinity bottle, swirl to mix, and then wait at least 12 hours before sampling the result **(to allow the flavors to marry)**
