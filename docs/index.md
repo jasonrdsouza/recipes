@@ -5,6 +5,7 @@
   "recipes": [
     "almond-flour-brownies",
     "arugula-and-parmesan-salad",
+    "banana-boulevardier",
     "bebinca-de-batata",
     "bo-ssam",
     "bourbon-infinity-bottle",

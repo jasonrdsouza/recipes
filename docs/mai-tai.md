@@ -4,14 +4,14 @@ template: recipe.mustache
 time: "2 minutes"
 makes: "1 servings"
 ingredients:
-  - Rum **(preferably an aged, dark rum)**
-  - Orgeat
-  - Simple Syrup
-  - Curacao
-  - Limes
+  - 2oz Rum **(preferably an aged, dark rum)**
+  - 0.5oz Orgeat
+  - 0.5oz Simple Syrup
+  - 0.5oz Dry Curacao
+  - 0.75oz fresh lime juice
   - Mint **(for garnish)**
 steps:
-  - To a shaker add 0.75oz lime juice, 0.5oz orgeat, 0.5oz dry curacao, 0.5oz simple syrup, and 2oz rum
+  - Add lime juice, orgeat, dry curacao, simple syrup, and rum to shaker
   - Add crushed ice to the shaker (about 12oz), and shake until cold
   - Pour contents of shaker **(ice and all)** directly into a glass
   - Garnish with an overturned spent lime shell and mint sprig, and serve
