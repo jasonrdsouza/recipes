@@ -80,6 +80,11 @@ ingredients:
   - 2oz Tincup American Whiskey
   - 2oz George Dickel Sour Mash 9yr
   - 2oz Knob Creek Single Barrel Select (Wegmans "best of 9")
+  - 2oz Jeffersons Ocean Aged At Sea (Voyage 24)
+  - 2oz Michter's Sour Mash*
+  - 2oz Rittenhouse Rye (BiB)
+  - 2oz Sagamore Spirit Rye*
+  - 2oz Sagamore Spirit Double Oak Rye
 steps:
   - Every time you buy a new bourbon, add a small amount to your infinity bottle
   - After adding to the infinity bottle, swirl to mix, and then wait at least 12 hours before sampling the result **(to allow the flavors to marry)**
