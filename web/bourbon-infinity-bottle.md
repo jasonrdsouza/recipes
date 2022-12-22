@@ -85,6 +85,14 @@ ingredients:
   - 2oz Rittenhouse Rye (BiB)
   - 2oz Sagamore Spirit Rye*
   - 2oz Sagamore Spirit Double Oak Rye
+  - 2oz Templeton Rye 6yr
+  - 2oz Jim Beam Rye (Pre-prohibition style)
+  - 2oz Sazerac Rye*
+  - 2oz Wild Turkey 101 Rye*
+  - 2oz Bulleit 95 Rye
+  - 2oz Heaven's Door Straight Bourbon
+  - 2oz Heaven's Door Double Barrel Whiskey
+  - 2oz Heaven's Door Straight Rye (Vosges Oak Barrels)
 steps:
   - Every time you buy a new bourbon, add a small amount to your infinity bottle
   - After adding to the infinity bottle, swirl to mix, and then wait at least 12 hours before sampling the result **(to allow the flavors to marry)**
@@ -92,7 +100,7 @@ steps:
   - Over time the infinity bottle will begin to take on its own character, which you can guide by the inclusion of bourbons with specific flavor profiles
 notes:
   - "**2017-06-12** Decided to start my own Bourbon infinity bottle. Bourbons I particularly like/ think are a good value are denoted with an asterisk"
-  - "**2018-11-17** Tasted before adding the 1792, and it has a Bulliet backbone, but with notes of the Hudson Baby shining through. Most of the others are not noticeable, with maybe a hint of Old Forester"
+  - "**2018-11-17** Tasted before adding the 1792, and it has a Bulleit backbone, but with notes of the Hudson Baby shining through. Most of the others are not noticeable, with maybe a hint of Old Forester"
   - "**2020-09-21** After quite some time away from bourbon, I have recently started drinking it as my nightcap, and as such have gone through a few new bottles. With the addition of the Woodford Reserve Double Oaked, the infinity bottle (750ml) is full. The Woodford comes through when I taste it, with some of the spice and heat of the Old Ezra, but it's getting pretty hard to tease out the constituent bourbons."
   - "**2020-10-07** The Old Forester 1920 is coming through as the dominant note, but in a subdued sort of way that makes it more palatable than drinking it straight (likely because the overall mixture is lower proof than the 1920 by itself. Not sure if it's because that's what I recently added (although I did wait well over the recommended 12 hours before sampling it), and I didn't mix things around well enough, or just because that's what I've been drinking lately, and so my palate is acclimated to the flavor profile. Either way, the infinity bottle flavors continue to impress."
   - "**2020-11-22** With the addition of the Balcones Baby Blue and Michters American whiskey, this infinity bottle is technically no longer a bourbon (an eagle eye may notice Jack Daniels earlier on, but while they don't call it a bourbon, Jack meets all the requirements). I decided to branch out to these two whiskeys because I felt the bottle needed a little rounding out, and have really been enjoying the subtle complexity of both Balcones and Michters. Additionally, both are made in the 'bourbon style', with the Balcones being 100% blue corn, and the Michters American whiskey being the Michters bourbon mash bill, just aged in used oak instead of new, so overall the bourbon spirit remains."
