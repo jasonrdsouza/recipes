@@ -102,6 +102,12 @@ ingredients:
   - 2oz Elijah Craig Rye*
   - 1oz Old Overholt Straight Rye 4yr
   - 1oz Jack Daniel's Rye
+  - 2oz Michter's Single Barrel Rye
+  - 2oz WhistlePig PiggyBack Rye 6yr*
+  - 2oz WhistlePig PiggyBack Bourbon 6yr*
+  - 2oz Jim Beam Black Extra-Aged
+  - 2oz Bulleit Bourbon 10yr
+  - 2oz Russell's Reserve Straight Rye 6yr
 steps:
   - Every time you buy a new bourbon, add a small amount to your infinity bottle
   - After adding to the infinity bottle, swirl to mix, and then wait at least 12 hours before sampling the result **(to allow the flavors to marry)**
