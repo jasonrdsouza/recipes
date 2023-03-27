@@ -14,10 +14,11 @@ steps:
   - Stir for ~30 seconds **(or until desired dilution level)**
   - Strain into the coupe glass, over the cherry, and serve immediately
 notes:
-  - You can use Bourbon, or other whiskey if desired, but I've found that Rye complements the vermouth and sweetness of the cherries best
-  - I prefer Carpano **(both the classico and antica formula are delicious)** to other sweet vermouths
-  - The maraschino cherry is quite essential to the overall flavor profile of this drink, so you have to use quality cherries **(no radioactive red ones)**. I like Luxardo, and find that adding a few drops of the cherry syrup helps accentuate the rest of the flavors in the glass.
+  - You can use Bourbon, or other whiskey if desired, but I've found that Rye complements the vermouth and sweetness of the cherries best.
+  - I prefer Carpano **(both the classico and antica formula are delicious)** to other sweet vermouths. Cinzano and Cocchi are also good, depending on the whiskey... for example, Elijah Craig Rye with Cocchi vermouth and Starlino cherries is one of my favorite combinations because the flavors just happen to work extremely well together. In general though, Carpano and Luxardo seem to complement the widest range of Rye/ Bourbon.
+  - The maraschino cherry is quite essential to the overall flavor profile of this drink, so you have to use quality cherries **(no radioactive red ones)**. I like Luxardo, and find that adding a few drops of the cherry syrup helps accentuate the rest of the flavors in the glass. I experimented with a few other brands **(Starlino, Peninsula, Rex)**, but they are all worse in either flavor or consistency than Luxardo.
   - Unlike most cocktails, I prefer the taste of this one as it warms, finding that it gets richer and more decadent tasting towards the end **(likely helped along by the cherry at the bottom)**.
+  - "Two additional techniques to use to play with the flavor profile are to stir in **(and then strain out)** some [sushi rice](https://punchdrink.com/articles/sushi-rice-negroni-stirred-cocktail-drink-hack/), or some [coffee beans](https://punchdrink.com/articles/wake-up-your-old-fashioned-coffee-cocktail-recipe/). The sushi rice adds a silkyness, while the coffee beans, predictably, add a subtle coffee flavor **(note that this technique works for more than just a Manhattan)**."
 basedon:
   - "[Classic Manhattan Recipe](https://www.liquor.com/recipes/manhattan-2/)"
 ---
