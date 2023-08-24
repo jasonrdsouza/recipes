@@ -108,6 +108,11 @@ ingredients:
   - 2oz Jim Beam Black Extra-Aged
   - 2oz Bulleit Bourbon 10yr
   - 2oz Russell's Reserve Straight Rye 6yr
+  - 2oz Colonel E.H. Taylor Small Batch (BiB)
+  - 2oz Giant (Texas Bourbon) 95
+  - 2oz Ironroot Harbinger XC
+  - 2oz Ironroot Harbinger 115
+  - 2oz Liquid Riot Old Port Rye Whiskey
 steps:
   - Every time you buy a new bourbon, add a small amount to your infinity bottle
   - After adding to the infinity bottle, swirl to mix, and then wait at least 12 hours before sampling the result **(to allow the flavors to marry)**

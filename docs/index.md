@@ -10,6 +10,7 @@
     "bo-ssam",
     "bourbon-infinity-bottle",
     "breakfast-sandwich",
+    "capitol-reef",
     "caviar-and-chips",
     "chimichurri",
     "chopped-cheese",
@@ -29,6 +30,7 @@
     "narcos-negroni",
     "old-fashioned",
     "pumpkin-sausage-soup",
+    "quiche",
     "sausage-and-peppers",
     "sentimental-gentleman",
     "shortbread-cookies",
@@ -37,6 +39,7 @@
     "sourdough",
     "steak-tartare",
     "sunday-sauce",
+    "sushi-rice",
     "tequila-old-fashioned",
     "under-the-volcano"
   ]
