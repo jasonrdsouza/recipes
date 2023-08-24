@@ -1,0 +1,20 @@
+---
+title: "Sushi Rice"
+template: recipe.mustache
+time: "30 minutes"
+makes: "2 servings"
+ingredients:
+  - Dry sushi rice
+steps:
+  - Rinse 1.5 cups rice until water runs clear
+  - Combine the 1.5 cups rinsed rice with 2 cups water in a saucepan and soak for 15 minutes
+  - Bring to a soft boil, then reduce heat to low, cover
+  - Simmer for 20 minutes **(or until moisture is absorbed)**
+  - Remove from heat and let stand covered for 10 minutes
+  - Fluff and serve
+notes:
+  - I have occasionally not done the initial 15 minute soak with seemingly minimal impact on the final product.
+  - If you want it to actually taste like sushi rice, add some rice vinegar/ mirin
+basedon:
+  - "[Nishiki cooking directions](/assets/nishiki_rice_instructions.jpg)"
+---

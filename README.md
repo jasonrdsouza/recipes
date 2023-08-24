@@ -5,7 +5,7 @@ Family recipe book and gastronomic observations
 
 Run dev server:
 ```
-pub run build_runner serve
+dart run build_runner serve
 ```
 
 Build site:
@@ -15,5 +15,11 @@ Build site:
 
 Create new recipe:
 ```
-pub run recipe.dart -n "Recipe Name"
+dart run bin/create_recipe.dart --name "Recipe Name"
+```
+
+Reduce image size:
+```
+# Choose quality percentage based on desired quality vs size tradeoff
+convert -quality 30% assets/original.jpg assets/output_reduced.jpg
 ```

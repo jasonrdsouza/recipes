@@ -1,0 +1,30 @@
+---
+title: "Quiche"
+template: recipe.mustache
+time: "30 minutes"
+makes: "4 servings"
+ingredients:
+  - 2 pie crusts
+  - 1 bunch of leeks **(3 leeks)**
+  - Diced pancetta
+  - 4 eggs
+  - 2 egg yolks
+  - 2 cups cream
+  - 8 oz cheese **(gruyere or cheddar)**
+  - Herbs de Provence
+  - salt + pepper
+steps:
+  - Blind bake the crusts.
+  - Clean the leeks and then thinly slice them.
+  - Saute the pancetta and leeks, seasoned with herbs de provence and pepper **(can be made ahead)**.
+  - Shred the cheese.
+  - Make the custard by whisking eggs, yolks, and cream. Season with salt + pepper.
+  - Spread leek mixture on the bottom of the crusts, spread cheese over, and then pour egg custard on top.
+  - Bake for ~20 minutes **(in tart/ pie pan)** at 400 degrees Fahrenheit.
+  - Optionally, sprinkle with aleppo pepper.
+notes:
+  - A lot of quiches end up with a sort of spongy texture that I dislike, but this one has a rich, custardy consistency which also reheats well.
+basedon:
+  - "[Gordon Ramsey's Leek & Pancetta Quiche](https://youtu.be/6LzLqmfiOVU)"
+  - "[Jacques Pepin's Quiche Lorraine](https://youtu.be/h9m5hI4XUy8)"
+---
