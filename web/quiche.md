@@ -20,7 +20,7 @@ steps:
   - Shred the cheese.
   - Make the custard by whisking eggs, yolks, and cream. Season with salt + pepper.
   - Spread leek mixture on the bottom of the crusts, spread cheese over, and then pour egg custard on top.
-  - Bake for ~20 minutes **(in tart/ pie pan)** at 400 degrees Fahrenheit.
+  - Bake for ~20 minutes **(in tart/ pie pan)** at 400°F.
   - Optionally, sprinkle with aleppo pepper.
 notes:
   - A lot of quiches end up with a sort of spongy texture that I dislike, but this one has a rich, custardy consistency which also reheats well.

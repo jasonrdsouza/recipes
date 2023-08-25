@@ -20,7 +20,7 @@ steps:
   - Add the meat to the bowl, and mix through
   - Add the garlic, onions, and parsley to the bowl, along with some salt and pepper, and mix through
   - "If you're a [legit Italian Grandpa](https://www.youtube.com/watch?v=INCZGW81kAk), taste the raw mixture to ensure it is properly seasoned **(if you aren't that legit, you can take a small amount of the mixture out, cook it quickly in a pan, and taste that)**"
-  - Preheat oven to 325 degrees Fahrenheit
+  - Preheat oven to 325°F
   - Form the meat into balls **(I like to make them roughly the size of a lacrosse ball)**
   - Place the balls in rows on an oiled baking tray, making sure to leave a little space in between each one.
   - Once the oven is preheated, bake for 30 minutes
