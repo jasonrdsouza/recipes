@@ -1,0 +1,30 @@
+---
+title: "Pasta Salad"
+template: recipe.mustache
+time: "30 minutes"
+makes: "2 servings"
+ingredients:
+  - Pasta **(something like fusilli or farfalle works well)**
+  - Onion
+  - Cherry tomatoes
+  - Capers
+  - Parsley
+  - Canned tuna
+  - Lemon
+  - Maldon salt
+  - Pepper
+  - Olive oil
+steps:
+  - Cook the pasta [al dente](https://en.wikipedia.org/wiki/Al_dente) and then drizzle with olive oil in a bowl
+  - Halve cherry tomatoes and add
+  - Add chopped capers
+  - Add chopped parsley
+  - Add finely diced onion
+  - Add 1 can of tuna **(in oil ideally)**
+  - Add a squeeze of lemon juice, Maldon salt, and pepper to taste
+notes:
+  - This template works great with canned tuna, but is also amenable to other protein options, be that a different tinned fish, or cubed charcuterie like salami or chorizo.
+  - I also occasionally enjoy adding some chopped olives if I have them on hand.
+basedon:
+  - "[Bon Appetit's Mediterranean Pasta Salad](https://www.bonappetit.com/recipe/mediterranean-pasta-salad-with-olives-and-capers)"
+---
