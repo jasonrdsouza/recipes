@@ -15,12 +15,12 @@ ingredients:
   - 1 13.5oz can full-fat coconut milk
   - 1 cup all-purpose flour
 steps:
-  - Preheat oven to 400 degrees fahrenheit
+  - Preheat oven to 400°F
   - Rinse sweet potatoes, pat dry, and poke several holes in them with a fork to allow steam to escape
   - Roast sweet potatoes until completely tender **(~45 minutes)**
   - Peel cooked sweet potatoes, discarding skin, and puree the flesh in a food processor
   - Measure out 400 grams **(1.66 cups)** for use in remainder of recipe
-  - Reduce oven temperature to 350 degrees fahrenheit
+  - Reduce oven temperature to 350°F
   - Line the bottom of a 9 inch round baking pan with 2 inch sides with parchment paper and grease lightly with butter
   - In a large bowl, whisk together the cooled roasted sweet potato puree, eggs, jaggery, maple syrup, 6 tablespoons butter, nutmeg, tumeric, and salt until smooth
   - Add coconut milk and flour, whisking until the mixture is smooth, with no visible streaks of flour

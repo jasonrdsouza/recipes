@@ -20,7 +20,7 @@ steps:
   - After the bulk rise, the dough should have roughly doubled in size **(I've had the best success with letting it get 2.5x times the size, but after it doubles, you start to run the risk of it overproofing)**. Once it has risen enough for your liking, do another 4 "stretch & folds" like before, then wait for 30 minutes.
   - Do a final 4 "stretch & folds", this time flipping the dough over once done so that the smooth side is facing upwards. Then, shape the dough ball by cupping and pulling around the sides with both hands, rotating and pulling towards you **(this technique is hard to comprehend without seeing it, so watch some videos of people "shaping dough" if you're confused)**.
   - Using a bench knife, flip the dough ball upside-down into a floured cloth-lined bowl. Cover with edges of cloth and let rest for an hour **(or optionally, overnight in the fridge)**. This is the "proofing" stage.
-  - Preheat the oven to 450 degrees fahrenheit, with the baking vessel **(dutch oven ideally)** inside.
+  - Preheat the oven to 450°F, with the baking vessel **(dutch oven ideally)** inside.
   - Cut some parchment paper to fit the baking vessel **(edges included)**. Invert the cloth lined bowl, flipping the loaf onto the parchment paper. Remove the cloth.
   - Sprinkle the dough with flour, and rub gently with your hands
   - Using the tip of a bread lame, or small serrated knife, make 4 shallow **(4 inch long, 1 inch deep)** cuts at 3, 6, 9, and 12 o'clock around the dough

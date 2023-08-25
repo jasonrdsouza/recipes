@@ -19,7 +19,7 @@ steps:
   - Use a sharp, thin knife to lightly score the surface into 3x1-inch rectangles **(do not cut all the way through)**
   - Use a skewer to poke 2 holes into each rectangle
   - Refrigerate until dough is chilled solid **(around 1 hour)**
-  - Preheat oven to 325 degrees fahrenheit
+  - Preheat oven to 325°F
   - Once preheated, transfer the pan to the oven and bake, rotating once halfway through, until the dough is set and just barely browned at the edges **(16-18 minutes)**
   - While the shortbread is still hot, use a thin knife to neatly slice into rectangles and sprinkle with flaky **(Maldon)** salt.
   - Let cool completely in the pan before removing and serving.
