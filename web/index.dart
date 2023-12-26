@@ -36,7 +36,10 @@ void populateTableOfContents(Map<String, String> recipeIndex) {
 }
 
 String humanize(String recipeName) {
-  return recipeName.replaceAll("-", " ").replaceAll(" and ", " & ");
+  return recipeName
+      .replaceAll("-", " ")
+      .replaceAll(" and ", " & ")
+      .replaceAllMapped(RegExp(r'\d+'), (Match m) => "#${m[0]}");
 }
 
 void humanizeRecipeNames() {

@@ -5,7 +5,7 @@ time: "2 minutes"
 makes: "1"
 ingredients:
   - Gin **(Bombay Sapphire)**
-  - White Vermouth **(Carpano Bianco)**
+  - Dry Vermouth **(Carpano Bianco)**
   - Orange Bitters
   - Briny olives
 steps:
@@ -21,6 +21,7 @@ notes:
   - I like a lot of olives in my martini... like, a light appetizers worth. To me the martini is the perfect aperitif, and the liquor soaked olives are a wonderful snack to prepare for dinner. I like to eat an olive with just about every sip, which means the standard 3 **(or pitiful solo)** olives are never enough.
   - Alternatively, I like to have a small plate of olives, cornichons, or other pickled vegetables on the side, which tend to complement the martini well.
   - Given that I usually have a small jars worth of olives in the glass, there is no need for any olive juice, since the olive flavor is already nicely present. In fact, all the "dirty" martinis I've had have failed to impress, because the olive juice is a very poor substitute for actual olives, having a very one-note flavor
+  - One notable issue I've had when ordering martinis at bars is the trend towards no/ minimal vermouth even when ordering a "normal" martini. Servers/ bartenders tend to be familiar with dirty and dry variants, and often treat that as the singular spectrum, expecting customers to either want their martini with olive juice, or without vermouth. That makes it hard to get a "regular" martini, and I often have to specify that I want it "wet" and not dirty, and even then can rarely taste the vermouth. **Often the question of olives or a twist is also not asked, meaning that to get what I want I really have to specify as "a gin martini, wet, with lots of olives, but no olive juice, stirred till ice cold" at which point it starts to feel like I may as well just go behind the bar and make it myself.**
   - The addition of a small amount of orange bitters may be confusing to someone already familiar with the normal martini template, but I find that it works quite well. There are typically two ways to take your martini... with olives, or with a twist. We've talked about the olive version above, but taking it "with a twist" means eschewing the olives in favor of an expressed lemon (or other citrus) peel. This results in a more refreshing, citrusy drink. Adding the drop of orange bitters lets me get the best of both worlds. It adds a hint of citrus, but I still get the briney olive flavors that I find pair so well with the gin and vermouth.
   - The whole shaken vs stirred James Bond martini fiasco is an unnecessary distraction. Martinis are meant to have a silky, rich, and smooth mouthfeel, which you can only properly get by stirring them.
   - Likewise, to ensure the proper mouthfeel and experience, it is crucial that the martini is *ice cold*. All cocktails change as they warm up, and martinis are no exception. This version in particular starts off crisp and refreshing **(as if it was made with a twist)**, and gets a little saltier and more balanced as it warms up. Let it get too warm though, and the flavors get out of whack. To avoid that, it's best to serve it immediately after making it, and drink it relatively quickly.

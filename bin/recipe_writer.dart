@@ -11,7 +11,7 @@ class RecipeWriter {
   }
 
   String fileNameFromRecipeName(String recipeName) {
-    return recipeName.toLowerCase().replaceAll(' ', '-');
+    return recipeName.toLowerCase().replaceAll('#', '').replaceAll(' & ', ' and ').replaceAll(' ', '-');
   }
 
   String pathFromRecipeName(String recipeName, bool isDraft) {
