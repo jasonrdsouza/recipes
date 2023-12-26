@@ -1,0 +1,20 @@
+---
+title: "Encyclopedia Brown #2"
+template: recipe.mustache
+time: "2 minutes"
+makes: "1 servings"
+ingredients:
+  - 1.5oz Bourbon
+  - 1oz East India Sherry
+  - 0.5oz Bigallet China-China
+  - Orange peel **(optional)**
+steps:
+  - Add a large ice cube to a heavy bottomed rocks glass
+  - Build the cocktail in the glass by combining the ingredients and stirring until cold
+  - Express an orange peel over the top if desired and serve
+notes:
+  - "The original recipe from the [Baldwin Bar](https://www.thebaldwinbar.com/) calls for 0.25oz of Maraschino liquor, and Corazon bitters, but I enjoy the cocktail without those components"
+  - I hadn't had China-China prior to having it in this cocktail, but after buying a bottle to make it at home, and trying it on its own, I realized that I quite like it and want to try using it in more cocktails.
+basedon:
+  - "[Baldwin Bar Encyclopedia Brown #2](/assets/encyclopedia_brown_2.jpg)"
+---
