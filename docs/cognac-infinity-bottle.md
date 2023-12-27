@@ -1,5 +1,5 @@
 ---
-title: "Bourbon Infinity Bottle"
+title: "Cognac Infinity Bottle"
 template: recipe.mustache
 time: "A lifetime"
 makes: "Infinite servings"
