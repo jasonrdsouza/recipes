@@ -38,4 +38,5 @@ basedon:
   - "[Bistro Style Steak Tartare](https://www.newyorker.com/culture/kitchen-notes/how-to-make-a-classic-bistro-style-steak-tartare-at-home)"
   - "[Anthony Bourdain's Steak Tartare](https://www.bloomberg.com/news/articles/2020-06-19/anthony-bourdain-steak-tartare-recipe-use-your-knife-skills)"
   - "[Julien Ponthieu's Steak Tartare](https://www.youtube.com/watch?v=0krnooaNADk)"
+  - "[Tasting Table best cuts for steak tartare](https://www.tastingtable.com/887572/the-absolute-best-cuts-of-meat-for-steak-tartare/)"
 ---

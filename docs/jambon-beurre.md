@@ -1,0 +1,24 @@
+---
+title: "Jambon Beurre"
+template: recipe.mustache
+time: "5 minutes"
+makes: "2 servings"
+ingredients:
+  - Serrano Ham
+  - Triple Cream Brie
+  - Fresh Baguette
+steps:
+  - Slice baguette lengthwise and spread brie on both sides
+  - gently fold desired amount of serrano ham over one side of bread
+  - top with other side and enjoy
+notes:
+  - Since this is such a simple sandwich, the quality of ingredients is of paramount importance. A freshly baked baguette is ideal, but barring that, a quality, day-old baguette can be used and reheated in the oven prior to assembly
+  - Traditionally, this sandwich calls for butter, in which case a high quality salted butter is required, but I personally prefer to use a triple cream brie **(which in my opinion is not that dissimilar from high quality butter)** because it has the same fattiness with some additional flavor.
+  - The sandwich also traditionally calls for french ham **(jambon de Paris)**, which is very difficult to find in the US, and regular deli ham is a poor substitute. I instead prefer to go with a spanish or italian cured ham such as Serrano, Iberico, or Prosciutto. They add a nice depth of flavor and saltiness which compliments the rest of the ingredients well.
+  - Going back to the quality of ingredients, while using a ham like Serrano automatically ensures a certain level of quality in the raw product, it is equally important to make sure that the ham is sliced thinly so that you can drape layers of it on top of one another when constructing the sandwich. If the ham is too thick, it will ruin the mouthfeel and throw off the whole thing.
+  - Because this sandwich is constructed from ingredients without a lot of moisture, it travels very well **(there's nothing to become soggy)**. As such, it is excellent as a beach/ hiking/ picnic/ airplane/ general travel snack.
+basedon:
+  - "[NYT Proustian ideal ham sandwich](https://www.nytimes.com/2022/11/25/dining/ham-sandwich-nyc.html)"
+  - "[Epicurious European Sandwiches](https://www.epicurious.com/ingredients/the-european-trick-to-making-better-sandwiches-article)"
+  - "[Lifehacker beach sandwich](https://lifehacker.com/the-best-beach-sandwich-has-only-three-ingredients-1849002302)"
+---
