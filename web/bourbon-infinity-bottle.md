@@ -113,6 +113,23 @@ ingredients:
   - 2oz Ironroot Harbinger XC
   - 2oz Ironroot Harbinger 115
   - 2oz Liquid Riot Old Port Rye Whiskey
+  - 2oz Buffalo Trace single barrel
+  - 2oz George Dickel 8yr
+  - 2oz George Dickel BiB (13yr)
+  - 2oz Whistlepig Summerstock (solera style)*
+  - 2oz Stagg Jr.*
+  - 2oz Weller 12*
+  - 2oz Jack Daniel's Bonded Rye*
+  - 2oz Jack Daniel's Bonded Tennessee Whiskey*
+  - 2oz Jack Daniel's Bonded Triple Mash
+  - 2oz Penelope Four Grain
+  - 2oz Angels Envy Bourbon (port wine finish)
+  - 2oz Angels Envy Rye (caribbean cask finish)*
+  - 2oz Penelope Architect
+  - 2oz Barrell Dovetail*
+  - 2oz Old Forester Single Barrel (barrel strength)*
+  - 2oz Jefferson's Tropics (aged in humidity, Singapore)*
+  - 2oz Heaven Hill BiB 7yr
 steps:
   - Every time you buy a new bourbon, add a small amount to your infinity bottle
   - After adding to the infinity bottle, swirl to mix, and then wait at least 12 hours before sampling the result **(to allow the flavors to marry)**
@@ -134,6 +151,7 @@ notes:
   - "**2022-02-16** My last few additions have included stalwarts like the Willett Family Estate Rye, and Knob Creek 12. The Willett Rye especially adds a nice spicyness, like a more refined version of Rowan's Creek. I decided to add a bit of the Balcones Single Malt because I really enjoyed its richness, and figured it would complement the existing flavors in the bottle. I think I'll start standardizing on 2oz going forward instead of 3, since the bottle is getting pretty full."
   - "**2022-06-17** I was able to get my hands on a few limited edition bottlings from High West, including their Midwinter Night's Dram, which was fantastically layered and complex. I remember liking Koval, but the bottle I got this time was pretty bad. The Four Roses small batch was tasty as expected, but not worth the extra cost over their regular small batch and single barrel offerings in my opinion. Kings County reminded me a bit of the discontinued Hudson Baby Bourbon. Finally, the Old Grand-Dad was surprisingly drinkable for its low cost and high proof, and probably one of the best dollar value bottles I've had at ~$26."
   - "**2023-02-25** I've been drinking [Rye Manhattans](/manhattan.html) as of late, so most of the whiskey bottles I've been picking up are Rye's. I figure since I was into high corn mashbill bourbon earlier on, adding these higher rye mashbill whiskeys is just restoring the overall balance of the infinity bottle (I also threw in a little Mellow Corn to further balance the scales). Overall, I've found rye whiskey to be cheaper than bourbon for equivalent value (potentially due to the surge in demand for bourbon specifically during Covid, which seems to be slowly abating). The Sagamore, Sazerac, Elijah Craig rye were all very tasty, and I enjoyed sipping them neat in addition to putting them in Manhattans."
+  - "**2023-12-27** Lots of good stuff added recently, and to make room I ended up using some of the infinity bottle juice in a round of Manhattans, which were fantastic. The extra flavor and proof that has collected in the infinity bottle came through wonderfully in the Manhattan, and was complimented nicely by the rest of the cocktail ingredients. It's something I may try doing more often to use as an additional comparison point for how the infinity bottle flavor profile is evolving."
 basedon:
   - Lifelong bourbon exploration
   - "[WineEnthusiast Whiskey Blending Guide](https://www.winemag.com/2018/06/25/whiskey-blending-guide/)"

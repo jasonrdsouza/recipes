@@ -17,6 +17,7 @@
     "caviar-and-chips",
     "chimichurri",
     "chopped-cheese",
+    "cognac-infinity-bottle",
     "cold-steak-salad",
     "coleslaw",
     "daiquiri",
