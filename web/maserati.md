@@ -1,0 +1,22 @@
+---
+title: "Maserati"
+template: recipe.mustache
+time: "2 minutes"
+makes: "1 servings"
+ingredients:
+  - 1oz Mezcal
+  - 1oz Amaro Ramazzotti
+  - 2 dashes bitters **(optional)**
+  - Lemon **(or other citrus)** twist
+steps:
+  - Build in a rocks glass over a large ice cube
+  - Gently stir until cold
+  - Garnish with a twist if using
+notes:
+  - This style of cocktail is known as a 50/50 due to its equal parts of 2 base ingredients. Good 50/50 pairings are often surprising in their depth of flavor given the simple template, showcasing how thoughtful pairing of spirits can often be greater than the sum of their parts.
+  - "Very similar to the [Mezcaletti](/mezcaletti.html), but with Ramazzotti Amaro instead of Meletti."
+basedon:
+  - "[Punch Drink 50/50 cocktails](https://punchdrink.com/articles/best-shots-amaro-whiskey-mezcal/)"
+  - "[Punch Drink 50/50 origins](https://punchdrink.com/articles/how-the-ferrari-became-more-than-just-a-shot-amaro-cocktails/)"
+  - "[50/50 shot template](/assets/50_50_shot_template.jpeg)"
+---
