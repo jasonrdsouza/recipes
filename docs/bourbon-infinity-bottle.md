@@ -27,7 +27,7 @@ ingredients:
   - 3oz Four Roses Single Barrel
   - 3oz Wild Turkey 101
   - 3oz Woodford Reserve Wheat
-  - 3oz Old Forester 1897 Bottled in Bond*
+  - 3oz Old Forester 1897 BiB*
   - 3oz Larceny Single Barrel Select
   - 3oz Redemption Wheated Bourbon
   - 3oz Oregon Spirit Straight American Bourbon Whiskey
@@ -56,7 +56,7 @@ ingredients:
   - 3oz Old Forester Statesman
   - 3oz Isaac Bowman Port Barrel Finished Bourbon
   - 3oz Jefferson's Reserve*
-  - 3oz Iron Smoke Bottled in Bond
+  - 3oz Iron Smoke BiB
   - 3oz Basil Hayden's Toast
   - 3oz Hudson Whiskey Bright Lights Bourbon
   - 3oz Knob Creek Rye
@@ -113,23 +113,38 @@ ingredients:
   - 2oz Ironroot Harbinger XC
   - 2oz Ironroot Harbinger 115
   - 2oz Liquid Riot Old Port Rye Whiskey
-  - 2oz Buffalo Trace single barrel
+  - 2oz Buffalo Trace Single Barrel
   - 2oz George Dickel 8yr
   - 2oz George Dickel BiB (13yr)
-  - 2oz Whistlepig Summerstock (solera style)*
+  - 2oz Whistlepig Summerstock (Solera Style)*
   - 2oz Stagg Jr.*
   - 2oz Weller 12*
   - 2oz Jack Daniel's Bonded Rye*
   - 2oz Jack Daniel's Bonded Tennessee Whiskey*
   - 2oz Jack Daniel's Bonded Triple Mash
   - 2oz Penelope Four Grain
-  - 2oz Angels Envy Bourbon (port wine finish)
-  - 2oz Angels Envy Rye (caribbean cask finish)*
+  - 2oz Angels Envy Bourbon (Port Wine Finish)
+  - 2oz Angels Envy Rye (Caribbean Cask Finish)*
   - 2oz Penelope Architect
   - 2oz Barrell Dovetail*
-  - 2oz Old Forester Single Barrel (barrel strength)*
-  - 2oz Jefferson's Tropics (aged in humidity, Singapore)*
+  - 2oz Old Forester Single Barrel (Barrel Strength)*
+  - 2oz Jefferson's Tropics (Aged in Humidity, Singapore)*
   - 2oz Heaven Hill BiB 7yr
+  - 2oz Blanton's Single Barrel Bourbon
+  - 2oz Evan Williams BiB
+  - 2oz Remus Repeal Reserve VII
+  - 2oz Elijah Craig Toasted Barrel*
+  - "2oz Traveller Whiskey (Blend #40)"
+  - 2oz Widow Jane Apple Wood Rye
+  - 2oz Weller Special Reserve (wheated)
+  - 2oz Widow Jane 10yr
+  - 2oz Jim Beam Devil's Cut
+  - 2oz Evan Williams Single Barrel Vintage (2015)
+  - 2oz James E. Pepper 1776 Straight Bourbon
+  - 2oz James E. Pepper Decanter Barrel Proof*
+  - 2oz McKenzie Pot Still Whiskey
+  - 2oz McKenzie Straight Bourbon
+  - 2oz McKenzie Straight Rye
 steps:
   - Every time you buy a new bourbon, add a small amount to your infinity bottle
   - After adding to the infinity bottle, swirl to mix, and then wait at least 12 hours before sampling the result **(to allow the flavors to marry)**

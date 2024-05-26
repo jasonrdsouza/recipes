@@ -29,9 +29,9 @@ steps:
   - Serve with crusty bread and butter
 notes:
   - Starting the garlic in cold oil works better to release flavor without burning.
-  - The meat is optional, and can be replaced with tofu or additional lentils/ beans for a vegetarian option.
+  - The meat is optional, and can be replaced with "meaty" alternatives like mushrooms, artichoke hearts, hearts of palm, tofu, etc for a vegetarian option.
   - Ground meat works best from an ease of cooking perspective, and I've had the most success with ground beef, ground venison, and stew meat.
-  - The "assorted spices" will vary based on the underlying ingredient selection, but proper salting is essential.
+  - The "assorted spices" will vary based on the underlying ingredient selection, and I tend to tailor the spice mixture to a specific regional cuisine **(ie. Thai, Indian, Korean, etc)**. Often you can find pre-mixed curry pastes at the grocery store which take most of the guesswork out of it. Regardless of what assortment you choose, proper salting is essential.
   - For some goulash variations, I substitute canned pumpkin and/or coconut milk. This works especially well for Moroccan or Thai variations respectively.
   - The type of lentil/ beans you use is mostly personal preference... some tend to hold their shape/ texture better than others, contributing to the viscosity of the resulting product in different ways.
   - The tuber ingredient can be substituted for other hearty vegetables like cabbage, mushroom, etc.
@@ -43,7 +43,8 @@ notes:
   - This dish is meant as a healthy, filling lunch that satiates hunger during the workday... not as a tasty recipe that leaves you craving more.
   - Recipe makes 2-3 weeks worth of lunches, and if stored in mason jars, can be frozen and defrosted as necessary, allowing excellent amortization of cooking/ cleaning effort.
 basedon:
-  - "[https://en.wikipedia.org/wiki/Goulash](https://en.wikipedia.org/wiki/Goulash)"
+  - "[Hungarian Goulash](https://en.wikipedia.org/wiki/Goulash)"
   - "[Food.com Venison Goulash](https://www.food.com/recipe/venison-goulash-277402)"
   - "[NYT cooking tips](https://www.nytimes.com/2021/01/28/dining/staff-cooking-tips.html)"
+  - "[Milk Street Fast & Slow Instant Pot cookbook](https://store.177milkstreet.com/products/milk-street-fast-and-slow)"
 ---
