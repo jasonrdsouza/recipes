@@ -22,12 +22,15 @@
     "coleslaw",
     "daiquiri",
     "encyclopedia-brown-2",
+    "filet-of-fish",
     "flaneur",
     "frozen-sweet-potato",
     "ginger-scones",
     "ham-steak",
+    "hundred-year-cigar",
     "jambon-beurre",
     "katsu-sando",
+    "lebanese-toum",
     "lunch-goulash",
     "mai-tai",
     "manhattan",
@@ -53,7 +56,8 @@
     "sunday-sauce",
     "sushi-rice",
     "tequila-old-fashioned",
-    "under-the-volcano"
+    "under-the-volcano",
+    "vanillezucker"
   ]
 }
 ---
