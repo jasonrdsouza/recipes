@@ -145,6 +145,12 @@ ingredients:
   - 2oz McKenzie Pot Still Whiskey
   - 2oz McKenzie Straight Bourbon
   - 2oz McKenzie Straight Rye
+  - 2oz Widow Jane Baby Jane
+  - 2oz Old Pepper Bourbon (BiB)
+  - 2oz Old Pepper Rye (BiB)*
+  - 2oz Larceny Barrel Proof (Batch A124)
+  - 2oz 1792 BiB
+  - 2oz 1792 Sweet Wheat
 steps:
   - Every time you buy a new bourbon, add a small amount to your infinity bottle
   - After adding to the infinity bottle, swirl to mix, and then wait at least 12 hours before sampling the result **(to allow the flavors to marry)**
