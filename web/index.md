@@ -46,6 +46,7 @@
     "pasta-salad",
     "pumpkin-sausage-soup",
     "quiche",
+    "red-hook",
     "sausage-and-peppers",
     "sentimental-gentleman",
     "shortbread-cookies",
