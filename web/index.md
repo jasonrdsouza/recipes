@@ -54,6 +54,7 @@
     "smoothie",
     "sourdough",
     "steak-tartare",
+    "stir-fry",
     "sunday-sauce",
     "sushi-rice",
     "tequila-old-fashioned",
