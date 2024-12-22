@@ -151,6 +151,22 @@ ingredients:
   - 2oz Larceny Barrel Proof (Batch A124)
   - 2oz 1792 BiB
   - 2oz 1792 Sweet Wheat
+  - 2oz Rebel 100 Straight Rye
+  - 2oz Still Austin Cask Strength Bourbon*
+  - 2oz Garrison Brothers HoneyDew Bourbon
+  - 2oz Garrison Brothers Small Batch Texas Bourbon
+  - 2oz Heaven Hill Grain to Glass Straight Bourbon
+  - 2oz Elijah Craig 18yr
+  - 2oz Still Austin "The Artist" Straight Rye
+  - 1oz Old Rip Van Winkle 10yr
+  - 2oz Ironroot Sleight of Hand Bourbon
+  - 2oz Bardstown Origin Series Bourbon*
+  - 2oz Thomas S. Moore Merlot Cask*
+  - 2oz Thomas S. Moore Cognac Cask
+  - 2oz Willett Kentucky Vintage Sour Mash
+  - 2oz Willett Pure Kentucky 107 proof*
+  - 2oz Case Study Spirits Bourbon 4yr
+  - 2oz Weller Antique 107*
 steps:
   - Every time you buy a new bourbon, add a small amount to your infinity bottle
   - After adding to the infinity bottle, swirl to mix, and then wait at least 12 hours before sampling the result **(to allow the flavors to marry)**
@@ -173,6 +189,7 @@ notes:
   - "**2022-06-17** I was able to get my hands on a few limited edition bottlings from High West, including their Midwinter Night's Dram, which was fantastically layered and complex. I remember liking Koval, but the bottle I got this time was pretty bad. The Four Roses small batch was tasty as expected, but not worth the extra cost over their regular small batch and single barrel offerings in my opinion. Kings County reminded me a bit of the discontinued Hudson Baby Bourbon. Finally, the Old Grand-Dad was surprisingly drinkable for its low cost and high proof, and probably one of the best dollar value bottles I've had at ~$26."
   - "**2023-02-25** I've been drinking [Rye Manhattans](/manhattan.html) as of late, so most of the whiskey bottles I've been picking up are Rye's. I figure since I was into high corn mashbill bourbon earlier on, adding these higher rye mashbill whiskeys is just restoring the overall balance of the infinity bottle (I also threw in a little Mellow Corn to further balance the scales). Overall, I've found rye whiskey to be cheaper than bourbon for equivalent value (potentially due to the surge in demand for bourbon specifically during Covid, which seems to be slowly abating). The Sagamore, Sazerac, Elijah Craig rye were all very tasty, and I enjoyed sipping them neat in addition to putting them in Manhattans."
   - "**2023-12-27** Lots of good stuff added recently, and to make room I ended up using some of the infinity bottle juice in a round of Manhattans, which were fantastic. The extra flavor and proof that has collected in the infinity bottle came through wonderfully in the Manhattan, and was complimented nicely by the rest of the cocktail ingredients. It's something I may try doing more often to use as an additional comparison point for how the infinity bottle flavor profile is evolving."
+  - "**2024-12-22** Recently I've been trying various Texas bourbons, and have also managed to find a few rarer bottles from Weller and Buffalo Trace that I've added in. The Texas bourbon additions have added some sweetness and heat, while the Weller, EC 18, and Old Rip 10 contribute some additional depth of flavor."
 basedon:
   - Lifelong bourbon exploration
   - "[WineEnthusiast Whiskey Blending Guide](https://www.winemag.com/2018/06/25/whiskey-blending-guide/)"
