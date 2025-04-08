@@ -19,6 +19,12 @@ ingredients:
   - 2oz Frapin 1270
   - 2oz Camus "intensely aromatic" VS
   - 2oz Camus "intensely aromatic" VSOP
+  - 2oz Symbole National XO
+  - 2oz Valledor VSOP
+  - 2oz Reviseur VSOP*
+  - 2oz Bhakta 1973 Armagnac*
+  - 2oz Pierre Ferrand 1840 Original Formula
+  - 2oz Reviseur VS
 steps:
   - Every time you buy a new cognac, add a small amount to your infinity bottle
   - After adding to the infinity bottle, swirl to mix, and then wait at least 12 hours before sampling the result **(to allow the flavors to marry)**
@@ -28,6 +34,7 @@ notes:
   - "**2021-04-01** Modeled after my [Bourbon infinity bottle](/bourbon-infinity-bottle.html), I decided to do the same with Cognac as a way to track what I've tried and what I've liked. Cognacs which I like/ think are a particularly good value are denoted with an asterisk"
   - "**2022-02-10** I had the Remy Martin 1738 at a bar with a friend, and really enjoyed it. It had a richer, almost bourbony character while still retaining its Cognac backbone. Probably my favorite Cognac so far."
   - "**2022-08-05** Hennessy has such a commercial presence that you assume it won't be that good, but I was surprised to find that both their VS and VSOP offerings are some of my favorite so far. In contrast, I wasn't impressed with the Courvoisier, finding it a bit too light and floral for my preference."
+  - "**2025-03-02** I recently got to try the Bhakta 1973 Armagnac, and was blown away with how complex and delicious it was. At ~$400 a bottle, it definitely won't be in the regular rotation, but it was great to try, and now there will forever be a little bit in my infinity bottle."
 basedon:
   - "[My original Bourbon Infinity Bottle](/bourbon-infinity-bottle.html)"
 ---

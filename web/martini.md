@@ -4,7 +4,7 @@ template: recipe.mustache
 time: "2 minutes"
 makes: "1"
 ingredients:
-  - Gin **(Bombay Sapphire)**
+  - Gin **(Bombay Sapphire, Suntory Roku)**
   - Dry Vermouth **(Carpano Bianco)**
   - Orange Bitters
   - Briny olives
@@ -16,6 +16,7 @@ steps:
   - Strain into martini glass and serve immediately
 notes:
   - The choice of gin impacts the final product by imparting a "backbone" to the cocktail of whatever flavor profile the gin embodies. For martinis, I tend to prefer a gin that isn't overly herbal and piney, in order to not overwhelm the rest of the flavors. After testing a variety of gins, I settled on Bombay Sapphire for its balance of flavors, and reasonable price.
+  - Alternatively, I've enjoyed using Japanese gin, such as Suntory Roku, which tends to have a lighter, more citrus/ floral profile. When using such a gin, I will often leave out the orange bitters altogether.
   - If you want a vodka martini instead, I have really enjoyed Chopin potato vodka for its rich and creamy mouthfeel. My personal preference is a relatively "wet" and sweet martini, so I retain the 2:1 ratio, and still use Carpano Bianco in this case. The Vodka does a good job lengthening the flavors in the vermouth.
   - The choice of dry vermouth makes or breaks the cocktail. If the Gin is the backbone, the Vermouth acts as the rest of the body. Personally I don't like martinis made with the most common dry vermouths, because I find the vermouth flavors a bit flaccid. **(Maybe this is why people have been putting less and less vermouth in their martinis over time...)** Carpano, however, makes the excellent "Carpano Bianco" vermouth, which in my opinion makes a fantastic martini. This white vermouth is a little sweeter than usual, but I think that acts to accentuate the flavors of the martini.
   - I like a lot of olives in my martini... like, a light appetizers worth. To me the martini is the perfect aperitif, and the liquor soaked olives are a wonderful snack to prepare for dinner. I like to eat an olive with just about every sip, which means the standard 3 **(or pitiful solo)** olives are never enough.
@@ -25,11 +26,13 @@ notes:
   - The addition of a small amount of orange bitters may be confusing to someone already familiar with the normal martini template, but I find that it works quite well. There are typically two ways to take your martini... with olives, or with a twist. We've talked about the olive version above, but taking it "with a twist" means eschewing the olives in favor of an expressed lemon (or other citrus) peel. This results in a more refreshing, citrusy drink. Adding the drop of orange bitters lets me get the best of both worlds. It adds a hint of citrus, but I still get the briney olive flavors that I find pair so well with the gin and vermouth.
   - The whole shaken vs stirred James Bond martini fiasco is an unnecessary distraction. Martinis are meant to have a silky, rich, and smooth mouthfeel, which you can only properly get by stirring them.
   - Likewise, to ensure the proper mouthfeel and experience, it is crucial that the martini is *ice cold*. All cocktails change as they warm up, and martinis are no exception. This version in particular starts off crisp and refreshing **(as if it was made with a twist)**, and gets a little saltier and more balanced as it warms up. Let it get too warm though, and the flavors get out of whack. To avoid that, it's best to serve it immediately after making it, and drink it relatively quickly.
-  - Another option to make the martini as cold as possible, which I use often, is to make a batch **(sans olives)** and put it in the freezer **(it won't actually freeze because of the alcohol content)**. Then, you can portion it out directly from the freezer when ready. Some recipes that do this call for adding a bit of water to the mix before freezing it, but I haven't found that necessary with my recipe.
+  - Another option to make the martini as cold as possible, which I use often, is to make a batch **(sans olives)** and put it in the freezer **(it won't actually freeze because of the alcohol content)**. Then, you can portion it out directly from the freezer when ready. If you do this, make sure to pre-dilute the mixture to ~20% water to match the dilution that would typically occur when stirring to chill with ice **(ie. if 100ml is going into the freezer, 20ml should be water)**.
 basedon:
   - "[Cocktail Codex](https://www.deathandcompanymarket.com/products/cocktail-codex)"
   - "[The Hawthorne's Martini](https://www.thehawthornebar.com/)"
   - "[Punch Freezer Martini](https://punchdrink.com/articles/ultimate-best-freezer-frozen-pre-batched-martini-recipe/)"
   - "[Julie Reiner's Freezer Martini](https://punchdrink.com/recipes/julie-reiners-freezer-martini/)"
   - "[Postmodern Martini](https://punchdrink.com/articles/meet-the-new-martini-recipes/)"
+  - "[Essential Guide to Batching and Freezing Cocktails](https://punchdrink.com/articles/guide-batch-freezer-martini-negroni/)"
+  - "[World's Essential Martinis](https://punchdrink.com/articles/worlds-best-essential-classic-martini-recipes/)"
 ---
