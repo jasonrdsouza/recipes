@@ -12,7 +12,7 @@ ingredients:
   - 1.5oz Hudson Baby Bourbon*
   - 1oz 1792 Small Batch
   - 1oz Jack Daniel's Tennessee Whiskey
-  - 3oz Wild Turkey Rare Breed
+  - 3oz Wild Turkey Rare Breed*
   - 2oz High West American Prairie Bourbon
   - 3oz Old Ezra 7yr Barrel Strength*
   - 3oz Knob Creek 9yr
@@ -161,12 +161,24 @@ ingredients:
   - 1oz Old Rip Van Winkle 10yr
   - 2oz Ironroot Sleight of Hand Bourbon
   - 2oz Bardstown Origin Series Bourbon*
-  - 2oz Thomas S. Moore Merlot Cask*
+  - 2oz Thomas S. Moore Merlot Cask
   - 2oz Thomas S. Moore Cognac Cask
   - 2oz Willett Kentucky Vintage Sour Mash
   - 2oz Willett Pure Kentucky 107 proof*
   - 2oz Case Study Spirits Bourbon 4yr
   - 2oz Weller Antique 107*
+  - 2oz Johnny Drum Private Stock Bourbon
+  - 2oz Cooper's Daughter Black Walnut Bourbon
+  - 2oz Michter's US1 Barrel Strength Bourbon (2021)
+  - 2oz Barrell Seagrass*
+  - 2oz Little Book Chapter 8*
+  - 2oz Sagamore Spirit Sherry Finish Rye*
+  - 2oz Bulleit Single Malt
+  - 2oz Dad's Hat Pennsylvania Rye
+  - 2oz Thomas S. Moore Madeira Cask
+  - 2oz Belfour Single Barrel Bourbon
+  - 2oz Bhakta 2013 Bourbon
+  - 2oz Bhakta 2013 Rye
 steps:
   - Every time you buy a new bourbon, add a small amount to your infinity bottle
   - After adding to the infinity bottle, swirl to mix, and then wait at least 12 hours before sampling the result **(to allow the flavors to marry)**
