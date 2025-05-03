@@ -9,6 +9,7 @@
     "banana-rum-old-fashioned",
     "bebinca-de-batata",
     "beef-tataki",
+    "black-prince",
     "bo-ssam",
     "bourbon-infinity-bottle",
     "breakfast-sandwich",
@@ -21,6 +22,7 @@
     "cold-steak-salad",
     "coleslaw",
     "daiquiri",
+    "devils-soul",
     "encyclopedia-brown-2",
     "filet-of-fish",
     "flaneur",
@@ -58,6 +60,7 @@
     "sunday-sauce",
     "sushi-rice",
     "tequila-old-fashioned",
+    "the-eulogy",
     "under-the-volcano",
     "vanillezucker"
   ]
