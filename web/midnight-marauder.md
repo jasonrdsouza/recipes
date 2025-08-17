@@ -1,0 +1,19 @@
+---
+title: "Midnight Marauder"
+template: recipe.mustache
+time: "2 minutes"
+makes: "1 serving"
+ingredients:
+  - 1oz Mezcal
+  - 1oz Cynar
+  - 1oz Sweet Vermouth
+steps:
+  - Combine equal parts of Mezcal, Cynar, and Sweet Vermouth in a mixing glass over ice, and stir until chilled
+  - Strain into a chilled coupe glass
+notes:
+  - This cocktail originally calls for Bonal, which I don't tend to have on hand, but I've found it to be relatively tasty with sweet vermouth instead, particularly Cocchi de Torino.
+  - It tastes sort of like a darker, smokier Negroni.
+basedon:
+  - "[Imbibe Midnight Marauder](https://imbibemagazine.com/recipe/midnight-marauder/)"
+  - "[Punch Drink Midnight Marauder](https://punchdrink.com/recipes/midnight-marauder/)"
+---
