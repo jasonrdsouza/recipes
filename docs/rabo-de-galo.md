@@ -15,7 +15,7 @@ steps:
 notes:
   - I came across this drink on a [recent trip to Brazil](https://www.partyinparaty-juliaandadam.com/), and really enjoyed its complexity compared to the typical caipirinha variants that are the cocktail du jour over there (not that I have anything against Caipirinhas... they're probably my favorite tropical style drink, but there's only so many one can drink before you crave some variety).
   - Apparently this drink was created by Cinzano after they opened a factory in Sao Paulo and wanted to sell more vermouth to the locals. They introduced this foreign concept of mixing 2 alcoholic bases as a "cocktail", which in Portuguese translates as "galo" -> rooster/ cock, and "rabo" -> tail.
-  - Drinkers would order the rabo de gallo, which initially was equal parts cachaca and cinzano in a shot glass, pour a little out "for the saints", and then shoot the rest.
+  - Drinkers would order the rabo de galo, which initially was equal parts cachaca and cinzano in a shot glass, pour a little out "for the saints", and then shoot the rest.
   - Over time various bartenders made their own variant of the cocktail, with various mixtures and types of sweet vermouth.
   - Today, the standard formula seems to be to use a combination of some sweet vermouth and cynar. Most recipes lean towards a modern template of a higher Cachaca to vermouth ratio, but I prefer the original template of 1:1 in my own rendition.
 basedon: 
