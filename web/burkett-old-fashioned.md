@@ -2,7 +2,7 @@
 title: "Burkett Old Fashioned"
 template: recipe.mustache
 time: "2 minutes"
-makes: "1 servings"
+makes: "1 serving"
 ingredients:
   - 2oz Rye Whiskey **(Redemption High Rye)**
   - 0.5oz Amaro Averna
