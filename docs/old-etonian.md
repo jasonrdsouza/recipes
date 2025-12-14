@@ -2,7 +2,7 @@
 title: "Old Etonian"
 template: recipe.mustache
 time: "2 minutes"
-makes: "1 servings"
+makes: "1 serving"
 ingredients:
   - 1.5oz Gin
   - 1.5oz Lillet Blanc
