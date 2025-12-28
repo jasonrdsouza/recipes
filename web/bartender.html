@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+    <title>The Bartender</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="icon" type="image/png" href="cookbook.png">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,700,700i,900" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet" type="text/css">
+    <link href="/css/bartender.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="config.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <section id="back">
+            <a href="/">← Back to Recipes</a>
+        </section>
+
+        <section id="title">
+            <h1>The Bartender</h1>
+        </section>
+
+        <div class="settings-link">
+            <a href="/settings.html">⚙️ Settings</a>
+        </div>
+
+        <div id="bartender-container">
+            <div id="chat-history">
+                <div class="message bot-message">
+                    Hello! I'm your digital bartender. Tell me what you're in the mood for, or what ingredients you have on hand, and I'll suggest a cocktail for you.
+                </div>
+            </div>
+            <div id="input-area">
+                <input type="text" id="user-input" placeholder="e.g. I have whiskey and lemon, what can I make?" autofocus>
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/js/bartender.js"></script>
+</body>
+</html>
