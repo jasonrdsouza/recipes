@@ -1,45 +1,56 @@
 <!doctype html>
 <html>
-<head>
-    <title>The Bartender</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-    <link rel="icon" type="image/png" href="cookbook.png">
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,700,700i,900" rel="stylesheet">
-    <link href="/css/styles.css" rel="stylesheet" type="text/css">
-    <link href="/css/bartender.css" rel="stylesheet" type="text/css">
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="config.js"></script>
-</head>
-<body>
-    <div id="wrapper">
-        <section id="back">
-            <a href="/">← Back to Recipes</a>
-        </section>
+    <head>
+        <title>The Bartender</title>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1"
+        />
+        <link rel="icon" type="image/png" href="cookbook.png" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,700,700i,900"
+            rel="stylesheet"
+        />
+        <link href="/css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="/css/bartender.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <script src="config.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <section id="title">
+                <h1>Wuher</h1>
+            </section>
 
-        <section id="title">
-            <h1>Wuher</h1>
-        </section>
-
-        <div id="bartender-container">
-            <div id="chat-history">
-                <div class="message bot-message">
-                    Bar’s open. Tell me what you’re drinking or show me what’s on your shelf.
+            <div id="bartender-container">
+                <div id="chat-history">
+                    <div class="message bot-message">
+                        Bar’s open. Tell me what you’re drinking or show me
+                        what’s on your shelf.
+                    </div>
+                </div>
+                <div id="input-area">
+                    <input
+                        type="text"
+                        id="user-input"
+                        placeholder="e.g. I have whiskey and lemon, what can I make?"
+                        autofocus
+                    />
+                    <button id="send-btn">Send</button>
                 </div>
             </div>
-            <div id="input-area">
-                <input type="text" id="user-input" placeholder="e.g. I have whiskey and lemon, what can I make?" autofocus>
-                <button id="send-btn">Send</button>
-            </div>
+
+            <section id="footer">
+                <ul>
+                    <li>
+                        Recipes maintained by
+                        <a href="https://www.jasondsouza.org">Jason Dsouza</a>
+                    </li>
+                </ul>
+            </section>
         </div>
 
-        <section id="footer">
-            <ul>
-                <li>Recipes maintained by <a href="https://www.jasondsouza.org">Jason Dsouza</a></li>
-            </ul>
-        </section>
-    </div>
-
-    <script src="/js/bartender.js"></script>
-</body>
+        <script src="/js/bartender.js"></script>
+    </body>
 </html>
