@@ -21,10 +21,27 @@ document.addEventListener('DOMContentLoaded', () => {
     // Check for API Key
     const apiKey = localStorage.getItem('gemini_api_key');
     if (!apiKey) {
-        appendMessage('bot', 'Please set your Google Gemini API Key in the <a href="/settings.html">Settings</a> to start chatting.');
+        // Create the link element
+        const link = document.createElement('a');
+        link.href = '/settings.html';
+        link.textContent = 'You need a key to get into this bar...';
+        // Apply inline styles to match chat text (override default link styles)
+        link.style.color = 'inherit';
+        link.style.textDecoration = 'none';
+        link.style.cursor = 'pointer';
+
+        const div = document.createElement('div');
+        div.classList.add('message', 'bot-message');
+        div.appendChild(link);
+
+        chatHistory.appendChild(div);
+
         userInput.disabled = true;
         sendBtn.disabled = true;
         return;
+    } else {
+        // Key exists, show welcome message
+        appendMessage('bot', 'Bar’s open. Tell me what you’re drinking or show me what’s on your shelf.');
     }
 
     sendBtn.addEventListener('click', handleUserMessage);
