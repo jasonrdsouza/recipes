@@ -1,6 +1,7 @@
 .dart_tool/
 .packages
 pubspec.lock
+docs/
 
 # Trello recipe board export
 recipes.json

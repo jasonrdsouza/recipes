@@ -1,4 +1,5 @@
-import 'dart:html';
+import 'dart:js_interop';
+import 'package:web/web.dart';
 
 void main() {
   print('Recipe book loaded!');
@@ -9,7 +10,10 @@ void main() {
 // Fetches all of the recipes on the index page
 List<String> enumerateRecipes() {
   var recipeElements = document.querySelectorAll('.recipe');
-  return recipeElements.map((element) => element.text).whereType<String>().toList();
+  return [
+    for (var i = 0; i < recipeElements.length; i++)
+      recipeElements.item(i)!.textContent ?? ''
+  ];
 }
 
 // Converts a list of recipes into a map with the key corresponding to a unique letter,
@@ -23,16 +27,17 @@ Map<String, String> alphabeticalIndexes(List<String> recipes) {
 
 void populateTableOfContents(Map<String, String> recipeIndex) {
   var tableOfContents = document.querySelector('#navigation');
+  if (tableOfContents == null) return;
 
   var tocEntries = recipeIndex.keys.toList();
   tocEntries.sort();
 
-  var tocElements = tocEntries.map((e) {
-    var a = AnchorElement(href: '#${recipeIndex[e]}');
-    a.text = e;
-    return a;
-  });
-  tableOfContents?.children.addAll(tocElements);
+  for (var e in tocEntries) {
+    var a = document.createElement('a') as HTMLAnchorElement;
+    a.href = '#${recipeIndex[e]}';
+    a.textContent = e;
+    tableOfContents.appendChild(a);
+  }
 }
 
 String humanize(String recipeName) {
@@ -44,10 +49,14 @@ String humanize(String recipeName) {
 
 void humanizeRecipeNames() {
   var recipeElements = document.querySelectorAll('.recipe');
-  recipeElements.forEach((element) {
-    var currentText = element.firstChild!.text;
-    if (currentText != null) {
-      element.firstChild!.text = humanize(currentText);
+  for (var i = 0; i < recipeElements.length; i++) {
+    var element = recipeElements.item(i)!;
+    var firstChild = element.firstChild;
+    if (firstChild != null) {
+      var currentText = firstChild.textContent;
+      if (currentText != null) {
+        firstChild.textContent = humanize(currentText);
+      }
     }
-  });
+  }
 }
