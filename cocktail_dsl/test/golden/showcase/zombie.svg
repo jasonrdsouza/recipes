@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 360">
+<rect width="400" height="360" fill="#2C2C3A"/>
+<defs>
+<clipPath id="glass_clip_0"><path d="M101.0,30.0 L101.0,182.0 L101.0,182.0 Q101.0,182.0 101.0,183.0 Q101.0,184.0 101.5,185.5 Q102.0,187.0 102.5,188.0 Q103.0,189.0 104.0,190.0 Q105.0,191.0 106.5,192.0 Q108.0,193.0 109.0,193.5 Q110.0,194.0 111.5,194.0 Q113.0,194.0 120.0,194.0 Q127.0,194.0 128.5,194.0 Q130.0,194.0 131.0,193.5 Q132.0,193.0 133.5,192.0 Q135.0,191.0 136.0,190.0 Q137.0,189.0 137.5,188.0 Q138.0,187.0 138.5,185.5 Q139.0,184.0 139.0,182.0 L139.0,182.0 L139.0,30.0 Z"/></clipPath>
+<clipPath id="offset_clip_1"><path d="M101.0,30.0 L101.0,182.0 L101.0,182.0 Q101.0,182.0 101.0,183.0 Q101.0,184.0 101.5,185.5 Q102.0,187.0 102.5,188.0 Q103.0,189.0 104.0,190.0 Q105.0,191.0 106.5,192.0 Q108.0,193.0 109.0,193.5 Q110.0,194.0 111.5,194.0 Q113.0,194.0 120.0,194.0 Q127.0,194.0 128.5,194.0 Q130.0,194.0 131.0,193.5 Q132.0,193.0 133.5,192.0 Q135.0,191.0 136.0,190.0 Q137.0,189.0 137.5,188.0 Q138.0,187.0 138.5,185.5 Q139.0,184.0 139.0,182.0 L139.0,182.0 L139.0,30.0 Z" transform="translate(80.0,40.0)"/></clipPath>
+<linearGradient id="grad_2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#d09c65"/><stop offset="100%" stop-color="#C88B4A"/></linearGradient>
+<linearGradient id="grad_3" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#d09c65"/><stop offset="100%" stop-color="#C88B4A"/></linearGradient>
+<linearGradient id="grad_4" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ebd84f"/><stop offset="100%" stop-color="#E8D130"/></linearGradient>
+<linearGradient id="grad_5" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#dab56d"/><stop offset="100%" stop-color="#D4A853"/></linearGradient>
+</defs>
+<g transform="translate(80.0,40.0)">
+<path d="M95.0,30.0 L95.0,190.0 L95.0,190.0 Q95.0,190.0 95.0,191.0 Q95.0,192.0 95.5,193.0 Q96.0,194.0 96.5,195.0 Q97.0,196.0 97.5,197.0 Q98.0,198.0 99.0,198.5 Q100.0,199.0 101.0,199.5 Q102.0,200.0 103.0,200.0 Q104.0,200.0 120.0,200.0 Q136.0,200.0 137.0,200.0 Q138.0,200.0 139.0,199.5 Q140.0,199.0 141.0,198.5 Q142.0,198.0 142.5,197.0 Q143.0,196.0 143.5,195.0 Q144.0,194.0 144.5,193.0 Q145.0,192.0 145.0,190.0 L145.0,190.0 L145.0,30.0 Z" fill="rgba(255,255,255,0.95)" stroke="rgba(200,200,210,0.8)" stroke-width="1.5" stroke-linejoin="round"/>
+</g>
+<g clip-path="url(#offset_clip_1)">
+<rect x="181.0" y="184.8" width="38.0" height="69.19999999999999" fill="url(#grad_2)"><title>Jamaican Rum</title></rect><rect x="181.0" y="135.60000000000002" width="38.0" height="49.199999999999996" fill="url(#grad_3)"><title>Demerara Rum</title></rect><rect x="181.0" y="102.80000000000003" width="38.0" height="32.8" fill="url(#grad_4)"><title>Lime Juice</title></rect><rect x="181.0" y="86.40000000000003" width="38.0" height="16.4" fill="url(#grad_5)"><title>Grenadine</title></rect>
+</g>
+<circle cx="194.0" cy="20.0" r="4.0" fill="#8B2C2C"><title>2 dashes Angostura Bitters</title></circle>
+<circle cx="206.0" cy="20.0" r="4.0" fill="#8B2C2C"><title>2 dashes Angostura Bitters</title></circle>
+<path d="M219.0,94.60000000000004 L227.0,94.60000000000004 L227.0,94.60000000000004 L231.0,94.60000000000004" fill="none" stroke="#888" stroke-width="0.75"/>
+<text x="233.0" y="98.26666666666671" font-family="system-ui, sans-serif" font-size="11.0px" fill="#ccc">Grenadine</text>
+<path d="M219.0,119.20000000000002 L227.0,119.20000000000002 L227.0,119.20000000000002 L231.0,119.20000000000002" fill="none" stroke="#888" stroke-width="0.75"/>
+<text x="233.0" y="122.86666666666669" font-family="system-ui, sans-serif" font-size="11.0px" fill="#ccc">Lime Juice</text>
+<path d="M219.0,160.20000000000002 L227.0,160.20000000000002 L227.0,160.20000000000002 L231.0,160.20000000000002" fill="none" stroke="#888" stroke-width="0.75"/>
+<text x="233.0" y="163.86666666666667" font-family="system-ui, sans-serif" font-size="11.0px" fill="#ccc">Demerara Rum</text>
+<path d="M219.0,209.4 L227.0,209.4 L227.0,209.4 L231.0,209.4" fill="none" stroke="#888" stroke-width="0.75"/>
+<text x="233.0" y="213.06666666666666" font-family="system-ui, sans-serif" font-size="11.0px" fill="#ccc">Jamaican Rum</text>
+</svg>
