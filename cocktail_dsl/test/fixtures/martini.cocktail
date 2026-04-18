@@ -1,0 +1,14 @@
+# Martini
+family: martini
+glass: martini
+ice: none
+method: stir, strain
+
+spine:
+  2.5  gin
+  0.5  dry-vermouth
+
+accent:
+  1 dash  orange-bitters
+
+garnish: lemon-peel (expressed), olive

@@ -1,0 +1,14 @@
+# Manhattan
+family: martini
+glass: coupe
+ice: none
+method: stir, strain
+
+spine:
+  2  rye
+  1  sweet-vermouth
+
+accent:
+  2 dash  angostura
+
+garnish: cherry

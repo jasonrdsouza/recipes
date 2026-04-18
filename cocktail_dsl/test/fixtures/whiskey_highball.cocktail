@@ -1,0 +1,11 @@
+# Whiskey Highball
+family: whisky-highball
+glass: highball
+ice: small-cubes
+method: build, stir
+
+spine:
+  2  bourbon
+  4  soda-water
+
+garnish: none

@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Glass Tracer</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, sans-serif; background: #1a1a2e; color: #eee; display: flex; height: 100vh; }
+
+  #sidebar {
+    width: 340px; padding: 16px; overflow-y: auto; background: #16213e;
+    display: flex; flex-direction: column; gap: 12px;
+  }
+  #sidebar h2 { font-size: 14px; color: #aaa; text-transform: uppercase; letter-spacing: 1px; }
+
+  #glass-select { width: 100%; padding: 8px; font-size: 14px; background: #0f3460; color: #eee; border: 1px solid #444; border-radius: 4px; }
+  #glass-select option { background: #0f3460; }
+
+  .btn-row { display: flex; gap: 6px; flex-wrap: wrap; }
+  button {
+    padding: 6px 12px; font-size: 12px; border: 1px solid #444; border-radius: 4px;
+    cursor: pointer; background: #0f3460; color: #eee;
+  }
+  button:hover { background: #1a4a8a; }
+  button.active { background: #e94560; border-color: #e94560; }
+  button.danger { background: #8b0000; border-color: #8b0000; }
+
+  .mode-label { font-size: 11px; color: #888; margin-top: 4px; }
+
+  #preview-container {
+    margin-top: 8px; background: #222; border-radius: 4px; padding: 8px;
+    aspect-ratio: 1; width: 100%;
+  }
+  #preview-container svg { width: 100%; height: 100%; }
+
+  #output {
+    flex: 1; min-height: 120px; background: #0a0a1a; color: #7fdbca; font-family: monospace;
+    font-size: 11px; padding: 8px; border: 1px solid #333; border-radius: 4px;
+    white-space: pre-wrap; overflow-y: auto; resize: none;
+  }
+
+  #canvas-area {
+    flex: 1; position: relative; overflow: hidden; background: #111;
+  }
+  #canvas-area canvas { position: absolute; top: 0; left: 0; }
+  #img-canvas { z-index: 1; }
+  #draw-canvas { z-index: 2; }
+
+  #status { position: absolute; bottom: 8px; left: 8px; z-index: 10; font-size: 12px; color: #888; background: rgba(0,0,0,0.7); padding: 4px 8px; border-radius: 4px; }
+  #help { position: absolute; top: 8px; right: 8px; z-index: 10; font-size: 11px; color: #666; background: rgba(0,0,0,0.7); padding: 8px; border-radius: 4px; line-height: 1.6; }
+</style>
+</head>
+<body>
+
+<div id="sidebar">
+  <h2>Glass Tracer</h2>
+
+  <label style="font-size:12px; color:#888;">Glass type</label>
+  <select id="glass-select"></select>
+
+  <label style="font-size:12px; color:#888;">Tracing mode</label>
+  <div class="btn-row">
+    <button id="btn-outline" class="active" onclick="setMode('outline')">Outline</button>
+    <button id="btn-clip" onclick="setMode('clip')">Clip Path</button>
+  </div>
+  <div class="mode-label" id="mode-hint">Click to place points around the outer glass silhouette.</div>
+
+  <div class="btn-row">
+    <button onclick="undoPoint()">Undo</button>
+    <button onclick="closePath()">Close Path</button>
+    <button onclick="clearPath()">Clear</button>
+    <button onclick="smoothPath()">Smooth</button>
+  </div>
+
+  <div class="btn-row">
+    <button onclick="computeBounds()">Compute Bounds</button>
+    <button onclick="exportDart()" style="background:#2e7d32; border-color:#2e7d32;">Export Dart</button>
+    <button onclick="copyOutput()" style="background:#1565c0; border-color:#1565c0;">Copy</button>
+  </div>
+
+  <label style="font-size:12px; color:#888;">Fill fraction</label>
+  <input type="range" id="fill-slider" min="0" max="100" value="60" style="width:100%;"
+    oninput="fillFraction = this.value/100; document.getElementById('fill-val').textContent = (this.value/100).toFixed(2); redraw();">
+  <span id="fill-val" style="font-size:12px;">0.60</span>
+
+  <h2>Preview (240x240)</h2>
+  <div id="preview-container"></div>
+
+  <h2>Dart Output</h2>
+  <textarea id="output" readonly></textarea>
+</div>
+
+<div id="canvas-area">
+  <canvas id="img-canvas"></canvas>
+  <canvas id="draw-canvas"></canvas>
+  <div id="status">Load reference image to begin</div>
+  <div id="help">
+    <strong>Controls:</strong><br>
+    Click: place point<br>
+    Shift+Click: place + close<br>
+    Right-click: undo<br>
+    Scroll: zoom<br>
+    Middle-drag: pan<br>
+    Z: undo &nbsp; C: close &nbsp; S: smooth<br>
+    1: outline mode &nbsp; 2: clip mode
+  </div>
+</div>
+
+<script>
+// ── State ──────────────────────────────────────────────────
+const glassNames = [
+  'old-fashioned','rocks','double-rocks','tumbler','highball','collins','zombie','shot','shooter',
+  'martini','cosmopolitan','margarita','coupe','nick-nora','sour','pokal',
+  'red-wine','white-wine','rose-wine','port-wine','sherry','balloon','goblet','chalice','snifter','wobble',
+  'flute','tulip','nosing','grappa','pousse-cafe','cordial','liqueur',
+  'hurricane','poco-grande','sling','pilsner','weizenbier','pint','mule-mug','irish-coffee','milkshake',
+];
+
+let mode = 'outline'; // 'outline' or 'clip'
+let outlinePoints = [];
+let clipPoints = [];
+let outlineClosed = false;
+let clipClosed = false;
+let fillFraction = 0.60;
+let liquidBounds = null;
+
+// Image/canvas state
+let img = null;
+let zoom = 1;
+let panX = 0, panY = 0;
+let isPanning = false;
+let panStart = { x: 0, y: 0 };
+
+const imgCanvas = document.getElementById('img-canvas');
+const drawCanvas = document.getElementById('draw-canvas');
+const imgCtx = imgCanvas.getContext('2d');
+const drawCtx = drawCanvas.getContext('2d');
+const area = document.getElementById('canvas-area');
+
+// Stored per-glass data
+const glassData = {};
+
+// ── Init ───────────────────────────────────────────────────
+const select = document.getElementById('glass-select');
+glassNames.forEach(name => {
+  const opt = document.createElement('option');
+  opt.value = name;
+  opt.textContent = name;
+  select.appendChild(opt);
+});
+select.addEventListener('change', () => loadGlass(select.value));
+
+// Load reference image
+img = new Image();
+img.onload = () => {
+  resizeCanvases();
+  fitImage();
+  redraw();
+  document.getElementById('status').textContent =
+    `Image loaded: ${img.naturalWidth}x${img.naturalHeight} — Click to trace glass outlines`;
+};
+img.src = '../../../.plans/bar_glassware.jpg';
+
+function resizeCanvases() {
+  const w = area.clientWidth;
+  const h = area.clientHeight;
+  imgCanvas.width = drawCanvas.width = w;
+  imgCanvas.height = drawCanvas.height = h;
+}
+
+function fitImage() {
+  if (!img) return;
+  const w = area.clientWidth;
+  const h = area.clientHeight;
+  zoom = Math.min(w / img.naturalWidth, h / img.naturalHeight) * 0.95;
+  panX = (w - img.naturalWidth * zoom) / 2;
+  panY = (h - img.naturalHeight * zoom) / 2;
+}
+
+window.addEventListener('resize', () => { resizeCanvases(); redraw(); });
+
+// ── Coordinate transforms ──────────────────────────────────
+function screenToImg(sx, sy) {
+  return { x: (sx - panX) / zoom, y: (sy - panY) / zoom };
+}
+
+function imgToScreen(ix, iy) {
+  return { x: ix * zoom + panX, y: iy * zoom + panY };
+}
+
+// We normalize traced points to a 240x240 space.
+// The user traces on the image; we need a mapping from image coords to 240x240.
+// This mapping is set per-glass via a bounding region on the image.
+let traceOriginX = 0, traceOriginY = 0, traceScale = 1;
+
+function imgToNorm(ix, iy) {
+  return {
+    x: Math.round(((ix - traceOriginX) * traceScale) * 10) / 10,
+    y: Math.round(((iy - traceOriginY) * traceScale) * 10) / 10,
+  };
+}
+
+function normToImg(nx, ny) {
+  return {
+    x: nx / traceScale + traceOriginX,
+    y: ny / traceScale + traceOriginY,
+  };
+}
+
+// ── Glass selection & data ─────────────────────────────────
+function loadGlass(name) {
+  // Save current
+  saveCurrentGlass();
+  // Load
+  const data = glassData[name] || { outline: [], clip: [], outlineClosed: false, clipClosed: false, fillFraction: 0.6, liquidBounds: null };
+  outlinePoints = data.outline;
+  clipPoints = data.clip;
+  outlineClosed = data.outlineClosed;
+  clipClosed = data.clipClosed;
+  fillFraction = data.fillFraction;
+  liquidBounds = data.liquidBounds;
+  document.getElementById('fill-slider').value = fillFraction * 100;
+  document.getElementById('fill-val').textContent = fillFraction.toFixed(2);
+  redraw();
+}
+
+function saveCurrentGlass() {
+  const name = select.value;
+  glassData[name] = {
+    outline: outlinePoints,
+    clip: clipPoints,
+    outlineClosed,
+    clipClosed,
+    fillFraction,
+    liquidBounds,
+  };
+}
+
+// ── Drawing ────────────────────────────────────────────────
+function redraw() {
+  // Image layer
+  imgCtx.clearRect(0, 0, imgCanvas.width, imgCanvas.height);
+  if (img && img.complete) {
+    imgCtx.save();
+    imgCtx.translate(panX, panY);
+    imgCtx.scale(zoom, zoom);
+    imgCtx.drawImage(img, 0, 0);
+    imgCtx.restore();
+  }
+
+  // Draw layer
+  drawCtx.clearRect(0, 0, drawCanvas.width, drawCanvas.height);
+
+  // Draw outline path
+  drawPath(outlinePoints, outlineClosed, '#e94560', '#e9456066');
+  // Draw clip path
+  drawPath(clipPoints, clipClosed, '#45e9a0', '#45e9a066');
+
+  // Draw liquid bounds
+  if (liquidBounds) {
+    const tl = normToImg(liquidBounds.x, liquidBounds.y);
+    const br = normToImg(liquidBounds.x + liquidBounds.w, liquidBounds.y + liquidBounds.h);
+    const stl = imgToScreen(tl.x, tl.y);
+    const sbr = imgToScreen(br.x, br.y);
+    drawCtx.strokeStyle = '#ffd700';
+    drawCtx.lineWidth = 1;
+    drawCtx.setLineDash([4, 4]);
+    drawCtx.strokeRect(stl.x, stl.y, sbr.x - stl.x, sbr.y - stl.y);
+    drawCtx.setLineDash([]);
+  }
+
+  updatePreview();
+}
+
+function drawPath(points, closed, strokeColor, fillColor) {
+  if (points.length === 0) return;
+
+  drawCtx.beginPath();
+  for (let i = 0; i < points.length; i++) {
+    const p = normToImg(points[i].x, points[i].y);
+    const s = imgToScreen(p.x, p.y);
+    if (i === 0) drawCtx.moveTo(s.x, s.y);
+    else drawCtx.lineTo(s.x, s.y);
+  }
+  if (closed) drawCtx.closePath();
+
+  if (closed) {
+    drawCtx.fillStyle = fillColor;
+    drawCtx.fill();
+  }
+  drawCtx.strokeStyle = strokeColor;
+  drawCtx.lineWidth = 2;
+  drawCtx.stroke();
+
+  // Draw points
+  points.forEach((pt, i) => {
+    const p = normToImg(pt.x, pt.y);
+    const s = imgToScreen(p.x, p.y);
+    drawCtx.beginPath();
+    drawCtx.arc(s.x, s.y, 4, 0, Math.PI * 2);
+    drawCtx.fillStyle = i === 0 ? '#fff' : strokeColor;
+    drawCtx.fill();
+  });
+}
+
+// ── Preview ────────────────────────────────────────────────
+function updatePreview() {
+  const container = document.getElementById('preview-container');
+  const outlinePath = pointsToSvgPath(outlinePoints, outlineClosed);
+  const clipPath = clipPoints.length > 0 ? pointsToSvgPath(clipPoints, clipClosed) : outlinePath;
+
+  container.innerHTML = `
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+      <defs>
+        <clipPath id="pv-clip"><path d="${clipPath}"/></clipPath>
+      </defs>
+      <rect width="240" height="240" fill="#1a1a2e"/>
+      <g clip-path="url(#pv-clip)">
+        <rect x="0" y="${240 * (1 - fillFraction)}" width="240" height="${240 * fillFraction}" fill="#B8732A" opacity="0.6"/>
+      </g>
+      <path d="${outlinePath}" fill="none" stroke="#eee" stroke-width="2"/>
+      ${clipPath !== outlinePath ? `<path d="${clipPath}" fill="none" stroke="#45e9a0" stroke-width="1" stroke-dasharray="3 3"/>` : ''}
+      ${liquidBounds ? `<rect x="${liquidBounds.x}" y="${liquidBounds.y}" width="${liquidBounds.w}" height="${liquidBounds.h}" fill="none" stroke="#ffd700" stroke-width="1" stroke-dasharray="3 3"/>` : ''}
+    </svg>`;
+}
+
+// ── Path generation ────────────────────────────────────────
+function pointsToSvgPath(points, closed) {
+  if (points.length === 0) return '';
+  let d = `M${points[0].x},${points[0].y}`;
+  for (let i = 1; i < points.length; i++) {
+    d += ` L${points[i].x},${points[i].y}`;
+  }
+  if (closed) d += ' Z';
+  return d;
+}
+
+function pointsToSmoothedSvgPath(points, closed) {
+  if (points.length < 3) return pointsToSvgPath(points, closed);
+
+  const pts = closed ? [...points, points[0], points[1]] : points;
+  let d = `M${points[0].x},${points[0].y}`;
+
+  for (let i = 1; i < points.length; i++) {
+    const p0 = pts[i - 1];
+    const p1 = pts[i];
+    const p2 = pts[Math.min(i + 1, pts.length - 1)];
+
+    // Compute control points using Catmull-Rom to cubic bezier conversion
+    const tension = 0.35;
+    const cp1x = round(p0.x + (p1.x - (i > 1 ? pts[i-2].x : p0.x)) * tension);
+    const cp1y = round(p0.y + (p1.y - (i > 1 ? pts[i-2].y : p0.y)) * tension);
+    const cp2x = round(p1.x - (p2.x - p0.x) * tension);
+    const cp2y = round(p1.y - (p2.y - p0.y) * tension);
+
+    d += ` C${cp1x},${cp1y} ${cp2x},${cp2y} ${p1.x},${p1.y}`;
+  }
+
+  if (closed) {
+    // Close with a curve back to start
+    const pn = points[points.length - 1];
+    const p0 = points[0];
+    const p1 = points[1];
+    const pnm1 = points[points.length - 2];
+    const tension = 0.35;
+    const cp1x = round(pn.x + (p0.x - pnm1.x) * tension);
+    const cp1y = round(pn.y + (p0.y - pnm1.y) * tension);
+    const cp2x = round(p0.x - (p1.x - pn.x) * tension);
+    const cp2y = round(p0.y - (p1.y - pn.y) * tension);
+    d += ` C${cp1x},${cp1y} ${cp2x},${cp2y} ${p0.x},${p0.y} Z`;
+  }
+
+  return d;
+}
+
+function round(n) { return Math.round(n * 10) / 10; }
+
+// ── Smoothing ──────────────────────────────────────────────
+function smoothPath() {
+  // Smooth just updates the preview — the export will use bezier fitting
+  redraw();
+}
+
+// ── Actions ────────────────────────────────────────────────
+function setMode(m) {
+  mode = m;
+  document.getElementById('btn-outline').classList.toggle('active', m === 'outline');
+  document.getElementById('btn-clip').classList.toggle('active', m === 'clip');
+  document.getElementById('mode-hint').textContent =
+    m === 'outline' ? 'Click to place points around the outer glass silhouette.'
+                    : 'Click to place points around the interior (liquid area).';
+  redraw();
+}
+
+function currentPoints() { return mode === 'outline' ? outlinePoints : clipPoints; }
+function isClosed() { return mode === 'outline' ? outlineClosed : clipClosed; }
+function setClosed(v) { if (mode === 'outline') outlineClosed = v; else clipClosed = v; }
+
+function undoPoint() {
+  const pts = currentPoints();
+  if (pts.length > 0) {
+    pts.pop();
+    setClosed(false);
+    redraw();
+  }
+}
+
+function closePath() {
+  if (currentPoints().length >= 3) {
+    setClosed(true);
+    redraw();
+  }
+}
+
+function clearPath() {
+  if (mode === 'outline') { outlinePoints = []; outlineClosed = false; }
+  else { clipPoints = []; clipClosed = false; }
+  redraw();
+}
+
+function computeBounds() {
+  const pts = clipPoints.length > 0 ? clipPoints : outlinePoints;
+  if (pts.length < 3) return;
+  const xs = pts.map(p => p.x);
+  const ys = pts.map(p => p.y);
+  const minX = Math.min(...xs);
+  const minY = Math.min(...ys);
+  const maxX = Math.max(...xs);
+  const maxY = Math.max(...ys);
+  // Inset slightly
+  const inset = 3;
+  liquidBounds = {
+    x: round(minX + inset),
+    y: round(minY + inset),
+    w: round(maxX - minX - inset * 2),
+    h: round(maxY - minY - inset * 2),
+  };
+  redraw();
+}
+
+function exportDart() {
+  saveCurrentGlass();
+  const name = select.value;
+  const humanName = name.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+
+  const outlinePath = outlinePoints.length >= 3
+    ? pointsToSmoothedSvgPath(outlinePoints, outlineClosed)
+    : "''";
+  const clipPath = clipPoints.length >= 3
+    ? pointsToSmoothedSvgPath(clipPoints, clipClosed)
+    : outlinePath;
+
+  const lb = liquidBounds || { x: 0, y: 0, w: 240, h: 240 };
+
+  const dart = `Glass(
+  id: '${name}',
+  name: '${humanName}',
+  svgPath:
+      '${formatPathForDart(outlinePath)}',
+  liquidBounds: Rect(${lb.x}, ${lb.y}, ${lb.w}, ${lb.h}),
+  clipPathData:
+      '${formatPathForDart(clipPath)}',
+  defaultFillFraction: ${fillFraction.toFixed(2)},
+),`;
+
+  document.getElementById('output').value = dart;
+}
+
+function formatPathForDart(path) {
+  // Break long paths into multiple lines for readability
+  if (path.length < 80) return path;
+  return path.replace(/ ([MLCQAZ])/g, "'\n      '$1");
+}
+
+function copyOutput() {
+  const output = document.getElementById('output');
+  output.select();
+  navigator.clipboard.writeText(output.value);
+}
+
+// ── Mouse handling ─────────────────────────────────────────
+drawCanvas.addEventListener('mousedown', (e) => {
+  if (e.button === 1) { // Middle click — pan
+    isPanning = true;
+    panStart = { x: e.clientX - panX, y: e.clientY - panY };
+    e.preventDefault();
+    return;
+  }
+
+  if (e.button === 2) { // Right click — undo
+    undoPoint();
+    e.preventDefault();
+    return;
+  }
+
+  if (e.button === 0 && !isClosed()) { // Left click — place point
+    const rect = drawCanvas.getBoundingClientRect();
+    const sx = e.clientX - rect.left;
+    const sy = e.clientY - rect.top;
+    const imgPt = screenToImg(sx, sy);
+    const normPt = imgToNorm(imgPt.x, imgPt.y);
+
+    currentPoints().push({ x: round(normPt.x), y: round(normPt.y) });
+
+    if (e.shiftKey && currentPoints().length >= 3) {
+      setClosed(true);
+    }
+
+    redraw();
+    updateStatus();
+  }
+});
+
+drawCanvas.addEventListener('mousemove', (e) => {
+  if (isPanning) {
+    panX = e.clientX - panStart.x;
+    panY = e.clientY - panStart.y;
+    redraw();
+  }
+});
+
+drawCanvas.addEventListener('mouseup', (e) => {
+  if (e.button === 1) isPanning = false;
+});
+
+drawCanvas.addEventListener('wheel', (e) => {
+  e.preventDefault();
+  const rect = drawCanvas.getBoundingClientRect();
+  const mx = e.clientX - rect.left;
+  const my = e.clientY - rect.top;
+
+  const factor = e.deltaY < 0 ? 1.1 : 0.9;
+  const newZoom = zoom * factor;
+
+  // Zoom toward mouse position
+  panX = mx - (mx - panX) * (newZoom / zoom);
+  panY = my - (my - panY) * (newZoom / zoom);
+  zoom = newZoom;
+
+  redraw();
+}, { passive: false });
+
+drawCanvas.addEventListener('contextmenu', (e) => e.preventDefault());
+
+// ── Keyboard shortcuts ─────────────────────────────────────
+document.addEventListener('keydown', (e) => {
+  if (e.target.tagName === 'TEXTAREA' || e.target.tagName === 'INPUT') return;
+  switch(e.key) {
+    case 'z': case 'Z': undoPoint(); break;
+    case 'c': case 'C': closePath(); break;
+    case 's': case 'S': smoothPath(); break;
+    case '1': setMode('outline'); break;
+    case '2': setMode('clip'); break;
+    case 'b': case 'B': computeBounds(); break;
+    case 'e': case 'E': exportDart(); break;
+    case 'f': case 'F': fitImage(); redraw(); break;
+  }
+});
+
+function updateStatus() {
+  const pts = currentPoints();
+  document.getElementById('status').textContent =
+    `${select.value} | ${mode} mode | ${pts.length} points${isClosed() ? ' (closed)' : ''} | Zoom: ${(zoom * 100).toFixed(0)}%`;
+}
+
+// ── Set up initial trace region ────────────────────────────
+// Default: map the full image to 240x240
+// Users can adjust by setting the trace region
+function setTraceRegion(imgX, imgY, imgW, imgH) {
+  traceOriginX = imgX;
+  traceOriginY = imgY;
+  traceScale = 240 / Math.max(imgW, imgH);
+}
+
+// Default to full image
+img.addEventListener('load', () => {
+  setTraceRegion(0, 0, img.naturalWidth, img.naturalHeight);
+});
+
+updateStatus();
+</script>
+</body>
+</html>

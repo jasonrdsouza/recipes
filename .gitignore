@@ -2,6 +2,8 @@
 .packages
 pubspec.lock
 docs/
+.plans/
+.claude
 
 # Trello recipe board export
 recipes.json

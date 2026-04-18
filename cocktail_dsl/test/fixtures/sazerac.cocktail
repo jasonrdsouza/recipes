@@ -1,0 +1,18 @@
+# Sazerac
+family: old-fashioned
+glass: rocks
+ice: none
+method: stir, strain
+
+prep:
+  rinse absinthe
+
+spine:
+  2     rye
+  0.25  demerara-syrup
+
+accent:
+  3 dash  peychauds
+  1 dash  angostura
+
+garnish: lemon-peel (expressed, discarded)

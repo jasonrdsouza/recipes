@@ -1,0 +1,12 @@
+# Margarita
+family: sidecar
+glass: rocks
+ice: large-cube
+method: shake, strain
+
+spine:
+  2     blanco-tequila
+  1     cointreau
+  0.75  lime-juice
+
+garnish: lime-wheel, salt-rim

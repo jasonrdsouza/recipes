@@ -1,0 +1,12 @@
+# Daiquiri
+family: daiquiri
+glass: coupe
+ice: none
+method: shake, double-strain
+
+spine:
+  2     white-rum
+  1     lime-juice
+  0.75  simple-syrup
+
+garnish: lime-wheel

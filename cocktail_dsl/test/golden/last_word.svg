@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 360">
+<rect width="400" height="360" fill="#2C2C3A"/>
+<defs>
+<clipPath id="glass_clip_0"><path d="M91.0,90.0 L91.0,106.0 Q91.0,106.0 93.0,110.5 Q95.0,115.0 97.0,118.5 Q99.0,122.0 101.5,124.5 Q104.0,127.0 110.0,130.0 L110.0,130.0 Q110.0,130.0 111.0,131.0 Q112.0,132.0 112.5,132.5 Q113.0,133.0 114.0,133.5 Q115.0,134.0 116.0,134.0 Q117.0,134.0 118.5,134.5 Q120.0,135.0 121.5,134.5 Q123.0,134.0 124.0,134.0 Q125.0,134.0 126.0,133.5 Q127.0,133.0 127.5,132.5 Q128.0,132.0 130.0,130.0 L130.0,130.0 Q130.0,130.0 133.0,128.5 Q136.0,127.0 138.5,124.5 Q141.0,122.0 143.0,118.5 Q145.0,115.0 147.0,110.5 Q149.0,106.0 149.0,90.0 Z"/></clipPath>
+<clipPath id="offset_clip_1"><path d="M91.0,90.0 L91.0,106.0 Q91.0,106.0 93.0,110.5 Q95.0,115.0 97.0,118.5 Q99.0,122.0 101.5,124.5 Q104.0,127.0 110.0,130.0 L110.0,130.0 Q110.0,130.0 111.0,131.0 Q112.0,132.0 112.5,132.5 Q113.0,133.0 114.0,133.5 Q115.0,134.0 116.0,134.0 Q117.0,134.0 118.5,134.5 Q120.0,135.0 121.5,134.5 Q123.0,134.0 124.0,134.0 Q125.0,134.0 126.0,133.5 Q127.0,133.0 127.5,132.5 Q128.0,132.0 130.0,130.0 L130.0,130.0 Q130.0,130.0 133.0,128.5 Q136.0,127.0 138.5,124.5 Q141.0,122.0 143.0,118.5 Q145.0,115.0 147.0,110.5 Q149.0,106.0 149.0,90.0 Z" transform="translate(80.0,40.0)"/></clipPath>
+<linearGradient id="grad_2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e1ebe7"/><stop offset="100%" stop-color="#DCE7E3"/></linearGradient>
+<linearGradient id="grad_3" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#65904d"/><stop offset="100%" stop-color="#4A7C2E"/></linearGradient>
+<linearGradient id="grad_4" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f6eeda"/><stop offset="100%" stop-color="#F4EBD3"/></linearGradient>
+<linearGradient id="grad_5" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ebd84f"/><stop offset="100%" stop-color="#E8D130"/></linearGradient>
+</defs>
+<g transform="translate(80.0,40.0)">
+<path d="M85.0,90.0 L85.0,109.0 Q85.0,109.0 87.5,115.5 Q90.0,122.0 92.5,125.0 Q95.0,128.0 97.5,131.0 Q100.0,134.0 108.0,138.0 L108.0,138.0 Q108.0,138.0 109.0,138.5 Q110.0,139.0 111.0,139.5 Q112.0,140.0 113.0,141.0 Q114.0,142.0 115.5,142.5 Q117.0,143.0 118.5,143.0 Q120.0,143.0 121.5,143.0 Q123.0,143.0 124.5,142.5 Q126.0,142.0 127.0,141.0 Q128.0,140.0 129.0,139.5 Q130.0,139.0 132.0,138.0 L132.0,138.0 Q132.0,138.0 136.0,136.0 Q140.0,134.0 142.5,131.0 Q145.0,128.0 147.5,125.0 Q150.0,122.0 152.5,115.5 Q155.0,109.0 155.0,90.0 Z M118.0,144.0 L118.0,175.0 L118.0,205.0 L122.0,205.0 L122.0,175.0 L122.0,144.0 Z M116.0,205.0 L113.0,206.0 L108.0,207.0 L102.0,207.0 L96.0,208.0 L90.0,208.0 L90.0,208.0 L90.0,209.0 L91.0,210.0 L120.0,210.0 L149.0,210.0 L150.0,209.0 L150.0,208.0 L150.0,208.0 L144.0,208.0 L138.0,207.0 L132.0,207.0 L127.0,206.0 L124.0,205.0 Z" fill="rgba(255,255,255,0.95)" stroke="rgba(200,200,210,0.8)" stroke-width="1.5" stroke-linejoin="round"/>
+</g>
+<g clip-path="url(#offset_clip_1)">
+<rect x="171.0" y="164.875" width="58.0" height="30.125" fill="url(#grad_2)"><title>Gin</title></rect><rect x="171.0" y="154.75" width="58.0" height="10.125" fill="url(#grad_3)"><title>Green Chartreuse</title></rect><rect x="171.0" y="144.625" width="58.0" height="10.125" fill="url(#grad_4)"><title>Maraschino</title></rect><rect x="171.0" y="134.5" width="58.0" height="10.125" fill="url(#grad_5)"><title>Lime Juice</title></rect>
+</g>
+<path d="M229.0,139.5625 L237.0,139.5625 L237.0,139.5625 L241.0,139.5625" fill="none" stroke="#888" stroke-width="0.75"/>
+<text x="243.0" y="143.22916666666666" font-family="system-ui, sans-serif" font-size="11.0px" fill="#ccc">Lime Juice</text>
+<path d="M229.0,149.6875 L237.0,149.6875 L237.0,157.5625 L241.0,157.5625" fill="none" stroke="#888" stroke-width="0.75"/>
+<text x="243.0" y="161.22916666666666" font-family="system-ui, sans-serif" font-size="11.0px" fill="#ccc">Maraschino</text>
+<path d="M229.0,159.8125 L237.0,159.8125 L237.0,175.5625 L241.0,175.5625" fill="none" stroke="#888" stroke-width="0.75"/>
+<text x="243.0" y="179.22916666666666" font-family="system-ui, sans-serif" font-size="11.0px" fill="#ccc">Green Chartreuse</text>
+<path d="M229.0,169.9375 L237.0,169.9375 L237.0,193.5625 L241.0,193.5625" fill="none" stroke="#888" stroke-width="0.75"/>
+<text x="243.0" y="197.22916666666666" font-family="system-ui, sans-serif" font-size="11.0px" fill="#ccc">Gin</text>
+</svg>

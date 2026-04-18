@@ -1,0 +1,14 @@
+# Jungle Bird
+family: daiquiri
+glass: rocks
+ice: large-cube
+method: shake, strain
+
+spine:
+  1.5   jamaican-rum
+  0.75  campari
+  0.5   lime-juice
+  1.5   pineapple-juice
+  0.5   demerara-syrup
+
+garnish: pineapple-wedge
