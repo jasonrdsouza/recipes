@@ -1,16 +1,13 @@
 # Recipes
 Family recipe book and gastronomic observations
 
+The site is built automatically via GitHub Actions on every push to `master` and served at [recipes.dsouza.io](https://recipes.dsouza.io) via GitHub Pages.
+
 ## Usage
 
 Run dev server:
 ```
 dart run build_runner serve
-```
-
-Build site:
-```
-./build.sh
 ```
 
 Create new recipe:
