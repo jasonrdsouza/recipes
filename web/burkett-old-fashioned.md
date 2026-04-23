@@ -1,8 +1,23 @@
 ---
 title: "Burkett Old Fashioned"
 template: recipe.mustache
+slug: burkett-old-fashioned
 time: "2 minutes"
 makes: "1 serving"
+cocktail: |
+  # Burkett Old Fashioned
+  glass: old-fashioned
+  ice: large-cube
+  method: stir, strain
+
+  spine:
+    2     rye
+    0.5   averna
+    0.25  demerara-syrup
+
+  accent:
+    1 bsp maraschino-cherry-juice
+    2 dashes black-walnut-bitters
 ingredients:
   - 2oz Rye Whiskey **(Redemption High Rye)**
   - 0.5oz Amaro Averna

@@ -1,8 +1,21 @@
 ---
 title: "Tequila Old Fashioned"
 template: recipe.mustache
+slug: tequila-old-fashioned
 time: "2 minutes"
 makes: "1 servings"
+cocktail: |
+  # Tequila Old Fashioned
+  glass: old-fashioned
+  ice: large-cube
+  method: stir, strain
+
+  spine:
+    2    reposado-tequila
+    0.5  sage-simple-syrup
+
+  accent:
+    2 dashes orange-bitters
 ingredients:
   - 1 cup water
   - 1 cup sugar

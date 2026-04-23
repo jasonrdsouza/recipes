@@ -1,8 +1,19 @@
 ---
 title: "Red Hook"
 template: recipe.mustache
+slug: red-hook
 time: "2 minutes"
 makes: "1 servings"
+cocktail: |
+  # Red Hook
+  glass: coupe
+  ice: none
+  method: stir, strain
+
+  spine:
+    2    rye
+    0.5  punt-e-mes
+    0.5  maraschino
 ingredients:
   - 2oz Rye/ Bourbon whiskey
   - 0.5oz Punt e Mes

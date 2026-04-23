@@ -46,14 +46,14 @@ class LabelsRenderer {
         'L$elbowX,${band.midY} '
         'L$elbowX,$labelY '
         'L$labelX,$labelY" '
-        'fill="none" stroke="#888" stroke-width="0.75"/>',
+        'fill="none" stroke="var(--cocktail-leader)" stroke-width="0.75"/>',
       );
 
       // Label text
       svg.add(
         '<text x="${labelX + 2}" y="${labelY + fontSize / 3}" '
         'font-family="system-ui, sans-serif" font-size="${fontSize}px" '
-        'fill="#ccc">${_escapeXml(band.name)}</text>',
+        'fill="var(--cocktail-label)">${_escapeXml(band.name)}</text>',
       );
     }
   }

@@ -1,8 +1,24 @@
 ---
 title: "Hundred Year Cigar"
 template: recipe.mustache
+slug: hundred-year-cigar
 time: "2 minutes"
 makes: "1 servings"
+cocktail: |
+  # Hundred Year Cigar
+  glass: nick-nora
+  ice: none
+  method: stir, strain
+
+  spine:
+    1.75 aged-rum
+    0.5  cynar
+    0.5  benedictine
+    0.5  scotch
+
+  accent:
+    1 dash angostura
+    1 rinse absinthe
 ingredients:
   - 1.75oz Aged rum
   - 0.5oz Cynar

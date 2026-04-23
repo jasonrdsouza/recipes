@@ -1,8 +1,21 @@
 ---
 title: "Mai Tai"
 template: recipe.mustache
+slug: mai-tai
 time: "2 minutes"
 makes: "1 servings"
+cocktail: |
+  # Mai Tai
+  glass: rocks
+  ice: crushed
+  method: shake
+
+  spine:
+    2     aged-rum
+    0.75  lime-juice
+    0.5   dry-curacao
+    0.5   orgeat
+    0.5   simple-syrup
 ingredients:
   - 2oz Rum **(preferably an aged, dark rum)**
   - 0.5oz Orgeat

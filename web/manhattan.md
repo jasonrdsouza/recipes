@@ -1,8 +1,21 @@
 ---
 title: "Manhattan"
 template: recipe.mustache
+slug: manhattan
 time: "2 minutes"
 makes: "1 servings"
+cocktail: |
+  # Manhattan
+  glass: coupe
+  ice: none
+  method: stir, strain
+
+  spine:
+    2  rye
+    1  sweet-vermouth
+
+  accent:
+    1 dash angostura
 ingredients:
   - 2oz Rye Whiskey
   - 1oz Sweet Vermouth

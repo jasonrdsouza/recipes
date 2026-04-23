@@ -20,8 +20,9 @@ class GlassRenderer {
     // Draw glass: white fill with subtle gray stroke
     svg.add(
       '<path d="${_offset(glass.svgPath)}" '
-      'fill="rgba(255,255,255,0.95)" stroke="rgba(200,200,210,0.8)" '
-      'stroke-width="1.5" stroke-linejoin="round"/>',
+      'fill="var(--cocktail-glass-fill)" '
+      'stroke="var(--cocktail-glass-stroke)" '
+      'stroke-width="3" stroke-linejoin="round"/>',
     );
 
     return clipId;

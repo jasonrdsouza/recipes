@@ -1,8 +1,22 @@
 ---
 title: "Old Fashioned"
 template: recipe.mustache
+slug: old-fashioned
 time: "2 minutes"
 makes: "1"
+cocktail: |
+  # Old Fashioned
+  glass: old-fashioned
+  ice: large-cube
+  method: stir, strain
+
+  spine:
+    2     bourbon
+    0.25  demerara-syrup
+
+  accent:
+    4 dash angostura
+    1 pinch saline-solution
 ingredients:
   - Overproofed Bourbon or Rye Whiskey
   - Sugar

@@ -1,8 +1,22 @@
 ---
 title: "Capitol Reef"
 template: recipe.mustache
+slug: capitol-reef
 time: "2 minutes"
 makes: "1 serving"
+cocktail: |
+  # Capitol Reef
+  glass: rocks
+  ice: large-cube
+  method: stir, strain
+
+  spine:
+    1    mezcal
+    0.75 cardamaro
+    0.5  gran-classico
+
+  accent:
+    1 bsp simple-syrup
 ingredients:
   - 1oz Flor del Desierto
   - 0.75oz Cardamaro

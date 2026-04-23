@@ -1,0 +1,10 @@
+builders:
+  cocktail_svg:
+    import: "package:dsouza_recipes/cocktail_builder.dart"
+    builder_factories: ["cocktailSvgBuilder"]
+    build_extensions:
+      .md:
+        - .cocktail.svg
+    auto_apply: root_package
+    required_inputs:
+      - .md

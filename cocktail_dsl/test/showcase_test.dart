@@ -114,10 +114,10 @@ ice: none
 method: build, stir
 
 spine:
-  2     rye
-  0.25  demerara-syrup
+  2  rye
 
 accent:
+  1 bsp rich-demerara-syrup
   2 dash angostura
   1 dash orange-bitters
 
@@ -214,7 +214,7 @@ spine:
   0.5  lime-juice
 ''',
     'sour': '''
-# Whiskey Sour
+# New York Sour
 glass: sour
 ice: none
 method: shake, strain
@@ -225,6 +225,7 @@ spine:
   0.75  simple-syrup
 
 accent:
+  1 float red-wine
   2 dash angostura
 
 garnish: cherry
@@ -339,14 +340,12 @@ glass: tulip
 ice: none
 method: stir, strain
 
-prep:
-  rinse absinthe
-
 spine:
   2     rye
   0.25  demerara-syrup
 
 accent:
+  1 rinse absinthe
   3 dash peychauds
   1 dash angostura
 
@@ -428,7 +427,9 @@ spine:
         final recipe = CocktailParser.parse(entry.value);
         cards.writeln(
           '  <div class="card">'
-          '<div class="svg-wrap"><img src="$id.svg"></div>'
+          '<div class="svg-wrap">'
+          '<object type="image/svg+xml" data="$id.svg"></object>'
+          '</div>'
           '<div class="label">${recipe.title}</div>'
           '<div class="glass-type">$id</div>'
           '</div>',
@@ -442,14 +443,14 @@ spine:
 <title>Cocktail Showcase</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { background: #1a1a2e; color: #ccc; font-family: system-ui, sans-serif; padding: 24px; }
-  h1 { text-align: center; margin-bottom: 32px; font-size: 20px; color: #888; text-transform: uppercase; letter-spacing: 2px; }
+  body { background: white; color: #222; font-family: system-ui, sans-serif; padding: 24px; }
+  h1 { text-align: center; margin-bottom: 32px; font-size: 20px; color: #666; text-transform: uppercase; letter-spacing: 2px; }
   .gallery { max-width: 700px; margin: 0 auto; display: flex; flex-direction: column; gap: 32px; }
-  .card { background: #16213e; border-radius: 12px; padding: 16px; text-align: center; }
-  .svg-wrap { width: 100%; }
-  .svg-wrap img { width: 100%; }
-  .label { font-size: 18px; color: #eee; margin-top: 8px; font-weight: 600; }
-  .glass-type { font-size: 12px; color: #666; margin-top: 2px; }
+  .card { background: #fafafa; border: 1px solid #e5e5e5; border-radius: 12px; padding: 16px; text-align: center; }
+  .svg-wrap { width: 100%; aspect-ratio: 400/360; }
+  .svg-wrap object { width: 100%; height: 100%; pointer-events: auto; }
+  .label { font-size: 18px; color: #222; margin-top: 8px; font-weight: 600; }
+  .glass-type { font-size: 12px; color: #999; margin-top: 2px; }
 </style>
 </head>
 <body>

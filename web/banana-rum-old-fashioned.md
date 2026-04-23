@@ -1,8 +1,22 @@
 ---
 title: "Banana Rum Old Fashioned"
 template: recipe.mustache
+slug: banana-rum-old-fashioned
 time: "2 minutes"
 makes: "1 servings"
+cocktail: |
+  # Banana Rum Old Fashioned
+  glass: old-fashioned
+  ice: large-cube
+  method: stir, strain
+
+  spine:
+    1    bourbon
+    1    white-rum
+    0.5  creme-de-banane
+
+  accent:
+    1 dash angostura
 ingredients:
   - 1oz High proof bourbon **(BiB or Cask strength)**
   - 1oz Light rum

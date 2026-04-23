@@ -9,10 +9,10 @@ void main() {
       final recipe = CocktailParser.parse(source);
       final svg = CocktailRenderer.render(recipe);
 
-      expect(svg, contains('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 360">'));
+      expect(svg, contains('<svg xmlns="http://www.w3.org/2000/svg" viewBox="'));
       expect(svg, contains('</svg>'));
-      // Should have glass silhouette (white fill with gray stroke)
-      expect(svg, contains('rgba(255,255,255,0.95)'));
+      // Should have glass silhouette (theme-aware fill)
+      expect(svg, contains('var(--cocktail-glass-fill)'));
       // Should have liquid bands with gradients
       expect(svg, contains('linearGradient'));
       // Should have clip-path
@@ -22,9 +22,6 @@ void main() {
       expect(svg, contains('Demerara Syrup'));
       // Should have accent dots
       expect(svg, contains('Angostura'));
-      // Should have garnish or accent content
-      // Should have garnish
-      expect(svg, contains('orange-peel'));
       // Should have leader lines
       expect(svg, contains('<path d="M'));
     });

@@ -1,8 +1,21 @@
 ---
 title: "Martini"
 template: recipe.mustache
+slug: martini
 time: "2 minutes"
 makes: "1"
+cocktail: |
+  # Martini
+  glass: martini
+  ice: none
+  method: stir, strain
+
+  spine:
+    2.5  gin
+    0.5  dry-vermouth
+
+  accent:
+    1 dash orange-bitters
 ingredients:
   - Gin **(Bombay Sapphire, Suntory Roku)**
   - Dry Vermouth **(Carpano Bianco)**

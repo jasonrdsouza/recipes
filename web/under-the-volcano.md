@@ -1,8 +1,22 @@
 ---
 title: "Under the Volcano"
 template: recipe.mustache
+slug: under-the-volcano
 time: "2 minutes"
 makes: "1 cocktail"
+cocktail: |
+  # Under the Volcano
+  glass: rocks
+  ice: large-cube
+  method: stir, strain
+
+  spine:
+    1  mezcal
+    1  oloroso-sherry
+    1  nonino
+
+  accent:
+    1 dash mole-bitters
 ingredients:
   - 1 oz Mezcal
   - 1 oz Lustau East India Solera Sherry

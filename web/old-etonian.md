@@ -1,8 +1,22 @@
 ---
 title: "Old Etonian"
 template: recipe.mustache
+slug: old-etonian
 time: "2 minutes"
 makes: "1 serving"
+cocktail: |
+  # Old Etonian
+  glass: coupe
+  ice: none
+  method: shake, double-strain
+
+  spine:
+    1.5   gin
+    1.5   lillet-blanc
+    0.25  creme-de-noyaux
+
+  accent:
+    2 dashes orange-bitters
 ingredients:
   - 1.5oz Gin
   - 1.5oz Lillet Blanc

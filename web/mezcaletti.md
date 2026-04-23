@@ -1,8 +1,21 @@
 ---
 title: "Mezcaletti"
 template: recipe.mustache
+slug: mezcaletti
 time: "2 minutes"
 makes: "1 servings"
+cocktail: |
+  # Mezcaletti
+  glass: rocks
+  ice: large-cube
+  method: build, stir
+
+  spine:
+    1    mezcal
+    1    amaro-meletti
+
+  accent:
+    2 dash orange-bitters
 ingredients:
   - 1oz Mezcal
   - 1oz Amaro Meletti

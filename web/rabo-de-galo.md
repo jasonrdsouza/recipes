@@ -1,8 +1,19 @@
 ---
 title: "Rabo de Galo"
 template: recipe.mustache
+slug: rabo-de-galo
 time: "2 minutes"
 makes: "1 servings"
+cocktail: |
+  # Rabo de Galo
+  glass: rocks
+  ice: large-cube
+  method: stir, strain
+
+  spine:
+    1.5  cachaca
+    1    sweet-vermouth
+    0.5  cynar
 ingredients:
   - 1.5oz Cachaca
   - 1oz Sweet vermouth **(Cinzano)**

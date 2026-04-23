@@ -1,8 +1,19 @@
 ---
 title: "Sentimental Gentleman"
 template: recipe.mustache
+slug: sentimental-gentleman
 time: "2 minutes"
 makes: "1 servings"
+cocktail: |
+  # Sentimental Gentleman
+  glass: rocks
+  ice: large-cube
+  method: build, stir
+
+  spine:
+    2    scotch
+    0.5  benedictine
+    0.5  walnut-liqueur
 ingredients:
   - 2oz Scotch **(or Bourbon)**
   - 0.5oz Benedictine

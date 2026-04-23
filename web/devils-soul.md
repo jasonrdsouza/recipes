@@ -1,8 +1,21 @@
 ---
 title: "Devils Soul"
 template: recipe.mustache
+slug: devils-soul
 time: "2 minutes"
 makes: "1 serving"
+cocktail: |
+  # Devils Soul
+  glass: coupe
+  ice: none
+  method: stir, strain
+
+  spine:
+    1.5  rye
+    0.5  mezcal
+    0.5  averna
+    0.25 aperol
+    0.25 st-germain
 ingredients:
   - 1.5oz Rye
   - 0.5oz Mezcal

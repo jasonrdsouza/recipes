@@ -1,8 +1,19 @@
 ---
 title: "Midnight Marauder"
 template: recipe.mustache
+slug: midnight-marauder
 time: "2 minutes"
 makes: "1 serving"
+cocktail: |
+  # Midnight Marauder
+  glass: coupe
+  ice: none
+  method: stir, strain
+
+  spine:
+    1    mezcal
+    1    cynar
+    1    sweet-vermouth
 ingredients:
   - 1oz Mezcal
   - 1oz Cynar

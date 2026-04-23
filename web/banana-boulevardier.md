@@ -1,8 +1,20 @@
 ---
 title: "Banana Boulevardier"
 template: recipe.mustache
+slug: banana-boulevardier
 time: "2 minutes"
 makes: "1 servings"
+cocktail: |
+  # Banana Boulevardier
+  glass: old-fashioned
+  ice: large-cube
+  method: stir, strain
+
+  spine:
+    1    bourbon
+    1    sweet-vermouth
+    0.5  campari
+    0.5  creme-de-banane
 ingredients:
   - 1oz Bourbon
   - 1oz Sweet Vermouth

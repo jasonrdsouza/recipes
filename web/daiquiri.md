@@ -1,8 +1,19 @@
 ---
 title: "Daiquiri"
 template: recipe.mustache
+slug: daiquiri
 time: "2 minutes"
 makes: "1 cocktail"
+cocktail: |
+  # Daiquiri
+  glass: coupe
+  ice: none
+  method: shake, double-strain
+
+  spine:
+    2     white-rum
+    0.75  lime-juice
+    0.75  simple-syrup
 ingredients:
   - 2 oz rum
   - 0.75 oz fresh lime juice

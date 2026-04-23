@@ -2393,7 +2393,7 @@
     "stem": null,
     "base": null,
     "handle": null,
-    "fill_fraction": 0.5
+    "fill_fraction": 0.7
   },
   {
     "id": "rocks",
@@ -2577,7 +2577,7 @@
     "stem": null,
     "base": null,
     "handle": null,
-    "fill_fraction": 0.5
+    "fill_fraction": 0.7
   },
   {
     "id": "tumbler",
@@ -2761,7 +2761,7 @@
     "stem": null,
     "base": null,
     "handle": null,
-    "fill_fraction": 0.5
+    "fill_fraction": 0.7
   },
   {
     "id": "nick-nora",
@@ -6857,7 +6857,7 @@
       ]
     },
     "handle": null,
-    "fill_fraction": 0.4
+    "fill_fraction": 0.7
   },
   {
     "id": "flute",

@@ -1,8 +1,21 @@
 ---
 title: "Maserati"
 template: recipe.mustache
+slug: maserati
 time: "2 minutes"
 makes: "1 servings"
+cocktail: |
+  # Maserati
+  glass: rocks
+  ice: large-cube
+  method: build, stir
+
+  spine:
+    1    mezcal
+    1    amaro-ramazzotti
+
+  accent:
+    2 dash angostura
 ingredients:
   - 1oz Mezcal
   - 1oz Amaro Ramazzotti

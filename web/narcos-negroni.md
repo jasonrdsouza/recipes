@@ -1,8 +1,19 @@
 ---
 title: "Narcos Negroni"
 template: recipe.mustache
+slug: narcos-negroni
 time: "2 minutes"
 makes: "1 servings"
+cocktail: |
+  # Narcos Negroni
+  glass: rocks
+  ice: large-cube
+  method: stir, strain
+
+  spine:
+    1  mezcal
+    1  campari
+    1  sweet-vermouth
 ingredients:
   - Mezcal
   - Campari

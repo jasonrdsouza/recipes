@@ -1,8 +1,22 @@
 ---
 title: "Black Prince"
 template: recipe.mustache
+slug: black-prince
 time: "2 minutes"
 makes: "1 serving"
+cocktail: |
+  # Black Prince
+  glass: coupe
+  ice: none
+  method: stir, strain
+
+  spine:
+    2     aged-rum
+    0.75  punt-e-mes
+    0.5   averna
+
+  accent:
+    1 dash orange-bitters
 ingredients:
   - 2oz Aged Rum
   - 0.75oz Punt e Mes

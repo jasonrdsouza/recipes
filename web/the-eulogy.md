@@ -1,8 +1,20 @@
 ---
 title: "The Eulogy"
 template: recipe.mustache
+slug: the-eulogy
 time: "2 minutes"
 makes: "1 servings"
+cocktail: |
+  # The Eulogy
+  glass: nick-nora
+  ice: none
+  method: shake, double-strain
+
+  spine:
+    0.75  batavia-arrack
+    0.75  lime-juice
+    0.75  strega
+    0.75  falernum
 ingredients:
   - 0.75oz Batavia Arrack
   - 0.75oz lime juice

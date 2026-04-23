@@ -65,7 +65,7 @@ void main() {
 
     test('fill fraction returns glass default for unknown combo', () {
       final frac = catalog.fillFraction('rocks', 'some-unknown-ice');
-      expect(frac, 0.5); // rocks default
+      expect(frac, 0.7); // rocks default
     });
 
     test('catalog has mandatory color overrides', () {

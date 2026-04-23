@@ -1,8 +1,23 @@
 ---
 title: "Smokey Old Fashioned"
 template: recipe.mustache
+slug: smokey-old-fashioned
 time: "2 minutes"
 makes: "1 cocktail"
+cocktail: |
+  # Smokey Old Fashioned
+  glass: old-fashioned
+  ice: large-cube
+  method: build, stir
+
+  spine:
+    1    bourbon
+    1    scotch
+    0.5  maple-syrup
+
+  accent:
+    2 dashes angostura
+    2 dashes chocolate-bitters
 ingredients:
   - 1 oz overproofed bourbon
   - 1 oz peaty scotch

@@ -1,8 +1,19 @@
 ---
 title: "Flaneur"
 template: recipe.mustache
+slug: flaneur
 time: "2 minutes"
 makes: "1"
+cocktail: |
+  # Flaneur
+  glass: old-fashioned
+  ice: large-cube
+  method: stir, strain
+
+  spine:
+    1.5  rye
+    0.5  cynar
+    0.5  aperol
 ingredients:
   - 3 parts Rye Whiskey **(Bulliet)**
   - 1 part Cynar

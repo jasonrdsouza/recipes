@@ -1,8 +1,19 @@
 ---
 title: "Encyclopedia Brown #2"
 template: recipe.mustache
+slug: encyclopedia-brown-2
 time: "2 minutes"
 makes: "1 servings"
+cocktail: |
+  # Encyclopedia Brown #2
+  glass: rocks
+  ice: large-cube
+  method: build, stir
+
+  spine:
+    1.5  bourbon
+    1    east-india-sherry
+    0.5  bigallet-china-china
 ingredients:
   - 1.5oz Bourbon
   - 1oz East India Sherry

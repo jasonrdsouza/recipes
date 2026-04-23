@@ -3,16 +3,17 @@ import 'svg_builder.dart';
 
 /// Renders accent dots/ticks above the glass rim.
 class AccentRenderer {
-  static const double regionY = 20.0;
   static const double dotRadius = 4.0;
   static const double tickWidth = 8.0;
   static const double tickHeight = 6.0;
+  static const double gapAboveRim = 12.0;
 
   /// Countable units render as dots; non-countable as ticks.
   static const _countableUnits = {Unit.dash, Unit.drop, Unit.pinch};
 
-  static void renderAccents(List<AccentLine> accents, SvgBuilder svg) {
+  static void renderAccents(List<AccentLine> accents, double glassTop, SvgBuilder svg) {
     if (accents.isEmpty) return;
+    final regionY = glassTop - gapAboveRim;
 
     // Collect all visual items (dots and ticks)
     final items = <_AccentItem>[];

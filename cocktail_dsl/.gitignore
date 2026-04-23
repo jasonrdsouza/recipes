@@ -1,0 +1,7 @@
+.dart_tool/
+.packages
+build/
+.DS_Store
+
+# Generated test artifacts
+test/golden/

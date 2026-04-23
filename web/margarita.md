@@ -1,8 +1,20 @@
 ---
 title: "Margarita"
 template: recipe.mustache
+slug: margarita
 time: "2 minutes"
 makes: "1 servings"
+cocktail: |
+  # Margarita
+  glass: margarita
+  ice: none
+  method: shake, strain
+
+  spine:
+    2     blanco-tequila
+    1     lime-juice
+    1     cointreau
+    0.25  agave-syrup
 ingredients:
   - Tequila
   - Cointreau **(or alternative triple sec)**

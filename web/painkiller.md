@@ -1,8 +1,23 @@
 ---
 title: "Painkiller"
 template: recipe.mustache
+slug: painkiller
 time: "2 minutes"
 makes: "1 serving"
+cocktail: |
+  # Painkiller
+  glass: hurricane
+  ice: large-cube
+  method: shake, strain
+
+  spine:
+    3  aged-rum
+    2  pineapple-juice
+    1  orange-juice
+    1  cream-of-coconut
+
+  accent:
+    1 pinch nutmeg
 ingredients:
   - 1oz Cream of Coconut
   - 1oz orange Juice
