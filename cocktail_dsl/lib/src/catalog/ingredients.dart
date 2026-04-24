@@ -25,8 +25,8 @@ const allIngredients = <Ingredient>[
     id: 'scotch',
     name: 'Scotch',
     category: Category.whiskey,
-    color: 'B8732A',
-    aliases: ['scotch whisky', 'scotch-whisky', 'blended scotch'],
+    color: 'C98F3A',
+    aliases: ['scotch whisky', 'scotch-whisky', 'blended scotch', 'peaty scotch'],
   ),
   Ingredient(
     id: 'irish-whiskey',
@@ -85,7 +85,7 @@ const allIngredients = <Ingredient>[
     id: 'white-rum',
     name: 'White Rum',
     category: Category.rum,
-    color: 'C88B4A',
+    color: 'F0EADC',
     aliases: ['light rum', 'silver rum', 'white-rum'],
   ),
   Ingredient(
@@ -113,7 +113,7 @@ const allIngredients = <Ingredient>[
     id: 'agricole-blanc',
     name: 'Rhum Agricole Blanc',
     category: Category.rum,
-    color: 'C88B4A',
+    color: 'F0EADC',
     aliases: ['rhum agricole blanc', 'white agricole', 'agricole blanc'],
   ),
   Ingredient(
@@ -202,6 +202,13 @@ const allIngredients = <Ingredient>[
     aliases: ['red vermouth', 'italian vermouth', 'rosso vermouth'],
   ),
   Ingredient(
+    id: 'punt-e-mes',
+    name: 'Punt e Mes',
+    category: Category.fortifiedWine,
+    color: '6E1F2A',
+    aliases: ['carpano punt e mes', 'punt-e-mes'],
+  ),
+  Ingredient(
     id: 'dry-vermouth',
     name: 'Dry Vermouth',
     category: Category.fortifiedWine,
@@ -278,6 +285,13 @@ const allIngredients = <Ingredient>[
     color: '6E1F2A',
     aliases: ['porto branco'],
   ),
+  Ingredient(
+    id: 'east-india-sherry',
+    name: 'East India Sherry',
+    category: Category.fortifiedWine,
+    color: '5C3A1A',
+    aliases: ['east india solera sherry', 'lustau east india'],
+  ),
 
   // ─── Liqueurs ──────────────────────────────────────────────────────────
   Ingredient(
@@ -288,10 +302,17 @@ const allIngredients = <Ingredient>[
     aliases: ['triple sec', 'orange liqueur'],
   ),
   Ingredient(
+    id: 'bigallet-china-china',
+    name: 'Bigallet China-China',
+    category: Category.liqueur,
+    color: 'B85826',
+    aliases: ['china china amer', 'bigallet'],
+  ),
+  Ingredient(
     id: 'dry-curacao',
     name: 'Dry Curacao',
     category: Category.liqueur,
-    color: 'B8869C',
+    color: 'C97A2A',
     aliases: ['dry curaçao', 'pierre ferrand dry curacao', 'orange curacao'],
   ),
   Ingredient(
@@ -312,7 +333,7 @@ const allIngredients = <Ingredient>[
     id: 'benedictine',
     name: 'Benedictine',
     category: Category.liqueur,
-    color: 'B8869C',
+    color: 'C9A34A',
     aliases: ['dom benedictine', 'b&b'],
   ),
   Ingredient(
@@ -386,6 +407,18 @@ const allIngredients = <Ingredient>[
     aliases: ['scotch liqueur', 'honey scotch liqueur'],
   ),
   Ingredient(
+    id: 'creme-de-banane',
+    name: 'Creme de Banane',
+    category: Category.liqueur,
+    color: 'E8C547',
+    aliases: [
+      'banane du bresil',
+      'giffard banane du bresil',
+      'banana liqueur',
+      'creme de bananes',
+    ],
+  ),
+  Ingredient(
     id: 'blue-curacao',
     name: 'Blue Curacao',
     category: Category.liqueur,
@@ -396,14 +429,14 @@ const allIngredients = <Ingredient>[
     id: 'st-germain',
     name: 'St-Germain',
     category: Category.liqueur,
-    color: 'B8869C',
+    color: 'E0C850',
     aliases: ['st germain', 'elderflower liqueur', 'st. germain'],
   ),
   Ingredient(
     id: 'absinthe',
     name: 'Absinthe',
     category: Category.liqueur,
-    color: 'B8869C',
+    color: '9FC83E',
     aliases: ['absinthe verte', 'absinthe blanche'],
   ),
 
@@ -464,13 +497,27 @@ const allIngredients = <Ingredient>[
     color: '4A2418',
     aliases: ['amaro braulio', 'braulio alpino'],
   ),
+  Ingredient(
+    id: 'cardamaro',
+    name: 'Cardamaro',
+    category: Category.amaro,
+    color: '8F5A2A',
+    aliases: ['amaro cardamaro'],
+  ),
+  Ingredient(
+    id: 'gran-classico',
+    name: 'Gran Classico',
+    category: Category.amaro,
+    color: 'A14520',
+    aliases: ['gran classico bitter', 'tempus fugit gran classico'],
+  ),
 
   // ─── Citrus ────────────────────────────────────────────────────────────
   Ingredient(
     id: 'lime-juice',
     name: 'Lime Juice',
     category: Category.citrus,
-    color: 'E8D130',
+    color: 'AED544',
     aliases: ['lime', 'fresh lime juice', 'fresh lime'],
   ),
   Ingredient(
@@ -500,7 +547,7 @@ const allIngredients = <Ingredient>[
     id: 'simple-syrup',
     name: 'Simple Syrup',
     category: Category.sweetener,
-    color: 'D4A853',
+    color: 'F0E4B8',
     aliases: ['1:1 syrup', 'sugar syrup'],
   ),
   Ingredient(
@@ -528,8 +575,15 @@ const allIngredients = <Ingredient>[
     id: 'grenadine',
     name: 'Grenadine',
     category: Category.sweetener,
-    color: 'D4A853',
+    color: 'B3182F',
     aliases: ['pomegranate syrup'],
+  ),
+  Ingredient(
+    id: 'maraschino-cherry-juice',
+    name: 'Maraschino Cherry Juice',
+    category: Category.sweetener,
+    color: '8B1820',
+    aliases: ['luxardo cherry juice', 'cherry syrup'],
   ),
   Ingredient(
     id: 'orgeat',
@@ -574,6 +628,13 @@ const allIngredients = <Ingredient>[
     category: Category.bitters,
     color: 'C83E3E',
     aliases: ['peychaud\'s', 'peychauds bitters'],
+  ),
+  Ingredient(
+    id: 'black-walnut-bitters',
+    name: 'Black Walnut Bitters',
+    category: Category.bitters,
+    color: '3D2416',
+    aliases: ['walnut bitters'],
   ),
 
   // ─── Accents ───────────────────────────────────────────────────────────

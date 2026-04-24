@@ -63,18 +63,12 @@ class BandsRenderer {
           '</rect>',
         );
       } else {
-        final gradId = svg.nextId('grad');
-        final lighter = _lighten(color, 0.15);
-        svg.addDef(
-          '<linearGradient id="$gradId" x1="0" y1="0" x2="0" y2="1">'
-          '<stop offset="0%" stop-color="#$lighter"/>'
-          '<stop offset="100%" stop-color="#$color"/>'
-          '</linearGradient>',
-        );
+        // Flat fill with saturation-boosted color.
+        final popColor = _saturate(color, 1.5);
         bandSvg.write(
           '<rect x="$renderX" y="$currentY" '
           'width="$renderWidth" height="$renderHeight" '
-          'fill="url(#$gradId)">'
+          'fill="#$popColor">'
           '<title>${_escapeXml(ingredient.displayName)}</title>'
           '</rect>',
         );
@@ -95,17 +89,18 @@ class BandsRenderer {
     return bands;
   }
 
-  /// Lighten a hex color by [factor] (0.0–1.0).
-  static String _lighten(String hex, double factor) {
-    final r = int.parse(hex.substring(0, 2), radix: 16);
-    final g = int.parse(hex.substring(2, 4), radix: 16);
-    final b = int.parse(hex.substring(4, 6), radix: 16);
-    final lr = (r + (255 - r) * factor).round().clamp(0, 255);
-    final lg = (g + (255 - g) * factor).round().clamp(0, 255);
-    final lb = (b + (255 - b) * factor).round().clamp(0, 255);
-    return '${lr.toRadixString(16).padLeft(2, '0')}'
-        '${lg.toRadixString(16).padLeft(2, '0')}'
-        '${lb.toRadixString(16).padLeft(2, '0')}';
+  /// Push a color away from its own luminance by [factor] to boost saturation.
+  static String _saturate(String hex, double factor) {
+    final r = int.parse(hex.substring(0, 2), radix: 16) / 255;
+    final g = int.parse(hex.substring(2, 4), radix: 16) / 255;
+    final b = int.parse(hex.substring(4, 6), radix: 16) / 255;
+    final lum = 0.299 * r + 0.587 * g + 0.114 * b;
+    final nr = (lum + (r - lum) * factor).clamp(0.0, 1.0);
+    final ng = (lum + (g - lum) * factor).clamp(0.0, 1.0);
+    final nb = (lum + (b - lum) * factor).clamp(0.0, 1.0);
+    return '${(nr * 255).round().toRadixString(16).padLeft(2, '0')}'
+        '${(ng * 255).round().toRadixString(16).padLeft(2, '0')}'
+        '${(nb * 255).round().toRadixString(16).padLeft(2, '0')}';
   }
 
   static String _escapeXml(String s) =>

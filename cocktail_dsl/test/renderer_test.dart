@@ -14,7 +14,7 @@ void main() {
       // Should have glass silhouette (theme-aware fill)
       expect(svg, contains('var(--cocktail-glass-fill)'));
       // Should have liquid bands with gradients
-      expect(svg, contains('linearGradient'));
+      expect(svg, contains('<rect'));
       // Should have clip-path
       expect(svg, contains('clipPath'));
       // Should have ingredient labels
