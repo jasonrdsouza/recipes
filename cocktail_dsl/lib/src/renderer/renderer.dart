@@ -15,16 +15,20 @@ class CocktailRenderer {
     final catalog = Catalog();
     final fillFraction = catalog.fillFraction(recipe.glass.id, recipe.ice.id);
 
-    // Compute a tight viewBox based on the glass's actual Y extent.
-    final glassBounds = _glassYBounds(recipe.glass);
+    // Compute a tight viewBox based on the glass's actual extents.
+    final bounds = _glassBounds(recipe.glass);
     final hasAccents = recipe.accent.isNotEmpty;
     // Top margin: room for accent dots if present, otherwise small padding.
     final topMargin = hasAccents ? 24.0 : 8.0;
-    final topY = glassBounds[0] + GlassRenderer.offsetY - topMargin;
-    final bottomY = glassBounds[1] + GlassRenderer.offsetY + 8.0;
-    svg.viewBoxX = 0;
+    final topY = bounds.minY + GlassRenderer.offsetY - topMargin;
+    final bottomY = bounds.maxY + GlassRenderer.offsetY + 8.0;
+    // X bounds: tight to the glass on the left, extra room on the right for labels.
+    final leftX = bounds.minX + GlassRenderer.offsetX - 8.0;
+    const labelGutterWidth = 110.0;
+    final rightX = bounds.maxX + GlassRenderer.offsetX + labelGutterWidth;
+    svg.viewBoxX = leftX;
     svg.viewBoxY = topY;
-    svg.viewBoxWidth = 400;
+    svg.viewBoxWidth = rightX - leftX;
     svg.viewBoxHeight = bottomY - topY;
 
     // Wrap glass rendering in a transform group to offset into the glass region
@@ -64,12 +68,10 @@ class CocktailRenderer {
     return svg.build();
   }
 
-  /// Parses a Glass's svgPath to extract the min and max Y coordinates.
-  /// Returns [minY, maxY] in the glass's internal coordinate space
+  /// Parses a Glass's svgPath to extract the bounding box of all coordinates.
+  /// Returns the bounds in the glass's internal coordinate space
   /// (before the canvas offset is applied).
-  static List<double> _glassYBounds(Glass glass) {
-    // The svgPath contains coordinate pairs like "x,y". Parse all numbers
-    // and take every second one as a Y value.
+  static _Bounds _glassBounds(Glass glass) {
     final path = glass.svgPath;
     final numberRe = RegExp(r'-?\d+\.?\d*');
     final numbers = numberRe
@@ -78,15 +80,28 @@ class CocktailRenderer {
         .whereType<double>()
         .toList();
 
-    if (numbers.length < 2) return [40, 280];
+    if (numbers.length < 2) return _Bounds(0, 240, 40, 280);
 
+    var minX = double.infinity;
+    var maxX = double.negativeInfinity;
     var minY = double.infinity;
     var maxY = double.negativeInfinity;
-    for (var i = 1; i < numbers.length; i += 2) {
-      final y = numbers[i];
+    for (var i = 0; i < numbers.length - 1; i += 2) {
+      final x = numbers[i];
+      final y = numbers[i + 1];
+      if (x < minX) minX = x;
+      if (x > maxX) maxX = x;
       if (y < minY) minY = y;
       if (y > maxY) maxY = y;
     }
-    return [minY, maxY];
+    return _Bounds(minX, maxX, minY, maxY);
   }
+}
+
+class _Bounds {
+  final double minX;
+  final double maxX;
+  final double minY;
+  final double maxY;
+  _Bounds(this.minX, this.maxX, this.minY, this.maxY);
 }
