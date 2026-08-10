@@ -158,7 +158,7 @@ ingredients:
   - 2oz Heaven Hill Grain to Glass Straight Bourbon
   - 2oz Elijah Craig 18yr
   - 2oz Still Austin "The Artist" Straight Rye
-  - 1oz Old Rip Van Winkle 10yr
+  - 1oz Old Rip Van Winkle 10yr*
   - 2oz Ironroot Sleight of Hand Bourbon
   - 2oz Bardstown Origin Series Bourbon*
   - 2oz Thomas S. Moore Merlot Cask
@@ -179,6 +179,29 @@ ingredients:
   - 2oz Belfour Single Barrel Bourbon
   - 2oz Bhakta 2013 Bourbon
   - 2oz Bhakta 2013 Rye
+  - 2oz Smoke Wagon Straight Bourbon
+  - 2oz Old Forester 1924*
+  - 2oz Longhorn Straight Texas Rye Whiskey
+  - 2oz Jeffersons Rye
+  - 2oz George T Stagg*
+  - 2oz Redwood Empire Emerald Giant Rye
+  - 2oz Bulliet Rye 12 yr
+  - 2oz Sagamore Spirit Distiller’s Select Armagnac Cask Aged Rye*
+  - 2oz Whistlepig Single Barrel Rye 10 yr
+  - 2oz Jack Daniels Single Barrel Barrel Proof Rye
+  - 2oz Limousin Rye Single Barrel
+  - 2oz Redwood Empire Pipe Dream
+  - 2oz Old Fitzgerald 7 Year BiB
+  - 2oz Redwood Empire Lost Monarch
+  - 2oz Old Grand-Dad 7 Year BiB
+  - 2oz Willet Family Estate Small Batch 4yr Cask Strength Bourbon
+  - 2oz Bombergers Declaration 2025*
+  - 2oz Smoke Wagon Uncut Unfiltered
+  - 2oz Ironroot Assemblage Straight Rye Whiskey
+  - 2oz Hirsch The Horizon
+  - 2oz Knob Creek Blenders Edition 01*
+  - 2oz Thomas H. Handy Sazerac Straight Rye Whiskey*
+  - 2oz Hillrock Estate Double Cask Bourbon
 steps:
   - Every time you buy a new bourbon, add a small amount to your infinity bottle
   - After adding to the infinity bottle, swirl to mix, and then wait at least 12 hours before sampling the result **(to allow the flavors to marry)**

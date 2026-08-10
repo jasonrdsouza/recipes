@@ -25,6 +25,13 @@ ingredients:
   - 2oz Bhakta 1973 Armagnac*
   - 2oz Pierre Ferrand 1840 Original Formula
   - 2oz Reviseur VS
+  - 2oz Planat VS
+  - 2oz Haut de Vigne VSOP
+  - 2oz Planat VSOP*
+  - 2oz Haut de Vigne XO
+  - 2oz A De Fussigny VS
+  - 2oz A De Fussigny VSOP
+  - 2oz Hine Rare VSOP
 steps:
   - Every time you buy a new cognac, add a small amount to your infinity bottle
   - After adding to the infinity bottle, swirl to mix, and then wait at least 12 hours before sampling the result **(to allow the flavors to marry)**
