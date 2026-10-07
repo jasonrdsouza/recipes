@@ -10,6 +10,20 @@ When asked to add or change a recipe, drive the whole change: gather the missing
 
 **Ask in batches.** Gather everything unclear into a single round of questions rather than a drip of one-at-a-time prompts. Follow up only when an answer opens something genuinely new.
 
+### Pull requests
+
+**Open the PR on the first push, not after the last commit.** The PR is what runs CI, and later pushes update it. A push to a branch with no open PR is never validated, and it is easy to miss that it wasn't.
+
+**A merged PR is finished.** If the PR for your branch has already been merged, do not stack new commits on it — they land on merged history, outside any PR, and CI will not run on them. Restart from the current `master` instead, keeping the same branch name:
+
+```
+git fetch origin master && git checkout -B <branch> origin/master
+```
+
+If the branch already carries unmerged work, rebase it onto the new base rather than discarding it.
+
+**Leave PRs for review.** Never merge your own.
+
 ### Adding a new recipe
 
 1. Scaffold with the CLI tool, run from the repo root:
@@ -38,7 +52,7 @@ When asked to add or change a recipe, drive the whole change: gather the missing
    dart run build_runner build --release
    ```
 
-4. Commit on a branch named for the recipe, push, and open a PR. Leave it for review — never merge it. CI runs the same checks, so wait for it and fix anything red rather than handing over a failing PR.
+4. Commit on a branch named for the recipe, then push and open the PR — see [Pull requests](#pull-requests). Wait for CI and fix anything red rather than handing over a failing PR.
 
 ### Updating an existing recipe
 
