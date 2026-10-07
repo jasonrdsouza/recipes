@@ -1,7 +1,6 @@
 import 'dart:io';
 import 'dart:convert';
 import 'package:yaml/yaml.dart';
-import './recipe_parsers.dart';
 
 class RecipeWriter {
   static const RECIPE_INDEX_PATH = 'web/index.md';
@@ -39,31 +38,32 @@ ${prettyPrintedIndexData}
     await File(RECIPE_INDEX_PATH).writeAsString(indexFileContents, mode: FileMode.writeOnly);
   }
 
-  String generateTemplate(String recipeName, RecipeParser parsedRecipe) {
-    var ingredientsPartial = parsedRecipe.parsedIngredients().join('\n  - ');
-    var stepsPartial = parsedRecipe.parsedSteps().join('\n  - ');
-    var sourcePartial =
-        parsedRecipe.source() == null ? '' : '\n  - "[${parsedRecipe.parsedName()}](${parsedRecipe.source()})"';
+  /// A blank recipe. Every value is a placeholder that bin/validate_recipes.dart
+  /// rejects, so an unfinished scaffold cannot reach the site unnoticed.
+  String generateTemplate(String recipeName) {
     return '''
 ---
 title: "${recipeName}"
 template: recipe.mustache
-time: "${parsedRecipe.parsedTime()} minutes"
-makes: "${parsedRecipe.parsedServings()} servings"
+time: "? minutes"
+makes: "? servings"
 ingredients:
-  - ${ingredientsPartial}
+  - Add ingredients
+  - over here
 steps:
-  - ${stepsPartial}
+  - Add steps
+  - over here
 notes:
   - relevant notes about the recipe
-basedon: ${sourcePartial}
+basedon:
+  - source or inspiration for this recipe
 ---
 ''';
   }
 
-  Future writeTemplate(String filepath, String recipeName, RecipeParser parsedRecipe) async {
+  Future writeTemplate(String filepath, String recipeName) async {
     final recipeFile = File(filepath);
-    var recipeTemplate = generateTemplate(recipeName, parsedRecipe);
+    var recipeTemplate = generateTemplate(recipeName);
     await recipeFile.writeAsString(recipeTemplate, mode: FileMode.writeOnly);
   }
 }
