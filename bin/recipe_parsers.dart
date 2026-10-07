@@ -6,7 +6,9 @@ abstract class RecipeParser {
   String parsedName();
   String parsedTime();
   String parsedServings();
-  Uri source();
+
+  /// The URL this recipe was derived from, or null when there isn't one.
+  Uri? source();
   List<String> parsedIngredients();
   List<String> parsedSteps();
 }
@@ -36,8 +38,11 @@ class BlankRecipeParser implements RecipeParser {
     return '?';
   }
 
-  Uri source() {
-    return Uri.base;
+  Uri? source() {
+    // A blank scaffold has no source. Returning Uri.base here emitted a
+    // basedon entry pointing at the local checkout (file:///...) on every
+    // recipe created without --scrape.
+    return null;
   }
 }
 

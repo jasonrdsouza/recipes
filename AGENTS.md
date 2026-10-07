@@ -22,13 +22,19 @@ When asked to add or change a recipe, drive the whole change: gather the missing
 
 2. The scaffold is placeholder text (`Add ingredients`, `? minutes`). Interview until every placeholder can be replaced: ingredients with quantities, ordered steps, time, makes, notes, and sources for `basedon`. Ask whether it's a cocktail — if so it also needs `slug` and a `cocktail` block, see [Cocktail diagrams](#cocktail-diagrams).
 
-3. Write the recipe following the format conventions below, then verify the site still builds if the Dart SDK is available:
+3. Write the recipe following the format conventions below, then validate it:
 
    ```
-   dart run build_runner build --release --output web:/tmp/recipe-build
+   dart run bin/validate_recipes.dart
    ```
 
-4. Commit on a branch, push, and open a PR. Leave it for review — never merge it.
+   It names every problem it finds and exits non-zero. If the Dart SDK is available, also confirm the site builds:
+
+   ```
+   dart run build_runner build --release
+   ```
+
+4. Commit on a branch, push, and open a PR. Leave it for review — never merge it. CI runs the same checks, so a red check means something above was skipped.
 
 ### Updating an existing recipe
 
@@ -42,7 +48,23 @@ The running-log recipes (`bourbon-infinity-bottle`, `cognac-infinity-bottle`) fo
 - Tasting commentary becomes a new **last** entry in `notes`, prefixed with a bold ISO date: `"**2026-08-09** ..."`. Ask for this commentary in the user's own words; never draft a tasting note.
 - An update is often bottles only, with no accompanying note. That's fine — don't manufacture one.
 
-Verify the build and open a PR the same way as for a new recipe.
+Validate and open a PR the same way as for a new recipe.
+
+## What is checked automatically
+
+`.github/workflows/ci.yml` runs on every pull request: `dart analyze` on the root package, `bin/validate_recipes.dart`, `cocktail_dsl`'s analyzer and tests, and a full release build.
+
+The validator exists because a green build does not mean a correct page. cork renders a missing field as an empty section, and the cocktail builder logs a warning and skips a bad diagram rather than failing. It checks:
+
+- Frontmatter parses as YAML and every required field is present and correctly typed
+- `template` resolves to a file in `web/templates/`
+- `web/index.md` and the files on disk agree, with no duplicates and no unreachable pages
+- `slug` matches the filename, and any `cocktail` block parses with the real DSL parser
+- Internal links (`/manhattan.html`, `/assets/foo.jpg`) have targets that exist
+- No leftover scaffold placeholders (`Add ingredients`, `? minutes`, a `file://` source)
+- No unquoted `" #"`, which YAML reads as a comment and silently truncates the value
+
+What it cannot check is whether the recipe is *right* — quantities, technique, step order, whether a note reflects what actually happened, whether a bottle earns its asterisk. That is what the interview is for, and why these checks are a backstop rather than a substitute for asking.
 
 ## Creating a new recipe
 

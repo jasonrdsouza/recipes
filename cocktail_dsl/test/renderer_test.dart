@@ -3,7 +3,15 @@ import 'package:test/test.dart';
 import 'package:cocktail_dsl/cocktail_dsl.dart';
 
 void main() {
+  final goldenDir = Directory('test/golden');
+
   group('CocktailRenderer', () {
+    setUpAll(() {
+      // See integration_test.dart: test/golden/ is gitignored and absent on a
+      // fresh checkout.
+      if (!goldenDir.existsSync()) goldenDir.createSync(recursive: true);
+    });
+
     test('renders Old Fashioned to valid SVG', () {
       final source = File('test/fixtures/old_fashioned.cocktail').readAsStringSync();
       final recipe = CocktailParser.parse(source);
