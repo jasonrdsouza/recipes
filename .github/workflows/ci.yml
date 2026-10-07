@@ -1,0 +1,46 @@
+name: CI
+
+# Validation for recipe changes, most of which are now authored by an agent.
+# Deployment lives in deploy.yml and runs separately on push to master.
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: dart-lang/setup-dart@v1
+        with:
+          sdk: stable
+
+      - run: dart pub get
+
+      # Scoped to the root package: cocktail_dsl is a separate package and is
+      # analyzed below with its own resolved dependencies.
+      - name: Analyze root package
+        run: dart analyze bin lib web
+
+      - name: Validate recipes
+        run: dart run bin/validate_recipes.dart
+
+      - name: Check cocktail_dsl
+        working-directory: cocktail_dsl
+        run: |
+          dart pub get
+          dart analyze
+          dart test
+
+      # Catches anything the checks above cannot see, such as a template or
+      # builder change that breaks rendering.
+      - name: Build site
+        run: dart run build_runner build --release
