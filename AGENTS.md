@@ -18,9 +18,13 @@ When asked to add or change a recipe, drive the whole change: gather the missing
    dart run bin/create_recipe.dart --name "Recipe Name"
    ```
 
-   Add `--scrape <url>` when there is a source URL to pull from. This writes `web/<slug>.md` and inserts the slug into `web/index.md`. If the Dart SDK isn't available, do both steps by hand — see "Option 2" below.
+   This writes `web/<slug>.md` and inserts the slug into `web/index.md`. If the Dart SDK isn't available, do both steps by hand — see "Option 2" below.
 
-2. The scaffold is placeholder text (`Add ingredients`, `? minutes`). Interview until every placeholder can be replaced: ingredients with quantities, ordered steps, time, makes, notes, and sources for `basedon`. Ask whether it's a cocktail — if so it also needs `slug` and a `cocktail` block, see [Cocktail diagrams](#cocktail-diagrams).
+   **If there's a source recipe, fetch it yourself** and draft from it. There is deliberately no scraper: you are better at reading an arbitrary recipe page than a parser is, and the URL goes in `basedon` either way.
+
+2. The scaffold is placeholder text throughout. Interview until every placeholder can be replaced: ingredients with quantities, ordered steps, time, makes, notes, and sources for `basedon`. Ask whether it's a cocktail — if so it also needs `slug` and a `cocktail` block, see [Cocktail diagrams](#cocktail-diagrams).
+
+   **Notes are the part most worth getting right, and the easiest to get wrong.** They are earned observations, not general cooking advice: why San Marzano tomatoes specifically, why Luxardo cherries beat the three other brands that were tried, that browning meat in large batches cools the pot and ruins it, that a Manhattan improves as it warms. Anything that could be pasted into any other recipe does not belong. Ask what the user has noticed; never synthesize a note.
 
 3. Write the recipe following the format conventions below, then validate it:
 
@@ -34,7 +38,7 @@ When asked to add or change a recipe, drive the whole change: gather the missing
    dart run build_runner build --release
    ```
 
-4. Commit on a branch, push, and open a PR. Leave it for review — never merge it. CI runs the same checks, so a red check means something above was skipped.
+4. Commit on a branch named for the recipe, push, and open a PR. Leave it for review — never merge it. CI runs the same checks, so wait for it and fix anything red rather than handing over a failing PR.
 
 ### Updating an existing recipe
 
@@ -74,7 +78,7 @@ What it cannot check is whether the recipe is *right* — quantities, technique,
 dart run bin/create_recipe.dart --name "Recipe Name"
 ```
 
-This scaffolds a new recipe file and adds it to the index. Pass `--scrape <url>` to pre-populate from a supported recipe site (currently Bon Appetit).
+This scaffolds a new recipe file and adds it to the index. Every field is a placeholder that `bin/validate_recipes.dart` rejects, so run it afterwards to get the list of what still needs filling in.
 
 ### Option 2: Create manually
 
@@ -110,7 +114,8 @@ basedon:
 - Emphasis in steps uses italics: `*like this*`
 - Markdown links work in notes and basedon fields
 - `basedon` entries are usually markdown links — `"[Display Text](url)"` — but plain text is allowed (e.g. `Lifelong bourbon exploration`), and links may point at local scans (`/assets/foo.jpg`)
-- All fields are required. Use `"?"` for unknown time/makes values.
+- All fields are required. Ask for `time` and `makes` rather than guessing; a bare `"?"` is accepted when genuinely unknown, but the scaffold's `"? minutes"` and `"? servings"` are rejected
+- Images and scans go in `web/assets/` and are referenced as `/assets/<name>`. Downsize large ones first: `convert -quality 30% assets/original.jpg assets/output_reduced.jpg`
 
 **YAML quoting.** Quote any list entry that starts with `*`, `[`, or `{`, or that contains `: ` or ` #` — unquoted, YAML reads those as an alias, a flow sequence, or a comment, and the build breaks. This is why dated notes (`"**2024-12-22** ..."`), every `basedon` link (`"[Food Network Arugula Salad](https://...)"`), and entries like `"2oz Traveller Whiskey (Blend #40)"` are quoted. A trailing `*` is safe unquoted. When in doubt, quote.
 

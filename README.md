@@ -15,6 +15,11 @@ Create new recipe:
 dart run bin/create_recipe.dart --name "Recipe Name"
 ```
 
+Check recipes for structural problems:
+```
+dart run bin/validate_recipes.dart
+```
+
 Reduce image size:
 ```
 # Choose quality percentage based on desired quality vs size tradeoff

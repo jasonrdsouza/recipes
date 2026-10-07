@@ -8,8 +8,6 @@ dependencies:
   cork_site: ^3.1.1
   cocktail_dsl:
     path: ./cocktail_dsl
-  html: ^0.15.0
-  http: ^1.1.2
   markdown: ^7.3.0
   web: ^1.1.1
   build: ^4.0.0

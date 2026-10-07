@@ -66,6 +66,7 @@ class Validator {
     'Add steps',
     'over here',
     'relevant notes about the recipe',
+    'source or inspiration for this recipe',
     '? minutes',
     '? servings',
     'file://',
