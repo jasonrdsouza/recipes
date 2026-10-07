@@ -12,7 +12,16 @@ void main() {
       .toList()
     ..sort((a, b) => a.path.compareTo(b.path));
 
+  final goldenDir = Directory('test/golden');
+
   group('Integration: parse + render all fixtures', () {
+    setUpAll(() {
+      // test/golden/ is gitignored, so it is absent on a fresh checkout. Other
+      // suites create it as a side effect of createSync(recursive: true), which
+      // made these tests pass or fail depending on suite scheduling.
+      if (!goldenDir.existsSync()) goldenDir.createSync(recursive: true);
+    });
+
     for (final fixture in fixtures) {
       final name = fixture.uri.pathSegments.last.replaceAll('.cocktail', '');
 
