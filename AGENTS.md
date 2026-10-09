@@ -26,6 +26,8 @@ When asked to add or change a recipe, drive the whole change: gather the missing
 
    **Notes are the part most worth getting right, and the easiest to get wrong.** They are earned observations, not general cooking advice: why San Marzano tomatoes specifically, why Luxardo cherries beat the three other brands that were tried, that browning meat in large batches cools the pot and ruins it, that a Manhattan improves as it warms. Anything that could be pasted into any other recipe does not belong. Ask what the user has noticed; never synthesize a note.
 
+   **Notes go in verbatim.** Ask the user for the notes text itself and use their sentences as given — split into separate entries, brand names capitalized, and links added to other recipes in the book, but not paraphrased, tightened, or reorganized. A paraphrase loses the voice the rest of the book is written in. Don't add notes about things the user hasn't tried, or attribute steps to "the source"; `basedon` already credits it. Everything else (ingredients, steps, the `cocktail` block, `basedon`) is yours to write, following the conventions below.
+
 3. Write the recipe following the format conventions below, then validate it:
 
    ```
@@ -109,13 +111,20 @@ basedon:
 
 ### Format conventions
 
-- Ingredients include quantities inline (e.g. `2 oz rum`, `1 cup sugar`)
+- Ingredients include quantities inline (e.g. `1 cup sugar`; see below for cocktails)
 - Parenthetical notes use bold: `**(like this)**`
 - Emphasis in steps uses italics: `*like this*`
 - Markdown links work in notes and basedon fields
 - `basedon` entries are usually markdown links — `"[Display Text](url)"` — but plain text is allowed (e.g. `Lifelong bourbon exploration`), and links may point at local scans (`/assets/foo.jpg`)
 - All fields are required. Ask for `time` and `makes` rather than guessing; a bare `"?"` is accepted when genuinely unknown, but the scaffold's `"? minutes"` and `"? servings"` are rejected
 - Images and scans go in `web/assets/` and are referenced as `/assets/<name>`. Downsize large ones first: `convert -quality 30% assets/original.jpg assets/output_reduced.jpg`
+
+**Cocktail style.** Match the existing cocktail pages (`maserati`, `smokey-old-fashioned`, `burkett-old-fashioned` are good references):
+
+- `time: "2 minutes"` and `makes: "1 serving"` (or `"1 cocktail"`; both are in use) unless the user says otherwise
+- Ingredients: quantity with no space before `oz`, then the ingredient capitalized — `2oz Rye Whiskey`, `0.5oz Maple syrup`, `2 dashes Orange bitters`, `Orange peel`. A specific bottle the user recommends goes in a bold parenthetical: `2oz Peaty scotch **(Laphroaig 10)**`. Ratio ranges and substitutions belong in the notes, not the ingredient line.
+- Steps: a few short imperative lines, no trailing periods — e.g. `Combine ingredients in a mixing glass with ice and stir until cold`, `Strain into a rocks glass over a large ice cube`, `Express an orange peel over the top and serve`. For built drinks: `Build in a rocks glass over a large ice cube`, `Gently stir until cold`.
+- `cocktail` block: existing recipes use only `glass`, `ice`, `method`, `prep`, `spine`, and `accent`. Leave out `family` and `garnish` to match.
 
 **YAML quoting.** Quote any list entry that starts with `*`, `[`, or `{`, or that contains `: ` or ` #` — unquoted, YAML reads those as an alias, a flow sequence, or a comment, and the build breaks. This is why dated notes (`"**2024-12-22** ..."`), every `basedon` link (`"[Food Network Arugula Salad](https://...)"`), and entries like `"2oz Traveller Whiskey (Blend #40)"` are quoted. A trailing `*` is safe unquoted. When in doubt, quote.
 
