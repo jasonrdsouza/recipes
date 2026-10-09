@@ -54,6 +54,7 @@
     "rabo-de-galo",
     "red-hook",
     "sausage-and-peppers",
+    "scotch-old-fashioned",
     "sentimental-gentleman",
     "shortbread-cookies",
     "smokey-old-fashioned",
